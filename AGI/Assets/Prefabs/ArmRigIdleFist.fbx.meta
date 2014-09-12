@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: fe1f7128e792a424e854b5586735ecd0
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SpaceArmsRig
+    100004: SpaceArmsRig:Body
+    100006: SpaceArmsRig|clavicle.L
+    100008: SpaceArmsRig|clavicle.R
+    100010: SpaceArmsRig|deltoid.L
+    100012: SpaceArmsRig|deltoid.R
+    100014: SpaceArmsRig|f_index.01.L
+    100016: SpaceArmsRig|f_index.01.R
+    100018: SpaceArmsRig|f_index.02.L
+    100020: SpaceArmsRig|f_index.02.R
+    100022: SpaceArmsRig|f_index.03.L
+    100024: SpaceArmsRig|f_index.03.R
+    100026: SpaceArmsRig|f_middle.01.L
+    100028: SpaceArmsRig|f_middle.01.R
+    100030: SpaceArmsRig|f_middle.02.L
+    100032: SpaceArmsRig|f_middle.02.R
+    100034: SpaceArmsRig|f_middle.03.L
+    100036: SpaceArmsRig|f_middle.03.R
+    100038: SpaceArmsRig|f_pinky.01.L
+    100040: SpaceArmsRig|f_pinky.01.R
+    100042: SpaceArmsRig|f_pinky.02.L
+    100044: SpaceArmsRig|f_pinky.02.R
+    100046: SpaceArmsRig|f_pinky.03.L
+    100048: SpaceArmsRig|f_pinky.03.R
+    100050: SpaceArmsRig|f_ring.01.L
+    100052: SpaceArmsRig|f_ring.01.R
+    100054: SpaceArmsRig|f_ring.02.L
+    100056: SpaceArmsRig|f_ring.02.R
+    100058: SpaceArmsRig|f_ring.03.L
+    100060: SpaceArmsRig|f_ring.03.R
+    100062: SpaceArmsRig|forearm.L
+    100064: SpaceArmsRig|forearm.L.001
+    100066: SpaceArmsRig|forearm.R
+    100068: SpaceArmsRig|forearm.R.001
+    100070: SpaceArmsRig|hand.L
+    100072: SpaceArmsRig|hand.R
+    100074: SpaceArmsRig|palm_index.L
+    100076: SpaceArmsRig|palm_index.R
+    100078: SpaceArmsRig|palm_middle.L
+    100080: SpaceArmsRig|palm_middle.R
+    100082: SpaceArmsRig|palm_pinky.L
+    100084: SpaceArmsRig|palm_pinky.R
+    100086: SpaceArmsRig|palm_ring.L
+    100088: SpaceArmsRig|palm_ring.R
+    100090: SpaceArmsRig|thumb.01.L
+    100092: SpaceArmsRig|thumb.01.R
+    100094: SpaceArmsRig|thumb.02.L
+    100096: SpaceArmsRig|thumb.02.R
+    100098: SpaceArmsRig|thumb.03.L
+    100100: SpaceArmsRig|thumb.03.R
+    100102: SpaceArmsRig|upper_arm.L
+    100104: SpaceArmsRig|upper_arm.R
+    400000: //RootNode
+    400002: SpaceArmsRig
+    400004: SpaceArmsRig:Body
+    400006: SpaceArmsRig|clavicle.L
+    400008: SpaceArmsRig|clavicle.R
+    400010: SpaceArmsRig|deltoid.L
+    400012: SpaceArmsRig|deltoid.R
+    400014: SpaceArmsRig|f_index.01.L
+    400016: SpaceArmsRig|f_index.01.R
+    400018: SpaceArmsRig|f_index.02.L
+    400020: SpaceArmsRig|f_index.02.R
+    400022: SpaceArmsRig|f_index.03.L
+    400024: SpaceArmsRig|f_index.03.R
+    400026: SpaceArmsRig|f_middle.01.L
+    400028: SpaceArmsRig|f_middle.01.R
+    400030: SpaceArmsRig|f_middle.02.L
+    400032: SpaceArmsRig|f_middle.02.R
+    400034: SpaceArmsRig|f_middle.03.L
+    400036: SpaceArmsRig|f_middle.03.R
+    400038: SpaceArmsRig|f_pinky.01.L
+    400040: SpaceArmsRig|f_pinky.01.R
+    400042: SpaceArmsRig|f_pinky.02.L
+    400044: SpaceArmsRig|f_pinky.02.R
+    400046: SpaceArmsRig|f_pinky.03.L
+    400048: SpaceArmsRig|f_pinky.03.R
+    400050: SpaceArmsRig|f_ring.01.L
+    400052: SpaceArmsRig|f_ring.01.R
+    400054: SpaceArmsRig|f_ring.02.L
+    400056: SpaceArmsRig|f_ring.02.R
+    400058: SpaceArmsRig|f_ring.03.L
+    400060: SpaceArmsRig|f_ring.03.R
+    400062: SpaceArmsRig|forearm.L
+    400064: SpaceArmsRig|forearm.L.001
+    400066: SpaceArmsRig|forearm.R
+    400068: SpaceArmsRig|forearm.R.001
+    400070: SpaceArmsRig|hand.L
+    400072: SpaceArmsRig|hand.R
+    400074: SpaceArmsRig|palm_index.L
+    400076: SpaceArmsRig|palm_index.R
+    400078: SpaceArmsRig|palm_middle.L
+    400080: SpaceArmsRig|palm_middle.R
+    400082: SpaceArmsRig|palm_pinky.L
+    400084: SpaceArmsRig|palm_pinky.R
+    400086: SpaceArmsRig|palm_ring.L
+    400088: SpaceArmsRig|palm_ring.R
+    400090: SpaceArmsRig|thumb.01.L
+    400092: SpaceArmsRig|thumb.01.R
+    400094: SpaceArmsRig|thumb.02.L
+    400096: SpaceArmsRig|thumb.02.R
+    400098: SpaceArmsRig|thumb.03.L
+    400100: SpaceArmsRig|thumb.03.R
+    400102: SpaceArmsRig|upper_arm.L
+    400104: SpaceArmsRig|upper_arm.R
+    4300000: SpaceArmsRig:Body
+    7400000: ArmsIdle
+    7400002: RightHandGrab
+    7400004: LeftHandGrab
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: SpaceArmsRig:Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ArmsIdle
+      takeName: SpaceArmsRig|SpaceArmsRigAction
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SpaceArmsRig
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L/SpaceArmsRig|upper_arm.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L/SpaceArmsRig|upper_arm.L/SpaceArmsRig|forearm.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R/SpaceArmsRig|upper_arm.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R/SpaceArmsRig|upper_arm.R/SpaceArmsRig|forearm.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L/SpaceArmsRig|f_index.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L/SpaceArmsRig|f_index.02.L/SpaceArmsRig|f_index.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L/SpaceArmsRig|f_middle.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L/SpaceArmsRig|f_middle.02.L/SpaceArmsRig|f_middle.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L/SpaceArmsRig|f_pinky.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L/SpaceArmsRig|f_pinky.02.L/SpaceArmsRig|f_pinky.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L/SpaceArmsRig|f_ring.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L/SpaceArmsRig|f_ring.02.L/SpaceArmsRig|f_ring.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L/SpaceArmsRig|thumb.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L/SpaceArmsRig|thumb.02.L/SpaceArmsRig|thumb.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R/SpaceArmsRig|f_index.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R/SpaceArmsRig|f_index.02.R/SpaceArmsRig|f_index.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R/SpaceArmsRig|f_middle.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R/SpaceArmsRig|f_middle.02.R/SpaceArmsRig|f_middle.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R/SpaceArmsRig|f_pinky.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R/SpaceArmsRig|f_pinky.02.R/SpaceArmsRig|f_pinky.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R/SpaceArmsRig|f_ring.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R/SpaceArmsRig|f_ring.02.R/SpaceArmsRig|f_ring.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R/SpaceArmsRig|thumb.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R/SpaceArmsRig|thumb.02.R/SpaceArmsRig|thumb.03.R
+        weight: 1
+      - path: SpaceArmsRig:Body
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RightHandGrab
+      takeName: SpaceArmsRig|SpaceArmsRigAction
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SpaceArmsRig
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L/SpaceArmsRig|upper_arm.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L/SpaceArmsRig|upper_arm.L/SpaceArmsRig|forearm.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R/SpaceArmsRig|upper_arm.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R/SpaceArmsRig|upper_arm.R/SpaceArmsRig|forearm.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L/SpaceArmsRig|f_index.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L/SpaceArmsRig|f_index.02.L/SpaceArmsRig|f_index.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L/SpaceArmsRig|f_middle.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L/SpaceArmsRig|f_middle.02.L/SpaceArmsRig|f_middle.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L/SpaceArmsRig|f_pinky.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L/SpaceArmsRig|f_pinky.02.L/SpaceArmsRig|f_pinky.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L/SpaceArmsRig|f_ring.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L/SpaceArmsRig|f_ring.02.L/SpaceArmsRig|f_ring.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L/SpaceArmsRig|thumb.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L/SpaceArmsRig|thumb.02.L/SpaceArmsRig|thumb.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R/SpaceArmsRig|f_index.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R/SpaceArmsRig|f_index.02.R/SpaceArmsRig|f_index.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R/SpaceArmsRig|f_middle.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R/SpaceArmsRig|f_middle.02.R/SpaceArmsRig|f_middle.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R/SpaceArmsRig|f_pinky.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R/SpaceArmsRig|f_pinky.02.R/SpaceArmsRig|f_pinky.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R/SpaceArmsRig|f_ring.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R/SpaceArmsRig|f_ring.02.R/SpaceArmsRig|f_ring.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R/SpaceArmsRig|thumb.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R/SpaceArmsRig|thumb.02.R/SpaceArmsRig|thumb.03.R
+        weight: 1
+      - path: SpaceArmsRig:Body
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LeftHandGrab
+      takeName: SpaceArmsRig|SpaceArmsRigAction
+      firstFrame: 80
+      lastFrame: 98
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SpaceArmsRig
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L/SpaceArmsRig|upper_arm.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L/SpaceArmsRig|upper_arm.L/SpaceArmsRig|forearm.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R/SpaceArmsRig|upper_arm.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R/SpaceArmsRig|upper_arm.R/SpaceArmsRig|forearm.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L/SpaceArmsRig|f_index.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L/SpaceArmsRig|f_index.02.L/SpaceArmsRig|f_index.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L/SpaceArmsRig|f_middle.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L/SpaceArmsRig|f_middle.02.L/SpaceArmsRig|f_middle.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L/SpaceArmsRig|f_pinky.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L/SpaceArmsRig|f_pinky.02.L/SpaceArmsRig|f_pinky.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L/SpaceArmsRig|f_ring.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L/SpaceArmsRig|f_ring.02.L/SpaceArmsRig|f_ring.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L/SpaceArmsRig|thumb.02.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L/SpaceArmsRig|thumb.02.L/SpaceArmsRig|thumb.03.L
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R/SpaceArmsRig|f_index.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R/SpaceArmsRig|f_index.02.R/SpaceArmsRig|f_index.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R/SpaceArmsRig|f_middle.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R/SpaceArmsRig|f_middle.02.R/SpaceArmsRig|f_middle.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R/SpaceArmsRig|f_pinky.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R/SpaceArmsRig|f_pinky.02.R/SpaceArmsRig|f_pinky.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R/SpaceArmsRig|f_ring.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R/SpaceArmsRig|f_ring.02.R/SpaceArmsRig|f_ring.03.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R/SpaceArmsRig|thumb.02.R
+        weight: 1
+      - path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R/SpaceArmsRig|thumb.02.R/SpaceArmsRig|thumb.03.R
+        weight: 1
+      - path: SpaceArmsRig:Body
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1011 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HandsOnlyMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: SpaceArmsRig
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|clavicle.L
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L/SpaceArmsRig|upper_arm.L
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|clavicle.L/SpaceArmsRig|deltoid.L/SpaceArmsRig|upper_arm.L/SpaceArmsRig|forearm.L
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|clavicle.R
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R/SpaceArmsRig|upper_arm.R
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|clavicle.R/SpaceArmsRig|deltoid.R/SpaceArmsRig|upper_arm.R/SpaceArmsRig|forearm.R
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L/SpaceArmsRig|f_index.02.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_index.L/SpaceArmsRig|f_index.01.L/SpaceArmsRig|f_index.02.L/SpaceArmsRig|f_index.03.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L/SpaceArmsRig|f_middle.02.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_middle.L/SpaceArmsRig|f_middle.01.L/SpaceArmsRig|f_middle.02.L/SpaceArmsRig|f_middle.03.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L/SpaceArmsRig|f_pinky.02.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_pinky.L/SpaceArmsRig|f_pinky.01.L/SpaceArmsRig|f_pinky.02.L/SpaceArmsRig|f_pinky.03.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L/SpaceArmsRig|f_ring.02.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|palm_ring.L/SpaceArmsRig|f_ring.01.L/SpaceArmsRig|f_ring.02.L/SpaceArmsRig|f_ring.03.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L/SpaceArmsRig|thumb.02.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.L.001/SpaceArmsRig|hand.L/SpaceArmsRig|thumb.01.L/SpaceArmsRig|thumb.02.L/SpaceArmsRig|thumb.03.L
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001
+    m_Weight: 0
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R/SpaceArmsRig|f_index.02.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_index.R/SpaceArmsRig|f_index.01.R/SpaceArmsRig|f_index.02.R/SpaceArmsRig|f_index.03.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R/SpaceArmsRig|f_middle.02.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_middle.R/SpaceArmsRig|f_middle.01.R/SpaceArmsRig|f_middle.02.R/SpaceArmsRig|f_middle.03.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R/SpaceArmsRig|f_pinky.02.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_pinky.R/SpaceArmsRig|f_pinky.01.R/SpaceArmsRig|f_pinky.02.R/SpaceArmsRig|f_pinky.03.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R/SpaceArmsRig|f_ring.02.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|palm_ring.R/SpaceArmsRig|f_ring.01.R/SpaceArmsRig|f_ring.02.R/SpaceArmsRig|f_ring.03.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R/SpaceArmsRig|thumb.02.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig/SpaceArmsRig|forearm.R.001/SpaceArmsRig|hand.R/SpaceArmsRig|thumb.01.R/SpaceArmsRig|thumb.02.R/SpaceArmsRig|thumb.03.R
+    m_Weight: 1
+  - m_Path: SpaceArmsRig:Body
+    m_Weight: 0
