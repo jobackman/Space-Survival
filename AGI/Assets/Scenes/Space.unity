@@ -15644,6 +15644,7 @@ GameObject:
   - 92: {fileID: 761574637}
   - 124: {fileID: 761574636}
   - 81: {fileID: 761574635}
+  - 114: {fileID: 761574640}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -15712,6 +15713,24 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 992559146}
+--- !u!114 &761574640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761574634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881f03e6b566043ef9672edccd85b8fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 0
+  sensitivityX: 5
+  sensitivityY: 5
+  minimumX: -45
+  maximumX: 45
+  minimumY: -45
+  maximumY: 45
 --- !u!1 &774871308
 GameObject:
   m_ObjectHideFlags: 0
@@ -20605,6 +20624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Controller: {fileID: 992559140}
   speed: .100000001
+  rotSpeed: 40
 --- !u!1 &997322842
 GameObject:
   m_ObjectHideFlags: 0
@@ -21361,6 +21381,52 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1026710230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1026710232}
+  - 131: {fileID: 1026710231}
+  m_Layer: 0
+  m_Name: crosshairGrey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &1026710231
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026710230}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: f62a3dac05aa64cd49b7c10658d8fe2e, type: 3}
+  m_Color: {r: .705882311, g: .423529416, b: 0, a: .501960814}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -8
+    y: -8
+    width: 16
+    height: 16
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &1026710232
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026710230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1031748593
 GameObject:
   m_ObjectHideFlags: 0
