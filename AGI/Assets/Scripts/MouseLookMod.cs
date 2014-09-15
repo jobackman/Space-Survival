@@ -60,7 +60,7 @@ public class MouseLookMod : MonoBehaviour {
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 		RaycastHit hit;
 		if (Physics.Raycast (ray, 300)) {
-						print ("Hit something");
+						//print ("Hit something");
 				}
 		Vector3 musrikt = new Vector3 (rotationX, rotationY, 1);
 		Debug.DrawRay(ray.origin, musrikt*10, Color.yellow);

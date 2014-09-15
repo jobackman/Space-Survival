@@ -19,7 +19,7 @@ RenderSettings:
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: a2126534b3a11b34e977105bd9e3cc03, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b9be0c15efe8ad9489fdeead114d8ec5, type: 2}
   m_HaloStrength: .5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -8116,6 +8116,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 427304879}
   - 54: {fileID: 427304880}
+  - 114: {fileID: 427304881}
   m_Layer: 0
   m_Name: TwoCube
   m_TagString: Untagged
@@ -8149,6 +8150,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &427304881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 427304878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3846f10f2e43414ca5d64b1b900f85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &428554321
 GameObject:
   m_ObjectHideFlags: 0
@@ -34611,8 +34623,8 @@ Transform:
   m_LocalPosition: {x: -.157747269, y: -.363933682, z: .857750893}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 13522806}
   - {fileID: 1365583012}
+  - {fileID: 13522806}
   - {fileID: 1265643831}
   - {fileID: 1392426949}
   m_Father: {fileID: 1174642450}
