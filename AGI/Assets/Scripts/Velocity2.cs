@@ -16,11 +16,11 @@ public class Velocity2 : MonoBehaviour {
 		//Cube1 = GameObject.Find ("Cube1");
 		//Cube2 = GameObject.Find ("Cube2");
 		//TwoCube = GameObject.Find ("TwoCube");
-		krock = false;
+		//krock = false;
 	}
 
 	void OnTriggerEnter(Collider Cube1 ){
-		krock = true;
+		//krock = true;
 		//joint = gameObject.AddComponent<FixedJoint>();
 		if (Input.GetKey(KeyCode.Q))
 		    {
@@ -38,9 +38,9 @@ public class Velocity2 : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		if (krock == true) {
+		//if (krock == true) {
 			//TwoCube.rigidbody.MoveRotation = Cube1.rigidbody.MoveRotation;
-				}
+		//		}
 		if (Input.GetKeyDown (KeyCode.E))
 		    {
 
