@@ -17,26 +17,33 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: d2cb7ffc39efc4a8d90752aed0264cce, type: 3}
+          m_Texture: {fileID: 2800000, guid: 605c0ce7156454543bbcd24f0430b361, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: 7cc2e3dbe66784bda946c7228fef6803, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _Normals
         second:
-          m_Texture: {fileID: 2800000, guid: 7cc2e3dbe66784bda946c7228fef6803, type: 3}
+          m_Texture: {fileID: 2800000, guid: cf77ec24a75524d74916257386611b67, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _Lights
+        second:
+          m_Texture: {fileID: 2800000, guid: c9ca67eeb191742168d68ebd305d7849, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -45,15 +52,23 @@ Material:
       data:
         first:
           name: _Shininess
-        second: 1
+        second: .078125
       data:
         first:
           name: _LightScale
-        second: 1
+        second: .360000014
       data:
         first:
           name: _AtmosFalloff
-        second: 3
+        second: 3.0999999
+      data:
+        first:
+          name: _EmissionStr
+        second: .5
+      data:
+        first:
+          name: _SpecPower
+        second: 48
     m_Colors:
       data:
         first:
@@ -62,7 +77,7 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .5, g: .5, b: .5, a: 1}
       data:
         first:
           name: _AtmosNear
@@ -71,3 +86,7 @@ Material:
         first:
           name: _AtmosFar
         second: {r: .455780804, g: .518703878, b: .98507458, a: 1}
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 1, g: 1, b: 1, a: 1}

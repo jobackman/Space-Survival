@@ -1,0 +1,1050 @@
+fileFormatVersion: 2
+guid: 0c990d5de85004bc5befb168df81a379
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SpaceArmsMan
+    100004: SpaceArmsMan:Body
+    100006: SpaceArmsMan:Body_MeshPart0
+    100008: SpaceArmsMan:Body_MeshPart1
+    100010: SpaceArmsMan:HighPolyEyes
+    100012: SpaceArmsMan|chest
+    100014: SpaceArmsMan|chest-1
+    100016: SpaceArmsMan|clavicle.L
+    100018: SpaceArmsMan|clavicle.R
+    100020: SpaceArmsMan|deltoid.L
+    100022: SpaceArmsMan|deltoid.R
+    100024: SpaceArmsMan|eye.L
+    100026: SpaceArmsMan|eye.R
+    100028: SpaceArmsMan|f_index.01.L
+    100030: SpaceArmsMan|f_index.01.R
+    100032: SpaceArmsMan|f_index.02.L
+    100034: SpaceArmsMan|f_index.02.R
+    100036: SpaceArmsMan|f_index.03.L
+    100038: SpaceArmsMan|f_index.03.R
+    100040: SpaceArmsMan|f_middle.01.L
+    100042: SpaceArmsMan|f_middle.01.R
+    100044: SpaceArmsMan|f_middle.02.L
+    100046: SpaceArmsMan|f_middle.02.R
+    100048: SpaceArmsMan|f_middle.03.L
+    100050: SpaceArmsMan|f_middle.03.R
+    100052: SpaceArmsMan|f_pinky.01.L
+    100054: SpaceArmsMan|f_pinky.01.R
+    100056: SpaceArmsMan|f_pinky.02.L
+    100058: SpaceArmsMan|f_pinky.02.R
+    100060: SpaceArmsMan|f_pinky.03.L
+    100062: SpaceArmsMan|f_pinky.03.R
+    100064: SpaceArmsMan|f_ring.01.L
+    100066: SpaceArmsMan|f_ring.01.R
+    100068: SpaceArmsMan|f_ring.02.L
+    100070: SpaceArmsMan|f_ring.02.R
+    100072: SpaceArmsMan|f_ring.03.L
+    100074: SpaceArmsMan|f_ring.03.R
+    100076: SpaceArmsMan|foot.L
+    100078: SpaceArmsMan|foot.R
+    100080: SpaceArmsMan|forearm.L
+    100082: SpaceArmsMan|forearm.R
+    100084: SpaceArmsMan|hand.L
+    100086: SpaceArmsMan|hand.R
+    100088: SpaceArmsMan|head
+    100090: SpaceArmsMan|hips
+    100092: SpaceArmsMan|jaw
+    100094: SpaceArmsMan|lolid.L
+    100096: SpaceArmsMan|lolid.R
+    100098: SpaceArmsMan|neck
+    100100: SpaceArmsMan|palm_index.L
+    100102: SpaceArmsMan|palm_index.R
+    100104: SpaceArmsMan|palm_middle.L
+    100106: SpaceArmsMan|palm_middle.R
+    100108: SpaceArmsMan|palm_pinky.L
+    100110: SpaceArmsMan|palm_pinky.R
+    100112: SpaceArmsMan|palm_ring.L
+    100114: SpaceArmsMan|palm_ring.R
+    100116: SpaceArmsMan|shin.L
+    100118: SpaceArmsMan|shin.R
+    100120: SpaceArmsMan|spine
+    100122: SpaceArmsMan|spine-1
+    100124: SpaceArmsMan|thigh.L
+    100126: SpaceArmsMan|thigh.R
+    100128: SpaceArmsMan|thumb.01.L
+    100130: SpaceArmsMan|thumb.01.R
+    100132: SpaceArmsMan|thumb.02.L
+    100134: SpaceArmsMan|thumb.02.R
+    100136: SpaceArmsMan|thumb.03.L
+    100138: SpaceArmsMan|thumb.03.R
+    100140: SpaceArmsMan|toe.L
+    100142: SpaceArmsMan|toe.R
+    100144: SpaceArmsMan|tongue_base
+    100146: SpaceArmsMan|tongue_mid
+    100148: SpaceArmsMan|tongue_tip
+    100150: SpaceArmsMan|uplid.L
+    100152: SpaceArmsMan|uplid.R
+    100154: SpaceArmsMan|upper_arm.L
+    100156: SpaceArmsMan|upper_arm.R
+    400000: //RootNode
+    400002: SpaceArmsMan
+    400004: SpaceArmsMan:Body
+    400006: SpaceArmsMan:Body_MeshPart0
+    400008: SpaceArmsMan:Body_MeshPart1
+    400010: SpaceArmsMan:HighPolyEyes
+    400012: SpaceArmsMan|chest
+    400014: SpaceArmsMan|chest-1
+    400016: SpaceArmsMan|clavicle.L
+    400018: SpaceArmsMan|clavicle.R
+    400020: SpaceArmsMan|deltoid.L
+    400022: SpaceArmsMan|deltoid.R
+    400024: SpaceArmsMan|eye.L
+    400026: SpaceArmsMan|eye.R
+    400028: SpaceArmsMan|f_index.01.L
+    400030: SpaceArmsMan|f_index.01.R
+    400032: SpaceArmsMan|f_index.02.L
+    400034: SpaceArmsMan|f_index.02.R
+    400036: SpaceArmsMan|f_index.03.L
+    400038: SpaceArmsMan|f_index.03.R
+    400040: SpaceArmsMan|f_middle.01.L
+    400042: SpaceArmsMan|f_middle.01.R
+    400044: SpaceArmsMan|f_middle.02.L
+    400046: SpaceArmsMan|f_middle.02.R
+    400048: SpaceArmsMan|f_middle.03.L
+    400050: SpaceArmsMan|f_middle.03.R
+    400052: SpaceArmsMan|f_pinky.01.L
+    400054: SpaceArmsMan|f_pinky.01.R
+    400056: SpaceArmsMan|f_pinky.02.L
+    400058: SpaceArmsMan|f_pinky.02.R
+    400060: SpaceArmsMan|f_pinky.03.L
+    400062: SpaceArmsMan|f_pinky.03.R
+    400064: SpaceArmsMan|f_ring.01.L
+    400066: SpaceArmsMan|f_ring.01.R
+    400068: SpaceArmsMan|f_ring.02.L
+    400070: SpaceArmsMan|f_ring.02.R
+    400072: SpaceArmsMan|f_ring.03.L
+    400074: SpaceArmsMan|f_ring.03.R
+    400076: SpaceArmsMan|foot.L
+    400078: SpaceArmsMan|foot.R
+    400080: SpaceArmsMan|forearm.L
+    400082: SpaceArmsMan|forearm.R
+    400084: SpaceArmsMan|hand.L
+    400086: SpaceArmsMan|hand.R
+    400088: SpaceArmsMan|head
+    400090: SpaceArmsMan|hips
+    400092: SpaceArmsMan|jaw
+    400094: SpaceArmsMan|lolid.L
+    400096: SpaceArmsMan|lolid.R
+    400098: SpaceArmsMan|neck
+    400100: SpaceArmsMan|palm_index.L
+    400102: SpaceArmsMan|palm_index.R
+    400104: SpaceArmsMan|palm_middle.L
+    400106: SpaceArmsMan|palm_middle.R
+    400108: SpaceArmsMan|palm_pinky.L
+    400110: SpaceArmsMan|palm_pinky.R
+    400112: SpaceArmsMan|palm_ring.L
+    400114: SpaceArmsMan|palm_ring.R
+    400116: SpaceArmsMan|shin.L
+    400118: SpaceArmsMan|shin.R
+    400120: SpaceArmsMan|spine
+    400122: SpaceArmsMan|spine-1
+    400124: SpaceArmsMan|thigh.L
+    400126: SpaceArmsMan|thigh.R
+    400128: SpaceArmsMan|thumb.01.L
+    400130: SpaceArmsMan|thumb.01.R
+    400132: SpaceArmsMan|thumb.02.L
+    400134: SpaceArmsMan|thumb.02.R
+    400136: SpaceArmsMan|thumb.03.L
+    400138: SpaceArmsMan|thumb.03.R
+    400140: SpaceArmsMan|toe.L
+    400142: SpaceArmsMan|toe.R
+    400144: SpaceArmsMan|tongue_base
+    400146: SpaceArmsMan|tongue_mid
+    400148: SpaceArmsMan|tongue_tip
+    400150: SpaceArmsMan|uplid.L
+    400152: SpaceArmsMan|uplid.R
+    400154: SpaceArmsMan|upper_arm.L
+    400156: SpaceArmsMan|upper_arm.R
+    4300000: SpaceArmsMan:HighPolyEyes
+    4300002: SpaceArmsMan:Body_MeshPart0
+    4300004: SpaceArmsMan:Body_MeshPart1
+    9500000: //RootNode
+    13700000: SpaceArmsMan:Body_MeshPart0
+    13700002: SpaceArmsMan:Body_MeshPart1
+    13700004: SpaceArmsMan:HighPolyEyes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: SpaceArmsMan|hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|chest-1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|clavicle.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|clavicle.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|eye.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|eye.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_index.01.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_index.02.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_index.03.L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_middle.01.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_middle.02.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_middle.03.L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|thumb.01.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|thumb.02.L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|thumb.03.L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_pinky.01.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_pinky.02.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_pinky.03.L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_ring.01.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_ring.02.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_ring.03.L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_index.01.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_index.02.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_index.03.R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_middle.01.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_middle.02.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_middle.03.R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|thumb.01.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|thumb.02.R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|thumb.03.R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_pinky.01.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_pinky.02.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_pinky.03.R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_ring.01.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_ring.02.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SpaceArmsMan|f_ring.03.R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: ManNoCBone(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|hips
+      position: {x: -0, y: -.099808, z: 9.45195007}
+      rotation: {x: .645744383, y: -2.0047192e-17, z: -4.3549489e-10, w: .763553679}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|spine
+      position: {x: -1.94289029e-16, y: 1.40038538, z: 4.47034836e-08}
+      rotation: {x: -.00256961375, y: 2.80363066e-10, z: 3.33245348e-10, w: .999996722}
+      scale: {x: 1, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|spine-1
+      position: {x: 4.48878592e-17, y: .279115498, z: 5.96046448e-08}
+      rotation: {x: -1.4640392e-06, y: -2.77555094e-17, z: 3.90842839e-23, w: 1}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|chest
+      position: {x: -6.94814575e-17, y: .279116839, z: 1.49011612e-08}
+      rotation: {x: .0168002918, y: 2.78251061e-10, z: 3.30735966e-10, w: .999858916}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: SpaceArmsMan|chest-1
+      position: {x: -8.32667268e-17, y: 1.42834544, z: 2.98023224e-08}
+      rotation: {x: .193200856, y: -3.41408207e-10, z: -2.65048011e-10, w: .98115927}
+      scale: {x: 1, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|clavicle.L
+      position: {x: -.230924994, y: 1.69476891, z: .584806263}
+      rotation: {x: -.495219409, y: .531735718, z: .412806481, w: .549186349}
+      scale: {x: .999999762, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|deltoid.L
+      position: {x: 1.11758702e-07, y: 1.11642861, z: -6.40749874e-07}
+      rotation: {x: -.389538139, y: .316159815, z: -.246494666, w: .829182386}
+      scale: {x: .999999881, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|upper_arm.L
+      position: {x: 6.2584877e-07, y: .806036472, z: 3.27825546e-07}
+      rotation: {x: -.37502861, y: .803634882, z: -.031509649, w: -.461011678}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|forearm.L
+      position: {x: 2.30967999e-07, y: 2.54291964, z: 5.96046448e-08}
+      rotation: {x: .0258275811, y: .00901150424, z: -.0209516045, w: .999406219}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: SpaceArmsMan|hand.L
+      position: {x: 1.11758709e-06, y: 2.62163544, z: -1.1920929e-07}
+      rotation: {x: .119561389, y: -.668866158, z: .0667386055, w: .730663478}
+      scale: {x: .999999881, y: .999999821, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|palm_index.L
+      position: {x: .112764232, y: .345665574, z: -.00704806298}
+      rotation: {x: -.0638408214, y: -.18833214, z: -.0889462158, w: .97598356}
+      scale: {x: 1, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|f_index.01.L
+      position: {x: 1.1920929e-07, y: .802730143, z: 2.38418579e-07}
+      rotation: {x: -.0417892635, y: .0405621827, z: -.49391067, w: .867560148}
+      scale: {x: 1, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|f_index.02.L
+      position: {x: -3.57627869e-07, y: .293177187, z: 1.07288361e-06}
+      rotation: {x: .0385979675, y: -.00410663104, z: .000602151849, w: .99924618}
+      scale: {x: 1, y: .999999702, z: .999999642}
+      transformModified: 1
+    - name: SpaceArmsMan|f_index.03.L
+      position: {x: -5.96046391e-07, y: .263197362, z: 1.1920929e-07}
+      rotation: {x: .0162612069, y: .00761372549, z: -.00397769501, w: .999830902}
+      scale: {x: .999999702, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|palm_middle.L
+      position: {x: -.0104920855, y: .365623355, z: -.0480280668}
+      rotation: {x: -.0417732187, y: .00944875553, z: .00136832451, w: .999081492}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|f_middle.01.L
+      position: {x: -5.96046391e-07, y: .749224663, z: 2.98023224e-08}
+      rotation: {x: .0328642204, y: .0235266928, z: -.210170418, w: .976829052}
+      scale: {x: .99999994, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: SpaceArmsMan|f_middle.02.L
+      position: {x: -3.57627869e-07, y: .370760202, z: 7.58096519e-07}
+      rotation: {x: .0385505222, y: .00287255435, z: -.0022640361, w: .999249995}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|f_middle.03.L
+      position: {x: 1.1920929e-07, y: .290623724, z: -2.98023224e-08}
+      rotation: {x: -.00311196316, y: -.00448003551, z: .0123069528, w: .999909401}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|palm_pinky.L
+      position: {x: -.224080682, y: .394935578, z: -.0589909628}
+      rotation: {x: -.0731353164, y: -.117800087, z: .195919976, w: .970767617}
+      scale: {x: 1.00000012, y: 1, z: .999999821}
+      transformModified: 1
+    - name: SpaceArmsMan|f_pinky.01.L
+      position: {x: -2.38418579e-07, y: .573079944, z: 5.36441803e-07}
+      rotation: {x: .00910113286, y: .0624975711, z: -.402826726, w: .913094759}
+      scale: {x: .999999821, y: .99999994, z: .999999762}
+      transformModified: 1
+    - name: SpaceArmsMan|f_pinky.02.L
+      position: {x: -0, y: .25024569, z: 2.98023195e-07}
+      rotation: {x: .0400426984, y: .00437569339, z: -.00388343399, w: .999180853}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|f_pinky.03.L
+      position: {x: -4.76837158e-07, y: .165399432, z: -2.98023195e-07}
+      rotation: {x: .0136755779, y: -.00692084432, z: .0121909175, w: .999808192}
+      scale: {x: .999999762, y: .999999821, z: .999999642}
+      transformModified: 1
+    - name: SpaceArmsMan|palm_ring.L
+      position: {x: -.134579778, y: .373032331, z: -.0510115102}
+      rotation: {x: -.0802581683, y: -.0130010946, z: .0691594258, w: .994286954}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|f_ring.01.L
+      position: {x: -1.1920929e-07, y: .670401096, z: 1.63912773e-07}
+      rotation: {x: .0601185635, y: .0423646383, z: -.278909564, w: .957497001}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|f_ring.02.L
+      position: {x: -2.38418579e-07, y: .32741344, z: 7.63684511e-07}
+      rotation: {x: .0378534421, y: .00416684011, z: -.0044245855, w: .999264836}
+      scale: {x: .999999881, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|f_ring.03.L
+      position: {x: -7.15255737e-07, y: .275675058, z: -3.87430191e-07}
+      rotation: {x: -.00844362844, y: -.00509494124, z: .0257721376, w: .999619246}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|thumb.01.L
+      position: {x: .265465498, y: .422220677, z: -.0160466507}
+      rotation: {x: -.102488071, y: -.495530874, z: -.270454556, w: .819023669}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|thumb.02.L
+      position: {x: -1.1920929e-07, y: .348933578, z: 2.98023224e-08}
+      rotation: {x: .00670148293, y: -.144578829, z: .0328085572, w: .988926589}
+      scale: {x: .999999881, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|thumb.03.L
+      position: {x: 2.38418579e-07, y: .417575836, z: -8.94069615e-07}
+      rotation: {x: .0363139138, y: .00990439113, z: -.00348371407, w: .999285281}
+      scale: {x: 1, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: SpaceArmsMan|clavicle.R
+      position: {x: .230924994, y: 1.69476891, z: .584806263}
+      rotation: {x: -.495219409, y: -.531735718, z: -.412806481, w: .549186349}
+      scale: {x: .999999762, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|deltoid.R
+      position: {x: -1.11758702e-07, y: 1.11642861, z: -6.40749874e-07}
+      rotation: {x: -.389538139, y: -.316159815, z: .246494666, w: .829182386}
+      scale: {x: .999999881, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|upper_arm.R
+      position: {x: -6.2584877e-07, y: .806036472, z: 3.27825546e-07}
+      rotation: {x: .37502861, y: .803634882, z: -.0315096416, w: .461011678}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|forearm.R
+      position: {x: -2.30967999e-07, y: 2.54291964, z: 5.96046448e-08}
+      rotation: {x: .0258276109, y: -.00901150052, z: .0209516045, w: .999406219}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: SpaceArmsMan|hand.R
+      position: {x: -1.11758709e-06, y: 2.62163544, z: -1.1920929e-07}
+      rotation: {x: .119561389, y: .668866158, z: -.0667386055, w: .730663478}
+      scale: {x: .999999881, y: .999999821, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|palm_index.R
+      position: {x: -.112764232, y: .345665574, z: -.00704806298}
+      rotation: {x: -.0638408214, y: .18833214, z: .0889462158, w: .97598356}
+      scale: {x: 1, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|f_index.01.R
+      position: {x: -1.1920929e-07, y: .802730143, z: 2.38418579e-07}
+      rotation: {x: -.0417894423, y: -.0405621827, z: .493911088, w: .867559969}
+      scale: {x: 1, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|f_index.02.R
+      position: {x: 3.57627869e-07, y: .293177187, z: 1.07288361e-06}
+      rotation: {x: .0385981798, y: .0041066464, z: -.000602028973, w: .99924624}
+      scale: {x: 1, y: .999999702, z: .999999642}
+      transformModified: 1
+    - name: SpaceArmsMan|f_index.03.R
+      position: {x: 5.96046391e-07, y: .263197362, z: 1.1920929e-07}
+      rotation: {x: .0162612069, y: -.00761372549, z: .00397769501, w: .999830902}
+      scale: {x: .999999702, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|palm_middle.R
+      position: {x: .0104920855, y: .365623355, z: -.0480280668}
+      rotation: {x: -.0417732187, y: -.00944875553, z: -.00136832451, w: .999081492}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|f_middle.01.R
+      position: {x: 5.96046391e-07, y: .749224663, z: 2.98023224e-08}
+      rotation: {x: .0328641236, y: -.0235268865, z: .210170701, w: .976828933}
+      scale: {x: .99999994, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: SpaceArmsMan|f_middle.02.R
+      position: {x: 3.57627869e-07, y: .370760202, z: 7.58096519e-07}
+      rotation: {x: .0385503955, y: -.00287261466, z: .00226341072, w: .999250054}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|f_middle.03.R
+      position: {x: -1.1920929e-07, y: .290623724, z: -2.98023224e-08}
+      rotation: {x: -.00311196316, y: .00448003551, z: -.0123069528, w: .999909401}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|palm_pinky.R
+      position: {x: .252944112, y: .395561695, z: -.0503921136}
+      rotation: {x: -.085139133, y: .116633229, z: -.173198909, w: .974243402}
+      scale: {x: 1, y: 1.00000024, z: .999999821}
+      transformModified: 1
+    - name: SpaceArmsMan|f_pinky.01.R
+      position: {x: 2.38418579e-07, y: .564370513, z: 7.15255737e-07}
+      rotation: {x: .0226526223, y: -.0631744936, z: .382381946, w: .921563804}
+      scale: {x: .999999881, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|f_pinky.02.R
+      position: {x: -0, y: .250246167, z: 5.96046391e-07}
+      rotation: {x: .0400378592, y: -.00437560584, z: .00388288405, w: .999181092}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|f_pinky.03.R
+      position: {x: -0, y: .165399238, z: 1.78813934e-07}
+      rotation: {x: .0136755882, y: .00692085363, z: -.0121909305, w: .999808192}
+      scale: {x: .99999994, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|palm_ring.R
+      position: {x: .166492224, y: .374581933, z: -.0439078212}
+      rotation: {x: -.085813731, y: .0241283253, z: -.0464831106, w: .994933724}
+      scale: {x: .99999994, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|f_ring.01.R
+      position: {x: -4.76837158e-07, y: .666499138, z: 1.29640102e-06}
+      rotation: {x: .0628965795, y: -.0540558659, z: .256654769, w: .962938428}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|f_ring.02.R
+      position: {x: 1.1920929e-07, y: .327414155, z: 2.68220901e-07}
+      rotation: {x: .037858516, y: -.00416675117, z: .00442413893, w: .999264717}
+      scale: {x: .999999762, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: SpaceArmsMan|f_ring.03.R
+      position: {x: 1.07288361e-06, y: .275675893, z: -1.49011598e-07}
+      rotation: {x: -.00844362099, y: .00509493938, z: -.0257721301, w: .999619246}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|thumb.01.R
+      position: {x: -.265465498, y: .422220677, z: -.0160466507}
+      rotation: {x: -.102348782, y: .495112836, z: .270507514, w: .819276273}
+      scale: {x: .99999994, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: SpaceArmsMan|thumb.02.R
+      position: {x: -0, y: .348933935, z: -3.87430191e-07}
+      rotation: {x: .00667848019, y: .144925416, z: -.032811664, w: .988875806}
+      scale: {x: .999999881, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: SpaceArmsMan|thumb.03.R
+      position: {x: 1.1920929e-07, y: .417575836, z: -8.34465027e-07}
+      rotation: {x: .0363149159, y: -.0098743923, z: .00347315893, w: .999285579}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: SpaceArmsMan|neck
+      position: {x: -4.65289095e-24, y: 2.32146001, z: -1.93715096e-07}
+      rotation: {x: -.154983029, y: -2.09915795e-18, z: 3.29313294e-19, w: .987917185}
+      scale: {x: 1, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|head
+      position: {x: -2.38460641e-24, y: 1.0761832, z: -4.47034836e-08}
+      rotation: {x: .0398280509, y: 1.73142056e-10, z: 1.83986812e-10, w: .999206543}
+      scale: {x: 1, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|eye.L
+      position: {x: -.293125004, y: .301770777, z: 1.21384645}
+      rotation: {x: .632544398, y: -.414903939, z: -.355517894, w: .548952937}
+      scale: {x: .999999881, y: 1, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|eye.R
+      position: {x: .293125004, y: .301770777, z: 1.21384645}
+      rotation: {x: .632544398, y: .414903939, z: .355517894, w: .548952937}
+      scale: {x: .999999881, y: 1, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|jaw
+      position: {x: -2.12797724e-10, y: -.0344603807, z: .556203544}
+      rotation: {x: .918860078, y: -2.33743969e-10, z: 9.5880956e-11, w: .394583553}
+      scale: {x: 1, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: SpaceArmsMan|tongue_base
+      position: {x: -1.45583788e-22, y: .349989116, z: .164936349}
+      rotation: {x: -.420773327, y: -1.13842247e-16, z: 5.28037692e-17, w: .907165825}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|tongue_mid
+      position: {x: 4.63221143e-23, y: .296853185, z: 5.96046448e-08}
+      rotation: {x: .0682510585, y: -2.01523481e-17, z: -1.37863122e-18, w: .997668207}
+      scale: {x: 1, y: .999999762, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|tongue_tip
+      position: {x: -6.6174449e-24, y: .206323475, z: 1.37835741e-07}
+      rotation: {x: .244207084, y: -6.74879655e-17, z: -1.69956168e-17, w: .969723105}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|lolid.L
+      position: {x: -.302899987, y: .301770777, z: 1.21384645}
+      rotation: {x: .839360118, y: -4.76711309e-11, z: -7.36111519e-11, w: .543575764}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|lolid.R
+      position: {x: .302899987, y: .301770777, z: 1.21384645}
+      rotation: {x: .839360118, y: -4.76711309e-11, z: -7.36111519e-11, w: .543575764}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: SpaceArmsMan|uplid.L
+      position: {x: -.300000012, y: .301770777, z: 1.21384645}
+      rotation: {x: .660006225, y: -1.49274301e-10, z: -1.31142278e-10, w: .751260161}
+      scale: {x: 1, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|uplid.R
+      position: {x: .298599988, y: .301770777, z: 1.21384645}
+      rotation: {x: .649952829, y: -1.54107518e-10, z: -1.31797281e-10, w: .759974539}
+      scale: {x: 1, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: SpaceArmsMan|thigh.L
+      position: {x: -1.06878996, y: -.112392075, z: -.127011031}
+      rotation: {x: .991371155, y: -.0407429077, z: -.113414973, w: -.051578436}
+      scale: {x: 1.00000954, y: 1.00000024, z: 1.00000954}
+      transformModified: 1
+    - name: SpaceArmsMan|shin.L
+      position: {x: -1.49011612e-08, y: 4.31710672, z: -2.98023224e-08}
+      rotation: {x: .0512473695, y: 5.21299341e-07, z: -1.93737691e-07, w: .998686016}
+      scale: {x: .999990463, y: .999999702, z: .999990404}
+      transformModified: 1
+    - name: SpaceArmsMan|foot.L
+      position: {x: -4.09781933e-08, y: 4.33764362, z: -2.23517418e-08}
+      rotation: {x: -.536499739, y: .103826284, z: .0309473798, w: .836917222}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|toe.L
+      position: {x: -2.60770321e-08, y: 1.42962289, z: 7.4505806e-09}
+      rotation: {x: -.230378404, y: -1.34612119e-05, z: -4.11532852e-07, w: .973101139}
+      scale: {x: 1.00000393, y: .999997795, z: .999997735}
+      transformModified: 1
+    - name: SpaceArmsMan|thigh.R
+      position: {x: 1.06878996, y: -.112392075, z: -.127011046}
+      rotation: {x: .991371155, y: .0407429002, z: .113414951, w: -.0515784323}
+      scale: {x: 1.00000954, y: 1.00000024, z: 1.00000954}
+      transformModified: 1
+    - name: SpaceArmsMan|shin.R
+      position: {x: 1.49011612e-08, y: 4.31710672, z: -2.98023224e-08}
+      rotation: {x: .0512473695, y: -5.21299341e-07, z: 1.93737691e-07, w: .998686016}
+      scale: {x: .999990463, y: .999999702, z: .999990404}
+      transformModified: 1
+    - name: SpaceArmsMan|foot.R
+      position: {x: 4.09781933e-08, y: 4.33764362, z: -2.23517418e-08}
+      rotation: {x: -.536499739, y: -.103826284, z: -.0309473798, w: .836917222}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan|toe.R
+      position: {x: 2.60770321e-08, y: 1.42962289, z: 7.4505806e-09}
+      rotation: {x: -.230378404, y: 1.34612119e-05, z: 4.11532852e-07, w: .973101139}
+      scale: {x: 1.00000393, y: .999997795, z: .999997735}
+      transformModified: 1
+    - name: SpaceArmsMan:Body
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan:Body_MeshPart0
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan:Body_MeshPart1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SpaceArmsMan:HighPolyEyes
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
