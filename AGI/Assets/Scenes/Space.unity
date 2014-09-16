@@ -74,6 +74,220 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &4203216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100118, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4203217}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_pinky.02.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4203217
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400118, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 4203216}
+  m_LocalRotation: {x: .0675994158, y: -.00436905446, z: .00655515399, w: .997681439}
+  m_LocalPosition: {x: -0, y: .250246167, z: 5.96046448e-07}
+  m_LocalScale: {x: 1.00000012, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 1206043233}
+  m_Father: {fileID: 182941252}
+--- !u!1 &15544541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 15544542}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|deltoid.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &15544542
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 15544541}
+  m_LocalRotation: {x: -.389538139, y: -.316159815, z: .246494666, w: .829182386}
+  m_LocalPosition: {x: -1.11758709e-07, y: 1.11642861, z: -6.40749931e-07}
+  m_LocalScale: {x: .999999881, y: .99999994, z: .999999881}
+  m_Children:
+  - {fileID: 401324825}
+  m_Father: {fileID: 1179333090}
+--- !u!1 &20632754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100126, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 20632755}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|forearm.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &20632755
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400126, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 20632754}
+  m_LocalRotation: {x: .394522786, y: 1.41651517e-05, z: 7.66933317e-06, w: .918886185}
+  m_LocalPosition: {x: 2.30967999e-07, y: 2.54291964, z: 5.96046448e-08}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 340786883}
+  m_Father: {fileID: 137122630}
+--- !u!1 &20780810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100148, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 20780811}
+  - 137: {fileID: 20780812}
+  m_Layer: 0
+  m_Name: SpaceArmsMan:Body_MeshPart0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &20780811
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400148, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 20780810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1438484236}
+--- !u!137 &20780812
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700004, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 20780810}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5e2834074762b4390af9b94bb523058a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300002, guid: 0c990d5de85004bc5befb168df81a379, type: 3}
+  m_Bones:
+  - {fileID: 120031939}
+  - {fileID: 2138535132}
+  - {fileID: 268220972}
+  - {fileID: 294173102}
+  - {fileID: 1778905178}
+  - {fileID: 27952633}
+  - {fileID: 1856066082}
+  - {fileID: 1581711341}
+  - {fileID: 2057263826}
+  - {fileID: 1390244412}
+  - {fileID: 202604612}
+  - {fileID: 1445169857}
+  - {fileID: 1495206067}
+  - {fileID: 1179333090}
+  - {fileID: 15544542}
+  - {fileID: 401324825}
+  - {fileID: 1178946007}
+  - {fileID: 2131590276}
+  - {fileID: 402341691}
+  - {fileID: 182941252}
+  - {fileID: 4203217}
+  - {fileID: 1206043233}
+  - {fileID: 1210714465}
+  - {fileID: 1572413619}
+  - {fileID: 1891414322}
+  - {fileID: 1881339373}
+  - {fileID: 1207788649}
+  - {fileID: 2051822665}
+  - {fileID: 1548824312}
+  - {fileID: 1701429185}
+  - {fileID: 371960111}
+  - {fileID: 1300213421}
+  - {fileID: 311522319}
+  - {fileID: 1510150559}
+  - {fileID: 2009813274}
+  - {fileID: 1630879050}
+  - {fileID: 404041987}
+  - {fileID: 829029214}
+  - {fileID: 167994604}
+  - {fileID: 137122630}
+  - {fileID: 20632755}
+  - {fileID: 340786883}
+  - {fileID: 543985842}
+  - {fileID: 1049677287}
+  - {fileID: 1787455345}
+  - {fileID: 68245165}
+  - {fileID: 66279940}
+  - {fileID: 1692198838}
+  - {fileID: 435038702}
+  - {fileID: 845569738}
+  - {fileID: 600820768}
+  - {fileID: 164779691}
+  - {fileID: 1924099615}
+  - {fileID: 917962102}
+  - {fileID: 1996460908}
+  - {fileID: 1007957574}
+  - {fileID: 1580645736}
+  - {fileID: 2021737507}
+  - {fileID: 2107590962}
+  - {fileID: 794685663}
+  - {fileID: 581399376}
+  - {fileID: 689285286}
+  - {fileID: 117150270}
+  - {fileID: 1474360860}
+  - {fileID: 962596630}
+  - {fileID: 801737262}
+  - {fileID: 928610970}
+  - {fileID: 949353686}
+  - {fileID: 2044845248}
+  - {fileID: 1960665846}
+  - {fileID: 778243380}
+  - {fileID: 901638670}
+  - {fileID: 1039299791}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 120031939}
+  m_AABB:
+    m_Center: {x: .24048996, y: -1.15573215, z: .610002518}
+    m_Extent: {x: 5.56693506, y: 9.17529297, z: 3.165236}
+  m_DirtyAABB: 0
 --- !u!1 &22651147
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,6 +377,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &27952632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100084, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 27952633}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|thigh.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &27952633
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400084, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 27952632}
+  m_LocalRotation: {x: .991371155, y: .0407429002, z: .113414951, w: -.0515784323}
+  m_LocalPosition: {x: 1.06878996, y: -.112392083, z: -.127011046}
+  m_LocalScale: {x: 1.00000954, y: 1.00000024, z: 1.00000954}
+  m_Children:
+  - {fileID: 1856066082}
+  m_Father: {fileID: 120031939}
 --- !u!1 &30105694
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +493,53 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &32807982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+  m_PrefabInternal: {fileID: 877520811}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 32807984}
+  - 114: {fileID: 32807983}
+  m_Layer: 0
+  m_Name: ikLimbR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &32807983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b,
+    type: 2}
+  m_PrefabInternal: {fileID: 877520811}
+  m_GameObject: {fileID: 32807982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4745911d6ef5304f996e1434f655e38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upperArm: {fileID: 401324825}
+  forearm: {fileID: 1178946007}
+  hand: {fileID: 2131590276}
+  target: {fileID: 580022613}
+  elbowTarget: {fileID: 771502192}
+  IsEnabled: 1
+  debug: 1
+  transition: 1
+--- !u!4 &32807984
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+  m_PrefabInternal: {fileID: 877520811}
+  m_GameObject: {fileID: 32807982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.02452946, y: 0, z: 0}
+  m_LocalScale: {x: 3.33333325, y: 3.33333325, z: 3.33333325}
+  m_Children: []
+  m_Father: {fileID: 774724325}
 --- !u!1 &38645002
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,6 +629,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &42182633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100078, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 42182634}
+  m_Layer: 0
+  m_Name: SpaceArmsMan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42182634
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400078, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 42182633}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 120031939}
+  m_Father: {fileID: 774724325}
 --- !u!1 &44201129
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,6 +1064,59 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &66279939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100098, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 66279940}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|palm_index.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &66279940
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400098, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 66279939}
+  m_LocalRotation: {x: -.0638408214, y: -.18833214, z: -.0889462158, w: .97598356}
+  m_LocalPosition: {x: .112764239, y: .345665574, z: -.00704806298}
+  m_LocalScale: {x: 1, y: 1.00000036, z: 1}
+  m_Children:
+  - {fileID: 1692198838}
+  m_Father: {fileID: 340786883}
+--- !u!1 &68245164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100138, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 68245165}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_pinky.03.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &68245165
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400138, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 68245164}
+  m_LocalRotation: {x: .0136755779, y: -.00692084432, z: .0121909175, w: .999808192}
+  m_LocalPosition: {x: -4.76837158e-07, y: .165399432, z: -2.98023224e-07}
+  m_LocalScale: {x: .999999762, y: .999999821, z: .999999642}
+  m_Children: []
+  m_Father: {fileID: 1787455345}
 --- !u!1 &72996544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +1651,68 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &117150269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 117150270}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &117150270
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 117150269}
+  m_LocalRotation: {x: .0398280509, y: 1.73142056e-10, z: 1.83986812e-10, w: .999206543}
+  m_LocalPosition: {x: -2.38460661e-24, y: 1.0761832, z: -4.47034836e-08}
+  m_LocalScale: {x: 1, y: .999999762, z: .999999881}
+  m_Children:
+  - {fileID: 1960665846}
+  - {fileID: 2044845248}
+  - {fileID: 1474360860}
+  - {fileID: 778243380}
+  - {fileID: 1039299791}
+  - {fileID: 949353686}
+  - {fileID: 901638670}
+  m_Father: {fileID: 689285286}
+--- !u!1 &120031938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100120, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 120031939}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &120031939
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400120, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 120031938}
+  m_LocalRotation: {x: .645744383, y: -2.0047192e-17, z: -4.3549489e-10, w: .763553679}
+  m_LocalPosition: {x: -0, y: -.099808, z: 9.45195007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1390244412}
+  - {fileID: 2138535132}
+  - {fileID: 27952633}
+  m_Father: {fileID: 42182634}
 --- !u!1 &123753481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,6 +1980,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &137122629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100128, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 137122630}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|upper_arm.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &137122630
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400128, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 137122629}
+  m_LocalRotation: {x: -.0123366341, y: .886869669, z: -.178021312, w: -.426167279}
+  m_LocalPosition: {x: 6.2584877e-07, y: .806036472, z: 3.27825546e-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 20632755}
+  m_Father: {fileID: 167994604}
 --- !u!1 &160973499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,6 +2096,87 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &164779690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100144, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 164779691}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_ring.01.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &164779691
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400144, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 164779690}
+  m_LocalRotation: {x: .0542457178, y: .0225938298, z: .0891536251, w: .994282961}
+  m_LocalPosition: {x: -1.1920929e-07, y: .670401096, z: 1.63912773e-07}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 1924099615}
+  m_Father: {fileID: 600820768}
+--- !u!1 &167994603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100152, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 167994604}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|deltoid.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &167994604
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400152, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 167994603}
+  m_LocalRotation: {x: -.389538139, y: .316159815, z: -.246494666, w: .829182386}
+  m_LocalPosition: {x: 1.11758709e-07, y: 1.11642861, z: -6.40749931e-07}
+  m_LocalScale: {x: .999999881, y: .99999994, z: .999999881}
+  m_Children:
+  - {fileID: 137122630}
+  m_Father: {fileID: 829029214}
+--- !u!1 &182941251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 182941252}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_pinky.01.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &182941252
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 182941251}
+  m_LocalRotation: {x: .163498461, y: .000301992113, z: -.00358146289, w: .986537039}
+  m_LocalPosition: {x: 2.38418579e-07, y: .564370513, z: 7.15255737e-07}
+  m_LocalScale: {x: .999999881, y: .999999821, z: .999999881}
+  m_Children:
+  - {fileID: 4203217}
+  m_Father: {fileID: 402341691}
 --- !u!1 &184462558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1995,6 +2533,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &202604611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 202604612}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|spine-1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &202604612
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 202604611}
+  m_LocalRotation: {x: -1.4640392e-06, y: -2.77555094e-17, z: 3.90842839e-23, w: 1}
+  m_LocalPosition: {x: 4.48878592e-17, y: .279115528, z: 5.96046448e-08}
+  m_LocalScale: {x: 1, y: .999999881, z: 1}
+  m_Children:
+  - {fileID: 1445169857}
+  m_Father: {fileID: 1390244412}
 --- !u!1 &204610905
 GameObject:
   m_ObjectHideFlags: 0
@@ -3340,6 +3905,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &268220971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100066, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 268220972}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|shin.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &268220972
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400066, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 268220971}
+  m_LocalRotation: {x: .0512473695, y: 5.21299341e-07, z: -1.93737691e-07, w: .998686016}
+  m_LocalPosition: {x: -1.49011612e-08, y: 4.31710672, z: -2.98023224e-08}
+  m_LocalScale: {x: .999990463, y: .999999702, z: .999990404}
+  m_Children:
+  - {fileID: 294173102}
+  m_Father: {fileID: 2138535132}
 --- !u!1 &268748682
 GameObject:
   m_ObjectHideFlags: 0
@@ -3518,6 +4110,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &294173101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 294173102}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|foot.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &294173102
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 294173101}
+  m_LocalRotation: {x: -.536499739, y: .103826284, z: .0309473798, w: .836917222}
+  m_LocalPosition: {x: -4.09781933e-08, y: 4.3376441, z: -2.23517418e-08}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 1778905178}
+  m_Father: {fileID: 268220972}
 --- !u!1 &298135720
 GameObject:
   m_ObjectHideFlags: 0
@@ -3607,6 +4226,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &311522318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100140, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 311522319}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|thumb.03.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &311522319
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400140, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 311522318}
+  m_LocalRotation: {x: .0363149159, y: -.0098743923, z: .00347315893, w: .999285579}
+  m_LocalPosition: {x: 1.1920929e-07, y: .417575836, z: -8.34465027e-07}
+  m_LocalScale: {x: 1.00000024, y: 1.00000024, z: 1.00000024}
+  m_Children: []
+  m_Father: {fileID: 1300213421}
 --- !u!1 &317990529
 GameObject:
   m_ObjectHideFlags: 0
@@ -3963,6 +4608,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &340786882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 340786883}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|hand.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &340786883
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 340786882}
+  m_LocalRotation: {x: .119561389, y: -.668866158, z: .0667386055, w: .730663478}
+  m_LocalPosition: {x: 1.11758709e-06, y: 2.62163544, z: -1.1920929e-07}
+  m_LocalScale: {x: .999999881, y: .999999821, z: 1}
+  m_Children:
+  - {fileID: 66279940}
+  - {fileID: 1996460908}
+  - {fileID: 543985842}
+  - {fileID: 600820768}
+  - {fileID: 2107590962}
+  m_Father: {fileID: 20632755}
 --- !u!1 &351752218
 GameObject:
   m_ObjectHideFlags: 0
@@ -4141,6 +4817,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &371960110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100134, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 371960111}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|thumb.01.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &371960111
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400134, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 371960110}
+  m_LocalRotation: {x: .159170687, y: .531879306, z: .448504776, w: .700437427}
+  m_LocalPosition: {x: -.265465498, y: .422220707, z: -.0160466507}
+  m_LocalScale: {x: .99999994, y: .999999881, z: .999999762}
+  m_Children:
+  - {fileID: 1300213421}
+  m_Father: {fileID: 2131590276}
 --- !u!1 &372469897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4764,6 +5467,60 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &401324824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100076, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401324825}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|upper_arm.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401324825
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400076, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 401324824}
+  m_LocalRotation: {x: .0123366341, y: .886869669, z: -.178021312, w: .426167279}
+  m_LocalPosition: {x: -6.2584877e-07, y: .806036472, z: 3.27825546e-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1178946007}
+  m_Father: {fileID: 15544542}
+--- !u!1 &402341690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 402341691}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|palm_pinky.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &402341691
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 402341690}
+  m_LocalRotation: {x: -.085139133, y: .116633229, z: -.173198909, w: .974243402}
+  m_LocalPosition: {x: .252944112, y: .395561695, z: -.0503921136}
+  m_LocalScale: {x: 1, y: 1.00000024, z: .999999821}
+  m_Children:
+  - {fileID: 182941252}
+  m_Father: {fileID: 2131590276}
 --- !u!1 &403171586
 GameObject:
   m_ObjectHideFlags: 0
@@ -4853,6 +5610,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &404041986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100104, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 404041987}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_index.03.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &404041987
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400104, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 404041986}
+  m_LocalRotation: {x: .0162612069, y: -.00761372549, z: .00397769501, w: .999830902}
+  m_LocalPosition: {x: 5.96046448e-07, y: .263197362, z: 1.1920929e-07}
+  m_LocalScale: {x: .999999702, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1630879050}
 --- !u!1 &410995911
 GameObject:
   m_ObjectHideFlags: 0
@@ -5298,6 +6081,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &435038701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 435038702}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_index.02.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &435038702
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 435038701}
+  m_LocalRotation: {x: .100130737, y: -.00408899784, z: .00156079675, w: .994964659}
+  m_LocalPosition: {x: -3.57627869e-07, y: .293177187, z: 1.07288361e-06}
+  m_LocalScale: {x: 1, y: .999999702, z: .999999642}
+  m_Children:
+  - {fileID: 845569738}
+  m_Father: {fileID: 1692198838}
 --- !u!1 &441140477
 GameObject:
   m_ObjectHideFlags: 0
@@ -6619,6 +7429,78 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &515272721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100164, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 515272722}
+  - 33: {fileID: 515272725}
+  - 65: {fileID: 515272724}
+  - 23: {fileID: 515272723}
+  m_Layer: 0
+  m_Name: targetL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &515272722
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400164, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 515272721}
+  m_LocalRotation: {x: .422732413, y: -.475999951, z: -.4760001, w: .606749713}
+  m_LocalPosition: {x: -6.98074102, y: 1.49044657, z: -3.21953773}
+  m_LocalScale: {x: .746480048, y: .746480227, z: .746480346}
+  m_Children: []
+  m_Father: {fileID: 829029214}
+--- !u!23 &515272723
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 515272721}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &515272724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500008, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 515272721}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &515272725
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 515272721}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &521690637
 GameObject:
   m_ObjectHideFlags: 0
@@ -6934,6 +7816,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &543985841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 543985842}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|palm_pinky.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &543985842
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 543985841}
+  m_LocalRotation: {x: -.0731353164, y: -.117800087, z: .195919976, w: .970767617}
+  m_LocalPosition: {x: -.224080682, y: .394935608, z: -.0589909628}
+  m_LocalScale: {x: 1.00000012, y: 1, z: .999999821}
+  m_Children:
+  - {fileID: 1049677287}
+  m_Father: {fileID: 340786883}
 --- !u!1 &556875584
 GameObject:
   m_ObjectHideFlags: 0
@@ -7023,6 +7932,53 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &557095574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+  m_PrefabInternal: {fileID: 1274307159}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 557095576}
+  - 114: {fileID: 557095575}
+  m_Layer: 0
+  m_Name: ikLimbL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &557095575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: c90834fd297594ccb8de2ad3a325d37d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1274307159}
+  m_GameObject: {fileID: 557095574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4745911d6ef5304f996e1434f655e38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upperArm: {fileID: 137122630}
+  forearm: {fileID: 20632755}
+  hand: {fileID: 340786883}
+  target: {fileID: 515272722}
+  elbowTarget: {fileID: 2014287282}
+  IsEnabled: 1
+  debug: 1
+  transition: 1
+--- !u!4 &557095576
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+  m_PrefabInternal: {fileID: 1274307159}
+  m_GameObject: {fileID: 557095574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.02452946, y: 0, z: 0}
+  m_LocalScale: {x: 3.33333325, y: 3.33333325, z: 3.33333325}
+  m_Children: []
+  m_Father: {fileID: 774724325}
 --- !u!1 &566110865
 GameObject:
   m_ObjectHideFlags: 0
@@ -7290,6 +8246,104 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &580022612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100146, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 580022613}
+  - 33: {fileID: 580022616}
+  - 65: {fileID: 580022615}
+  - 23: {fileID: 580022614}
+  m_Layer: 0
+  m_Name: targetR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &580022613
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400146, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 580022612}
+  m_LocalRotation: {x: .422732413, y: .476000011, z: .476000041, w: .606749773}
+  m_LocalPosition: {x: 7.09236193, y: 2.6578896, z: -3.42821097}
+  m_LocalScale: {x: .746480346, y: .746480584, z: .746480584}
+  m_Children: []
+  m_Father: {fileID: 1179333090}
+--- !u!23 &580022614
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 580022612}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &580022615
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500006, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 580022612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &580022616
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 580022612}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &581399375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 581399376}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|thumb.03.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &581399376
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 581399375}
+  m_LocalRotation: {x: .0363139138, y: .00990439113, z: -.00348371407, w: .999285281}
+  m_LocalPosition: {x: 2.38418579e-07, y: .417575836, z: -8.94069672e-07}
+  m_LocalScale: {x: 1, y: .999999881, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 794685663}
 --- !u!1 &589188029
 GameObject:
   m_ObjectHideFlags: 0
@@ -7646,6 +8700,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &600820767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100072, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 600820768}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|palm_ring.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &600820768
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400072, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 600820767}
+  m_LocalRotation: {x: -.0802581683, y: -.0130010946, z: .0691594258, w: .994286954}
+  m_LocalPosition: {x: -.134579778, y: .373032331, z: -.0510115102}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children:
+  - {fileID: 164779691}
+  m_Father: {fileID: 340786883}
 --- !u!1 &607693690
 GameObject:
   m_ObjectHideFlags: 0
@@ -8892,6 +9973,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &689285285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100162, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 689285286}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &689285286
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400162, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 689285285}
+  m_LocalRotation: {x: -.154983029, y: -2.09915795e-18, z: 3.29313294e-19, w: .987917185}
+  m_LocalPosition: {x: -4.65289095e-24, y: 2.32146001, z: -1.93715096e-07}
+  m_LocalScale: {x: 1, y: 1.00000012, z: .999999881}
+  m_Children:
+  - {fileID: 117150270}
+  m_Father: {fileID: 1495206067}
 --- !u!1 &698157928
 GameObject:
   m_ObjectHideFlags: 0
@@ -9614,6 +10722,125 @@ MonoBehaviour:
   maximumX: 45
   minimumY: -45
   maximumY: 45
+--- !u!1 &771502191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100132, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 771502192}
+  - 33: {fileID: 771502195}
+  - 65: {fileID: 771502194}
+  - 23: {fileID: 771502193}
+  m_Layer: 0
+  m_Name: elbowTargetR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &771502192
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400132, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 771502191}
+  m_LocalRotation: {x: .422732413, y: .476000011, z: .476000041, w: .606749773}
+  m_LocalPosition: {x: -.545466959, y: 5.20722151, z: -4.03025007}
+  m_LocalScale: {x: 1.02170825, y: 1.02170861, z: 1.02170861}
+  m_Children: []
+  m_Father: {fileID: 1179333090}
+--- !u!23 &771502193
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 771502191}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: eb3523c2237ca41c8a6eb857be86b767, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &771502194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500004, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 771502191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &771502195
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 771502191}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &774724324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 774724325}
+  - 95: {fileID: 774724326}
+  m_Layer: 0
+  m_Name: PlayerIKRigged
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &774724325
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 774724324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.70735884, y: 0, z: 0}
+  m_LocalScale: {x: .300000012, y: .300000012, z: .300000012}
+  m_Children:
+  - {fileID: 42182634}
+  - {fileID: 1438484236}
+  - {fileID: 1085584042}
+  - {fileID: 557095576}
+  - {fileID: 32807984}
+  m_Father: {fileID: 0}
+--- !u!95 &774724326
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 774724324}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 0c990d5de85004bc5befb168df81a379, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &775260315
 GameObject:
   m_ObjectHideFlags: 0
@@ -9703,6 +10930,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &778243379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100124, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 778243380}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|lolid.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &778243380
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400124, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 778243379}
+  m_LocalRotation: {x: .839360118, y: -4.76711309e-11, z: -7.36111519e-11, w: .543575764}
+  m_LocalPosition: {x: -.302899987, y: .301770777, z: 1.21384645}
+  m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 117150270}
 --- !u!1 &779543067
 GameObject:
   m_ObjectHideFlags: 0
@@ -10059,6 +11312,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &794685662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100062, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 794685663}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|thumb.02.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &794685663
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400062, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 794685662}
+  m_LocalRotation: {x: .0398143828, y: -.141765624, z: .195012525, w: .969684184}
+  m_LocalPosition: {x: -1.1920929e-07, y: .348933578, z: 2.98023224e-08}
+  m_LocalScale: {x: .999999881, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 581399376}
+  m_Father: {fileID: 2107590962}
 --- !u!1 &796081808
 GameObject:
   m_ObjectHideFlags: 0
@@ -10145,6 +11425,33 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &801737261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100092, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 801737262}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|tongue_mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &801737262
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400092, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 801737261}
+  m_LocalRotation: {x: .0682510585, y: -2.01523481e-17, z: -1.37863122e-18, w: .997668207}
+  m_LocalPosition: {x: 4.63221143e-23, y: .296853185, z: 5.96046448e-08}
+  m_LocalScale: {x: 1, y: .999999762, z: 1}
+  m_Children:
+  - {fileID: 928610970}
+  m_Father: {fileID: 962596630}
 --- !u!1 &808442131
 GameObject:
   m_ObjectHideFlags: 0
@@ -10501,6 +11808,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &829029213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100060, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 829029214}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|clavicle.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829029214
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400060, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 829029213}
+  m_LocalRotation: {x: -.495219409, y: .531735718, z: .412806481, w: .549186349}
+  m_LocalPosition: {x: -.230924994, y: 1.69476891, z: .584806263}
+  m_LocalScale: {x: .999999762, y: 1, z: 1}
+  m_Children:
+  - {fileID: 167994604}
+  - {fileID: 2014287282}
+  - {fileID: 515272722}
+  - {fileID: 1182307828}
+  m_Father: {fileID: 1495206067}
 --- !u!1 &834351704
 GameObject:
   m_ObjectHideFlags: 0
@@ -10768,6 +12105,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &845569737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100100, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 845569738}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_index.03.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &845569738
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400100, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 845569737}
+  m_LocalRotation: {x: .0162612069, y: .00761372549, z: -.00397769501, w: .999830902}
+  m_LocalPosition: {x: -5.96046448e-07, y: .263197362, z: 1.1920929e-07}
+  m_LocalScale: {x: .999999702, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435038702}
 --- !u!1 &849153553
 GameObject:
   m_ObjectHideFlags: 0
@@ -11124,6 +12487,78 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &877520811
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 774724325}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 9.02452946
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: elbowTarget
+      value: 
+      objectReference: {fileID: 771502192}
+    - target: {fileID: 11400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: upperArm
+      value: 
+      objectReference: {fileID: 401324825}
+    - target: {fileID: 11400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: forearm
+      value: 
+      objectReference: {fileID: 1178946007}
+    - target: {fileID: 11400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: hand
+      value: 
+      objectReference: {fileID: 2131590276}
+    - target: {fileID: 11400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 580022613}
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.33333325
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.33333325
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.33333325
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7f9e4af1e8fdb46b5b6fe86ea051b72b, type: 2}
+  m_RootGameObject: {fileID: 32807982}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &883551610
 GameObject:
   m_ObjectHideFlags: 0
@@ -11506,6 +12941,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &901638669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 901638670}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|uplid.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &901638670
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 901638669}
+  m_LocalRotation: {x: .649952829, y: -1.54107518e-10, z: -1.31797281e-10, w: .759974539}
+  m_LocalPosition: {x: .298599988, y: .301770777, z: 1.21384645}
+  m_LocalScale: {x: 1, y: 1.00000012, z: .999999881}
+  m_Children: []
+  m_Father: {fileID: 117150270}
 --- !u!1 &902209696
 GameObject:
   m_ObjectHideFlags: 0
@@ -11773,6 +13234,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &917962101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100064, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 917962102}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_ring.03.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &917962102
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400064, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 917962101}
+  m_LocalRotation: {x: -.00844362844, y: -.00509494124, z: .0257721376, w: .999619246}
+  m_LocalPosition: {x: -7.15255737e-07, y: .275675058, z: -3.87430191e-07}
+  m_LocalScale: {x: 1.00000012, y: 1.00000024, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1924099615}
 --- !u!1 &921733980
 GameObject:
   m_ObjectHideFlags: 0
@@ -11862,6 +13349,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &928610969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100086, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 928610970}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|tongue_tip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928610970
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400086, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 928610969}
+  m_LocalRotation: {x: .244207084, y: -6.74879655e-17, z: -1.69956168e-17, w: .969723105}
+  m_LocalPosition: {x: -6.6174449e-24, y: .206323475, z: 1.37835741e-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 801737262}
 --- !u!1 &930728988
 GameObject:
   m_ObjectHideFlags: 0
@@ -12547,6 +14060,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &949353685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100114, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 949353686}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|uplid.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &949353686
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400114, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 949353685}
+  m_LocalRotation: {x: .660006225, y: -1.49274301e-10, z: -1.31142278e-10, w: .751260161}
+  m_LocalPosition: {x: -.300000012, y: .301770777, z: 1.21384645}
+  m_LocalScale: {x: 1, y: 1.00000024, z: 1}
+  m_Children: []
+  m_Father: {fileID: 117150270}
 --- !u!1 &956986015
 GameObject:
   m_ObjectHideFlags: 0
@@ -12636,6 +14175,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &962596629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100122, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 962596630}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|tongue_base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962596630
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400122, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 962596629}
+  m_LocalRotation: {x: -.420773327, y: -1.13842247e-16, z: 5.28037692e-17, w: .907165825}
+  m_LocalPosition: {x: -1.45583788e-22, y: .349989116, z: .164936364}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 801737262}
+  m_Father: {fileID: 1474360860}
 --- !u!1 &975648263
 GameObject:
   m_ObjectHideFlags: 0
@@ -13213,6 +14779,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1007957573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100102, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1007957574}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_middle.01.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1007957574
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400102, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1007957573}
+  m_LocalRotation: {x: .0320241638, y: .0145232202, z: .0768368319, w: .996423423}
+  m_LocalPosition: {x: -5.96046448e-07, y: .749224663, z: 2.98023224e-08}
+  m_LocalScale: {x: .99999994, y: .999999881, z: 1.00000012}
+  m_Children:
+  - {fileID: 1580645736}
+  m_Father: {fileID: 1996460908}
 --- !u!1 &1009528151
 GameObject:
   m_ObjectHideFlags: 0
@@ -13526,6 +15119,32 @@ Transform:
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &1039299790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100058, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1039299791}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|lolid.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1039299791
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400058, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1039299790}
+  m_LocalRotation: {x: .839360118, y: -4.76711309e-11, z: -7.36111519e-11, w: .543575764}
+  m_LocalPosition: {x: .302899987, y: .301770777, z: 1.21384645}
+  m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 117150270}
 --- !u!1 &1041603799
 GameObject:
   m_ObjectHideFlags: 0
@@ -13704,6 +15323,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1049677286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100154, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1049677287}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_pinky.01.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1049677287
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400154, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1049677286}
+  m_LocalRotation: {x: .149796665, y: .00175613316, z: -.0182763785, w: .988546371}
+  m_LocalPosition: {x: -2.38418579e-07, y: .573079944, z: 5.36441803e-07}
+  m_LocalScale: {x: .999999821, y: .99999994, z: .999999762}
+  m_Children:
+  - {fileID: 1787455345}
+  m_Father: {fileID: 543985842}
 --- !u!1 &1051647064
 GameObject:
   m_ObjectHideFlags: 0
@@ -14505,6 +16151,139 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1085584041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1085584042}
+  - 137: {fileID: 1085584043}
+  m_Layer: 0
+  m_Name: SpaceArmsMan:HighPolyEyes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1085584042
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1085584041}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 774724325}
+--- !u!137 &1085584043
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700002, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1085584041}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 0e7ccd804d935431db19f89121fa079d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 0c990d5de85004bc5befb168df81a379, type: 3}
+  m_Bones:
+  - {fileID: 120031939}
+  - {fileID: 2138535132}
+  - {fileID: 268220972}
+  - {fileID: 294173102}
+  - {fileID: 1778905178}
+  - {fileID: 27952633}
+  - {fileID: 1856066082}
+  - {fileID: 1581711341}
+  - {fileID: 2057263826}
+  - {fileID: 1390244412}
+  - {fileID: 202604612}
+  - {fileID: 1445169857}
+  - {fileID: 1495206067}
+  - {fileID: 1179333090}
+  - {fileID: 15544542}
+  - {fileID: 401324825}
+  - {fileID: 1178946007}
+  - {fileID: 2131590276}
+  - {fileID: 402341691}
+  - {fileID: 182941252}
+  - {fileID: 4203217}
+  - {fileID: 1206043233}
+  - {fileID: 1210714465}
+  - {fileID: 1572413619}
+  - {fileID: 1891414322}
+  - {fileID: 1881339373}
+  - {fileID: 1207788649}
+  - {fileID: 2051822665}
+  - {fileID: 1548824312}
+  - {fileID: 1701429185}
+  - {fileID: 371960111}
+  - {fileID: 1300213421}
+  - {fileID: 311522319}
+  - {fileID: 1510150559}
+  - {fileID: 2009813274}
+  - {fileID: 1630879050}
+  - {fileID: 404041987}
+  - {fileID: 829029214}
+  - {fileID: 167994604}
+  - {fileID: 137122630}
+  - {fileID: 20632755}
+  - {fileID: 340786883}
+  - {fileID: 543985842}
+  - {fileID: 1049677287}
+  - {fileID: 1787455345}
+  - {fileID: 68245165}
+  - {fileID: 66279940}
+  - {fileID: 1692198838}
+  - {fileID: 435038702}
+  - {fileID: 845569738}
+  - {fileID: 600820768}
+  - {fileID: 164779691}
+  - {fileID: 1924099615}
+  - {fileID: 917962102}
+  - {fileID: 1996460908}
+  - {fileID: 1007957574}
+  - {fileID: 1580645736}
+  - {fileID: 2021737507}
+  - {fileID: 2107590962}
+  - {fileID: 794685663}
+  - {fileID: 581399376}
+  - {fileID: 689285286}
+  - {fileID: 117150270}
+  - {fileID: 1474360860}
+  - {fileID: 962596630}
+  - {fileID: 801737262}
+  - {fileID: 928610970}
+  - {fileID: 949353686}
+  - {fileID: 2044845248}
+  - {fileID: 1960665846}
+  - {fileID: 778243380}
+  - {fileID: 901638670}
+  - {fileID: 1039299791}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 120031939}
+  m_AABB:
+    m_Center: {x: 0, y: 6.64312649, z: 2.39278793}
+    m_Extent: {x: .522348166, y: .224805832, z: .174142838}
+  m_DirtyAABB: 0
 --- !u!1 &1088195146
 GameObject:
   m_ObjectHideFlags: 0
@@ -15662,6 +17441,134 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1178946006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1178946007}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|forearm.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1178946007
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1178946006}
+  m_LocalRotation: {x: .394522786, y: -1.41651517e-05, z: -7.66933317e-06, w: .918886185}
+  m_LocalPosition: {x: -2.30967999e-07, y: 2.54291964, z: 5.96046448e-08}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 2131590276}
+  m_Father: {fileID: 401324825}
+--- !u!1 &1179333089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1179333090}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|clavicle.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1179333090
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1179333089}
+  m_LocalRotation: {x: -.495219409, y: -.531735718, z: -.412806481, w: .549186349}
+  m_LocalPosition: {x: .230924994, y: 1.69476891, z: .584806263}
+  m_LocalScale: {x: .999999762, y: 1, z: 1}
+  m_Children:
+  - {fileID: 15544542}
+  - {fileID: 771502192}
+  - {fileID: 580022613}
+  m_Father: {fileID: 1495206067}
+--- !u!1 &1182307827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1182307828}
+  - 33: {fileID: 1182307831}
+  - 65: {fileID: 1182307830}
+  - 23: {fileID: 1182307829}
+  m_Layer: 0
+  m_Name: targetLR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1182307828
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1182307827}
+  m_LocalRotation: {x: .422732413, y: -.476000011, z: -.476000041, w: .606749773}
+  m_LocalPosition: {x: -6.68397903, y: -1.61364603, z: -2.66469312}
+  m_LocalScale: {x: .746479988, y: .746480227, z: .746480227}
+  m_Children: []
+  m_Father: {fileID: 829029214}
+--- !u!23 &1182307829
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1182307827}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &1182307830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1182307827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1182307831
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1182307827}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1198403673
 GameObject:
   m_ObjectHideFlags: 0
@@ -15751,6 +17658,219 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1206043232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100056, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1206043233}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_pinky.03.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1206043233
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400056, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1206043232}
+  m_LocalRotation: {x: .0136755882, y: .00692085363, z: -.0121909305, w: .999808192}
+  m_LocalPosition: {x: -0, y: .165399253, z: 1.78813934e-07}
+  m_LocalScale: {x: .99999994, y: .999999881, z: .999999881}
+  m_Children: []
+  m_Father: {fileID: 4203217}
+--- !u!1 &1207788648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1207788649}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|palm_ring.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1207788649
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1207788648}
+  m_LocalRotation: {x: -.085813731, y: .0241283253, z: -.0464831106, w: .994933724}
+  m_LocalPosition: {x: .166492224, y: .374581933, z: -.0439078212}
+  m_LocalScale: {x: .99999994, y: 1.00000012, z: .99999994}
+  m_Children:
+  - {fileID: 2051822665}
+  m_Father: {fileID: 2131590276}
+--- !u!1 &1210714464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100082, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1210714465}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|palm_middle.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1210714465
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400082, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1210714464}
+  m_LocalRotation: {x: -.0417732187, y: -.00944875553, z: -.00136832451, w: .999081492}
+  m_LocalPosition: {x: .0104920864, y: .365623355, z: -.0480280668}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children:
+  - {fileID: 1572413619}
+  m_Father: {fileID: 2131590276}
+--- !u!1 &1216064037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1216064038}
+  - 137: {fileID: 1216064039}
+  m_Layer: 0
+  m_Name: SpaceArmsMan:Body_MeshPart1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1216064038
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1216064037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1438484236}
+--- !u!137 &1216064039
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1216064037}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5e2834074762b4390af9b94bb523058a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300004, guid: 0c990d5de85004bc5befb168df81a379, type: 3}
+  m_Bones:
+  - {fileID: 120031939}
+  - {fileID: 2138535132}
+  - {fileID: 268220972}
+  - {fileID: 294173102}
+  - {fileID: 1778905178}
+  - {fileID: 27952633}
+  - {fileID: 1856066082}
+  - {fileID: 1581711341}
+  - {fileID: 2057263826}
+  - {fileID: 1390244412}
+  - {fileID: 202604612}
+  - {fileID: 1445169857}
+  - {fileID: 1495206067}
+  - {fileID: 1179333090}
+  - {fileID: 15544542}
+  - {fileID: 401324825}
+  - {fileID: 1178946007}
+  - {fileID: 2131590276}
+  - {fileID: 402341691}
+  - {fileID: 182941252}
+  - {fileID: 4203217}
+  - {fileID: 1206043233}
+  - {fileID: 1210714465}
+  - {fileID: 1572413619}
+  - {fileID: 1891414322}
+  - {fileID: 1881339373}
+  - {fileID: 1207788649}
+  - {fileID: 2051822665}
+  - {fileID: 1548824312}
+  - {fileID: 1701429185}
+  - {fileID: 371960111}
+  - {fileID: 1300213421}
+  - {fileID: 311522319}
+  - {fileID: 1510150559}
+  - {fileID: 2009813274}
+  - {fileID: 1630879050}
+  - {fileID: 404041987}
+  - {fileID: 829029214}
+  - {fileID: 167994604}
+  - {fileID: 137122630}
+  - {fileID: 20632755}
+  - {fileID: 340786883}
+  - {fileID: 543985842}
+  - {fileID: 1049677287}
+  - {fileID: 1787455345}
+  - {fileID: 68245165}
+  - {fileID: 66279940}
+  - {fileID: 1692198838}
+  - {fileID: 435038702}
+  - {fileID: 845569738}
+  - {fileID: 600820768}
+  - {fileID: 164779691}
+  - {fileID: 1924099615}
+  - {fileID: 917962102}
+  - {fileID: 1996460908}
+  - {fileID: 1007957574}
+  - {fileID: 1580645736}
+  - {fileID: 2021737507}
+  - {fileID: 2107590962}
+  - {fileID: 794685663}
+  - {fileID: 581399376}
+  - {fileID: 689285286}
+  - {fileID: 117150270}
+  - {fileID: 1474360860}
+  - {fileID: 962596630}
+  - {fileID: 801737262}
+  - {fileID: 928610970}
+  - {fileID: 949353686}
+  - {fileID: 2044845248}
+  - {fileID: 1960665846}
+  - {fileID: 778243380}
+  - {fileID: 901638670}
+  - {fileID: 1039299791}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 120031939}
+  m_AABB:
+    m_Center: {x: -1.66615224, y: -1.16643333, z: .610002518}
+    m_Extent: {x: 4.13862705, y: 9.16459179, z: 3.165236}
+  m_DirtyAABB: 0
 --- !u!1 &1228277657
 GameObject:
   m_ObjectHideFlags: 0
@@ -16641,6 +18761,78 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &1274307159
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 774724325}
+    m_Modifications:
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 9.02452946
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: hand
+      value: 
+      objectReference: {fileID: 340786883}
+    - target: {fileID: 11400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: forearm
+      value: 
+      objectReference: {fileID: 20632755}
+    - target: {fileID: 11400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: upperArm
+      value: 
+      objectReference: {fileID: 137122630}
+    - target: {fileID: 11400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 515272722}
+    - target: {fileID: 11400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: elbowTarget
+      value: 
+      objectReference: {fileID: 2014287282}
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.33333325
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.33333325
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.33333325
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c90834fd297594ccb8de2ad3a325d37d, type: 2}
+  m_RootGameObject: {fileID: 557095574}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1282836459
 GameObject:
   m_ObjectHideFlags: 0
@@ -16819,6 +19011,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1300213420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1300213421}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|thumb.02.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1300213421
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1300213420}
+  m_LocalRotation: {x: .0396836847, y: .142105073, z: -.195039108, w: .969634533}
+  m_LocalPosition: {x: -0, y: .348933935, z: -3.87430191e-07}
+  m_LocalScale: {x: .999999881, y: 1, z: 1.00000012}
+  m_Children:
+  - {fileID: 311522319}
+  m_Father: {fileID: 371960111}
 --- !u!1 &1302754200
 GameObject:
   m_ObjectHideFlags: 0
@@ -18222,6 +20441,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1390244411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1390244412}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1390244412
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1390244411}
+  m_LocalRotation: {x: -.00256961375, y: 2.80363066e-10, z: 3.33245348e-10, w: .999996722}
+  m_LocalPosition: {x: -1.94289029e-16, y: 1.40038538, z: 4.47034836e-08}
+  m_LocalScale: {x: 1, y: .999999881, z: .999999881}
+  m_Children:
+  - {fileID: 202604612}
+  m_Father: {fileID: 120031939}
 --- !u!1 &1391365796
 GameObject:
   m_ObjectHideFlags: 0
@@ -19023,6 +21269,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1438484235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1438484236}
+  m_Layer: 0
+  m_Name: SpaceArmsMan:Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1438484236
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1438484235}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 20780811}
+  - {fileID: 1216064038}
+  m_Father: {fileID: 774724325}
 --- !u!1 &1441257228
 GameObject:
   m_ObjectHideFlags: 0
@@ -19201,6 +21475,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1445169856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1445169857}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|chest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1445169857
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1445169856}
+  m_LocalRotation: {x: .0168002918, y: 2.78251061e-10, z: 3.30735966e-10, w: .999858916}
+  m_LocalPosition: {x: -6.94814575e-17, y: .279116839, z: 1.49011612e-08}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 1495206067}
+  m_Father: {fileID: 202604612}
 --- !u!1 &1447704786
 GameObject:
   m_ObjectHideFlags: 0
@@ -19557,6 +21858,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1474360859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100150, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1474360860}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1474360860
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400150, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1474360859}
+  m_LocalRotation: {x: .918860078, y: -2.33743969e-10, z: 9.5880956e-11, w: .394583553}
+  m_LocalPosition: {x: -2.12797738e-10, y: -.0344603807, z: .556203544}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000024}
+  m_Children:
+  - {fileID: 962596630}
+  m_Father: {fileID: 117150270}
 --- !u!1 &1474798084
 GameObject:
   m_ObjectHideFlags: 0
@@ -20029,6 +22357,35 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1495206066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100158, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1495206067}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|chest-1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1495206067
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400158, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1495206066}
+  m_LocalRotation: {x: .193200856, y: -3.41408207e-10, z: -2.65048011e-10, w: .98115927}
+  m_LocalPosition: {x: -8.32667268e-17, y: 1.42834556, z: 2.98023224e-08}
+  m_LocalScale: {x: 1, y: .999999821, z: .99999994}
+  m_Children:
+  - {fileID: 829029214}
+  - {fileID: 1179333090}
+  - {fileID: 689285286}
+  m_Father: {fileID: 1445169857}
 --- !u!1 &1495792433
 GameObject:
   m_ObjectHideFlags: 0
@@ -20296,6 +22653,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1510150558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100142, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1510150559}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|palm_index.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1510150559
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400142, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1510150558}
+  m_LocalRotation: {x: -.0638408214, y: .18833214, z: .0889462158, w: .97598356}
+  m_LocalPosition: {x: -.112764239, y: .345665574, z: -.00704806298}
+  m_LocalScale: {x: 1, y: 1.00000036, z: 1}
+  m_Children:
+  - {fileID: 2009813274}
+  m_Father: {fileID: 2131590276}
 --- !u!1 &1513535297
 GameObject:
   m_ObjectHideFlags: 0
@@ -20563,6 +22947,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1548824311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100070, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1548824312}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_ring.02.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1548824312
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400070, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1548824311}
+  m_LocalRotation: {x: .108922377, y: -.00414481107, z: .0127266189, w: .993960142}
+  m_LocalPosition: {x: 1.1920929e-07, y: .327414155, z: 2.68220901e-07}
+  m_LocalScale: {x: .999999762, y: .999999881, z: .999999762}
+  m_Children:
+  - {fileID: 1701429185}
+  m_Father: {fileID: 2051822665}
 --- !u!1 &1558552563
 GameObject:
   m_ObjectHideFlags: 0
@@ -20919,6 +23330,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1572413618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1572413619}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_middle.01.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1572413619
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1572413618}
+  m_LocalRotation: {x: .0320241638, y: -.0145232202, z: -.0768368319, w: .996423423}
+  m_LocalPosition: {x: 5.96046448e-07, y: .749224663, z: 2.98023224e-08}
+  m_LocalScale: {x: .99999994, y: .999999881, z: 1.00000012}
+  m_Children:
+  - {fileID: 1891414322}
+  m_Father: {fileID: 1210714465}
 --- !u!1 &1577263245
 GameObject:
   m_ObjectHideFlags: 0
@@ -21008,6 +23446,60 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1580645735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100080, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1580645736}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_middle.02.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1580645736
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400080, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1580645735}
+  m_LocalRotation: {x: .0996516198, y: .00286045205, z: -.00585222291, w: .995001078}
+  m_LocalPosition: {x: -3.57627869e-07, y: .370760202, z: 7.58096576e-07}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children:
+  - {fileID: 2021737507}
+  m_Father: {fileID: 1007957574}
+--- !u!1 &1581711340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100054, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1581711341}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|foot.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1581711341
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400054, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1581711340}
+  m_LocalRotation: {x: -.536499739, y: -.103826284, z: -.0309473798, w: .836917222}
+  m_LocalPosition: {x: 4.09781933e-08, y: 4.3376441, z: -2.23517418e-08}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 2057263826}
+  m_Father: {fileID: 1856066082}
 --- !u!1 &1582696720
 GameObject:
   m_ObjectHideFlags: 0
@@ -21453,6 +23945,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1630879049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100050, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1630879050}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_index.02.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1630879050
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400050, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1630879049}
+  m_LocalRotation: {x: .100130737, y: .00408899784, z: -.00156079675, w: .994964659}
+  m_LocalPosition: {x: 3.57627869e-07, y: .293177187, z: 1.07288361e-06}
+  m_LocalScale: {x: 1, y: .999999702, z: .999999642}
+  m_Children:
+  - {fileID: 404041987}
+  m_Father: {fileID: 2009813274}
 --- !u!1 &1639468237
 GameObject:
   m_ObjectHideFlags: 0
@@ -22475,6 +24994,59 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1692198837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100116, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1692198838}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_index.01.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1692198838
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400116, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1692198837}
+  m_LocalRotation: {x: .0949741676, y: -.00720130838, z: .00688634859, w: .995429873}
+  m_LocalPosition: {x: 1.1920929e-07, y: .802730143, z: 2.38418579e-07}
+  m_LocalScale: {x: 1, y: .999999762, z: .99999994}
+  m_Children:
+  - {fileID: 435038702}
+  m_Father: {fileID: 66279940}
+--- !u!1 &1701429184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1701429185}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_ring.03.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1701429185
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1701429184}
+  m_LocalRotation: {x: -.00844362099, y: .00509493938, z: -.0257721301, w: .999619246}
+  m_LocalPosition: {x: 1.07288361e-06, y: .275675893, z: -1.49011612e-07}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1548824312}
 --- !u!1 &1705165275
 GameObject:
   m_ObjectHideFlags: 0
@@ -23187,6 +25759,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1778905177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100108, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1778905178}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|toe.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1778905178
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400108, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1778905177}
+  m_LocalRotation: {x: -.230378404, y: -1.34612119e-05, z: -4.11532852e-07, w: .973101139}
+  m_LocalPosition: {x: -2.60770321e-08, y: 1.42962289, z: 7.4505806e-09}
+  m_LocalScale: {x: 1.00000393, y: .999997795, z: .999997735}
+  m_Children: []
+  m_Father: {fileID: 294173102}
 --- !u!1 &1780132478
 GameObject:
   m_ObjectHideFlags: 0
@@ -23276,6 +25874,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1787455344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100110, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1787455345}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_pinky.02.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1787455345
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400110, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1787455344}
+  m_LocalRotation: {x: .0675994158, y: .00436905446, z: -.00655514607, w: .997681439}
+  m_LocalPosition: {x: -0, y: .25024569, z: 2.98023224e-07}
+  m_LocalScale: {x: 1.00000012, y: 1.00000024, z: 1}
+  m_Children:
+  - {fileID: 68245165}
+  m_Father: {fileID: 1049677287}
 --- !u!1 &1790943850
 GameObject:
   m_ObjectHideFlags: 0
@@ -23632,6 +26257,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1856066081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100156, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1856066082}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|shin.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1856066082
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400156, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1856066081}
+  m_LocalRotation: {x: .0512473695, y: -5.21299341e-07, z: 1.93737691e-07, w: .998686016}
+  m_LocalPosition: {x: 1.49011612e-08, y: 4.31710672, z: -2.98023224e-08}
+  m_LocalScale: {x: .999990463, y: .999999702, z: .999990404}
+  m_Children:
+  - {fileID: 1581711341}
+  m_Father: {fileID: 27952633}
 --- !u!1 &1859009192
 GameObject:
   m_ObjectHideFlags: 0
@@ -24166,6 +26818,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1881339372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100096, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1881339373}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_middle.03.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1881339373
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400096, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1881339372}
+  m_LocalRotation: {x: -.00311196316, y: .00448003551, z: -.0123069528, w: .999909401}
+  m_LocalPosition: {x: -1.1920929e-07, y: .290623724, z: -2.98023224e-08}
+  m_LocalScale: {x: 1, y: 1, z: .999999881}
+  m_Children: []
+  m_Father: {fileID: 1891414322}
 --- !u!1 &1883236215
 GameObject:
   m_ObjectHideFlags: 0
@@ -24344,6 +27022,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1891414321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1891414322}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_middle.02.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1891414322
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1891414321}
+  m_LocalRotation: {x: .0996516198, y: -.00286045205, z: .00585222291, w: .995001078}
+  m_LocalPosition: {x: 3.57627869e-07, y: .370760202, z: 7.58096576e-07}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children:
+  - {fileID: 1881339373}
+  m_Father: {fileID: 1572413619}
 --- !u!1 &1901050842
 GameObject:
   m_ObjectHideFlags: 0
@@ -25022,6 +27727,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1924099614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100166, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1924099615}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_ring.02.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1924099615
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400166, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1924099614}
+  m_LocalRotation: {x: .108922333, y: .00414481526, z: -.0127266347, w: .993960142}
+  m_LocalPosition: {x: -2.38418579e-07, y: .32741344, z: 7.63684511e-07}
+  m_LocalScale: {x: .999999881, y: .99999994, z: .999999881}
+  m_Children:
+  - {fileID: 917962102}
+  m_Father: {fileID: 164779691}
 --- !u!1 &1927427869
 GameObject:
   m_ObjectHideFlags: 0
@@ -25645,6 +28377,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1960665845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100130, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1960665846}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|eye.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1960665846
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400130, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1960665845}
+  m_LocalRotation: {x: .632544398, y: -.414903939, z: -.355517894, w: .548952937}
+  m_LocalPosition: {x: -.293125004, y: .301770777, z: 1.21384645}
+  m_LocalScale: {x: .999999881, y: 1, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 117150270}
 --- !u!1 &1966852502
 GameObject:
   m_ObjectHideFlags: 0
@@ -26001,6 +28759,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1996460907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100160, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1996460908}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|palm_middle.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996460908
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400160, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 1996460907}
+  m_LocalRotation: {x: -.0417732187, y: .00944875553, z: .00136832451, w: .999081492}
+  m_LocalPosition: {x: -.0104920864, y: .365623355, z: -.0480280668}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children:
+  - {fileID: 1007957574}
+  m_Father: {fileID: 340786883}
 --- !u!1 &1997537277
 GameObject:
   m_ObjectHideFlags: 0
@@ -26446,6 +29231,105 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &2009813273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100136, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2009813274}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_index.01.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2009813274
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400136, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2009813273}
+  m_LocalRotation: {x: .0949741676, y: .00720130838, z: -.00688634859, w: .995429873}
+  m_LocalPosition: {x: -1.1920929e-07, y: .802730143, z: 2.38418579e-07}
+  m_LocalScale: {x: 1, y: .999999762, z: .99999994}
+  m_Children:
+  - {fileID: 1630879050}
+  m_Father: {fileID: 1510150559}
+--- !u!1 &2014287281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100088, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2014287282}
+  - 33: {fileID: 2014287285}
+  - 65: {fileID: 2014287284}
+  - 23: {fileID: 2014287283}
+  m_Layer: 0
+  m_Name: elbowTargetL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2014287282
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400088, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2014287281}
+  m_LocalRotation: {x: .422732413, y: -.475999951, z: -.4760001, w: .606749713}
+  m_LocalPosition: {x: .550889432, y: 5.15047503, z: -4.02011156}
+  m_LocalScale: {x: 1.02170682, y: 1.02170706, z: 1.02170718}
+  m_Children: []
+  m_Father: {fileID: 829029214}
+--- !u!23 &2014287283
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2014287281}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: eb3523c2237ca41c8a6eb857be86b767, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &2014287284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2014287281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &2014287285
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816,
+    type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2014287281}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2016892196
 GameObject:
   m_ObjectHideFlags: 0
@@ -26535,6 +29419,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &2021737506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100094, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2021737507}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_middle.03.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2021737507
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400094, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2021737506}
+  m_LocalRotation: {x: -.00311196316, y: -.00448003551, z: .0123069528, w: .999909401}
+  m_LocalPosition: {x: 1.1920929e-07, y: .290623724, z: -2.98023224e-08}
+  m_LocalScale: {x: 1, y: 1, z: .999999881}
+  m_Children: []
+  m_Father: {fileID: 1580645736}
 --- !u!1 &2024440254
 GameObject:
   m_ObjectHideFlags: 0
@@ -27158,6 +30068,59 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &2044845247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100112, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2044845248}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|eye.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2044845248
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400112, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2044845247}
+  m_LocalRotation: {x: .632544398, y: .414903939, z: .355517894, w: .548952937}
+  m_LocalPosition: {x: .293125004, y: .301770777, z: 1.21384645}
+  m_LocalScale: {x: .999999881, y: 1, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 117150270}
+--- !u!1 &2051822664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100074, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2051822665}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|f_ring.01.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2051822665
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400074, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2051822664}
+  m_LocalRotation: {x: .0609866418, y: -.0320740603, z: -.112069808, w: .991308391}
+  m_LocalPosition: {x: -4.76837158e-07, y: .666499138, z: 1.29640102e-06}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1548824312}
+  m_Father: {fileID: 1207788649}
 --- !u!1 &2052823758
 GameObject:
   m_ObjectHideFlags: 0
@@ -27242,6 +30205,32 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
   m_OcclusionCulling: 1
+--- !u!1 &2057263825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100106, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2057263826}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|toe.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2057263826
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400106, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2057263825}
+  m_LocalRotation: {x: -.230378404, y: 1.34612119e-05, z: 4.11532852e-07, w: .973101139}
+  m_LocalPosition: {x: 2.60770321e-08, y: 1.42962289, z: 7.4505806e-09}
+  m_LocalScale: {x: 1.00000393, y: .999997795, z: .999997735}
+  m_Children: []
+  m_Father: {fileID: 1581711341}
 --- !u!1 &2057927496
 GameObject:
   m_ObjectHideFlags: 0
@@ -27954,6 +30943,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &2107590961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100090, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2107590962}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|thumb.01.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2107590962
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400090, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2107590961}
+  m_LocalRotation: {x: .15894191, y: -.532236576, z: -.448585898, w: .700165987}
+  m_LocalPosition: {x: .265465498, y: .422220707, z: -.0160466507}
+  m_LocalScale: {x: 1, y: .999999881, z: 1}
+  m_Children:
+  - {fileID: 794685663}
+  m_Father: {fileID: 340786883}
 --- !u!1 &2112882569
 GameObject:
   m_ObjectHideFlags: 0
@@ -28134,6 +31150,50 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &2116726289
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400024, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.70735884
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_RootGameObject: {fileID: 774724324}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &2117155566
 GameObject:
   m_ObjectHideFlags: 0
@@ -28223,6 +31283,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &2131590275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100052, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2131590276}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|hand.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2131590276
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400052, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2131590275}
+  m_LocalRotation: {x: .119561389, y: .668866158, z: -.0667386055, w: .730663478}
+  m_LocalPosition: {x: -1.11758709e-06, y: 2.62163544, z: -1.1920929e-07}
+  m_LocalScale: {x: .999999881, y: .999999821, z: 1}
+  m_Children:
+  - {fileID: 1510150559}
+  - {fileID: 1210714465}
+  - {fileID: 402341691}
+  - {fileID: 1207788649}
+  - {fileID: 371960111}
+  m_Father: {fileID: 1178946007}
 --- !u!1 &2131971896
 GameObject:
   m_ObjectHideFlags: 0
@@ -28312,6 +31403,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &2138535131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100068, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2138535132}
+  m_Layer: 0
+  m_Name: SpaceArmsMan|thigh.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2138535132
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400068, guid: 8fefdfa4a0f3b4fe498ed19d5ec17816, type: 2}
+  m_PrefabInternal: {fileID: 2116726289}
+  m_GameObject: {fileID: 2138535131}
+  m_LocalRotation: {x: .991371155, y: -.0407429077, z: -.113414973, w: -.051578436}
+  m_LocalPosition: {x: -1.06878996, y: -.112392083, z: -.127011031}
+  m_LocalScale: {x: 1.00000954, y: 1.00000024, z: 1.00000954}
+  m_Children:
+  - {fileID: 268220972}
+  m_Father: {fileID: 120031939}
 --- !u!1 &2138692844
 GameObject:
   m_ObjectHideFlags: 0
