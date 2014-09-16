@@ -14,6 +14,7 @@ public class IKControl : MonoBehaviour {
 	void Start () 
 	{
 		animator = GetComponent<Animator>();
+
 	}
 	
 	//a callback for calculating IK
@@ -23,7 +24,7 @@ public class IKControl : MonoBehaviour {
 			
 			//if the IK is active, set the position and rotation directly to the goal. 
 			if(ikActive) {
-				
+
 				//weight = 1.0 for the right hand means position and rotation will be at the IK goal (the place the character wants to grab)
 				animator.SetIKPositionWeight(AvatarIKGoal.RightHand,1.0f);
 				animator.SetIKRotationWeight(AvatarIKGoal.RightHand,1.0f);
@@ -38,6 +39,7 @@ public class IKControl : MonoBehaviour {
 			
 			//if the IK is not active, set the position and rotation of the hand back to the original position
 			else {          
+
 				animator.SetIKPositionWeight(AvatarIKGoal.RightHand,0);
 				animator.SetIKRotationWeight(AvatarIKGoal.RightHand,0);             
 			}
