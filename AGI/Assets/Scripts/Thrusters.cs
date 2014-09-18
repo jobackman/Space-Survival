@@ -101,33 +101,33 @@ public class Thrusters : MonoBehaviour {
 
 	//CUBE2 KOPPLAD TILL WIIMOTE
 	private Vector3 oldVec;
-	void FixedUpdate () {
-		bool A = wiimote_getButtonA(0);
-		int c = wiimote_count();
-		if (c>0 && A) {
-			for (int i=0; i<=c-1; i++) {
-				float roll = Mathf.Round(wiimote_getRoll(i));
-				float p = Mathf.Round(wiimote_getPitch(i));
-				float yaw = Mathf.Round(wiimote_getYaw(i));
-				if (!float.IsNaN(roll) && !float.IsNaN(p) && (i==c-1)) {
-					Vector3 vec = new Vector3(p, 0 , -1 * roll);
-					vec = Vector3.Lerp(oldVec, vec, Time.deltaTime * 5);
-					oldVec = vec;
-					GameObject.Find("PlayerCube").transform.eulerAngles = vec;
-				}
-				
-			}
-		}
-	}
+//	void FixedUpdate () {
+//		bool A = wiimote_getButtonA(0);
+//		int c = wiimote_count();
+//		if (c>0 && A) {
+//			for (int i=0; i<=c-1; i++) {
+//				float roll = Mathf.Round(wiimote_getRoll(i));
+//				float p = Mathf.Round(wiimote_getPitch(i));
+//				float yaw = Mathf.Round(wiimote_getYaw(i));
+//				if (!float.IsNaN(roll) && !float.IsNaN(p) && (i==c-1)) {
+//					Vector3 vec = new Vector3(p, 0 , -1 * roll);
+//					vec = Vector3.Lerp(oldVec, vec, Time.deltaTime * 5);
+//					oldVec = vec;
+//					GameObject.Find("PlayerCube").transform.eulerAngles = vec;
+//				}
+//				
+//			}
+//		}
+//	}
 
 
-	void Start ()
-	{
-		wiimote_start();
-	}
-	
-	void OnApplicationQuit() {
-		wiimote_stop();
-	}
+//	void Start ()
+//	{
+//		wiimote_start();
+//	}
+//	
+//	void OnApplicationQuit() {
+//		wiimote_stop();
+//	}
 	
 }

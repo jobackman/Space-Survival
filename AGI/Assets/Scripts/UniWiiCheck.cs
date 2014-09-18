@@ -15,55 +15,67 @@ public class UniWiiCheck : MonoBehaviour {
 	private static extern int wiimote_count();
 
 	[DllImport ("UniWii")]
-	private static extern byte wiimote_getAccX(int which);
+	private static extern float wiimote_getRoll(int which);
 
 	[DllImport ("UniWii")]
-	private static extern byte wiimote_getAccY(int which);
+	private static extern float wiimote_getPitch(int which);
 
 	[DllImport ("UniWii")]
-	private static extern byte wiimote_getAccZ(int which);
+	private static extern float wiimote_getYaw(int which);
 
-	public GameObject Arm;
+	[DllImport("UniWii")]
+	private static extern Boolean wiimote_getButtonA(int which);
+
+	[DllImport("UniWii")]
+	private static extern Boolean wiimote_getButtonB(int which);
+
+
+	//public GameObject Player;
+
+	public float yaw;
+	public float roll;
+	public float pitch;
 
 	private String display;
+	private String stats;
+	public int count;
 	
 	void OnGUI() {
-		int c = wiimote_count();
+		count = wiimote_count();
 
-		if (c>0) {
+		if (count>0) {
 			display = "";
-			for (int i=0; i<=c-1; i++) {
+			for (int i=0; i<=count-1; i++) {
 				display += "Wiimote " + i + " found!\n";
 							}
 		}
 		else display = "Press the '1' and '2' buttons on your Wii Remote.";
-		
+
+		// Display which wii-motes are connected
 		GUI.Label( new Rect(10,Screen.height-100, 500, 100), display);
+
+		// Display Wii-mote stats
+		GUI.Label (new Rect (10, Screen.height-150, 500, 100), stats);
 	}
 
 	void Update(){
 
 		if (wiimote_count () != 0) {
-				float diffX = wiimote_getAccX(0) -128;
-				float diffY = wiimote_getAccY(0) -128;
-				float diffZ = wiimote_getAccZ(0) -128 -30;
+			roll = wiimote_getRoll(0);
+			yaw = wiimote_getYaw(0);
+			pitch = wiimote_getPitch(0);
 
-				Arm = GameObject.Find ("/Cube2/");
-				print ("diffX: " + diffX + " diffY: " + diffY + " diffZ: " + diffZ);
-			}
-		if(Input.GetKey (KeyCode.UpArrow))
-		{
-			//GameObject.Find("/Cube2/Rightarm").rigidbody.AddRelativeForce(0,0,1,ForceMode.Impulse);	
+			stats = "Roll: " + roll.ToString() + 
+					"\nYaw: " + yaw.ToString() + 
+					"\nPitch " + pitch.ToString();
 		}
-		if(Input.GetKey (KeyCode.DownArrow))
-		{
-			//GameObject.Find("/Cube2/Rightarm").rigidbody.AddRelativeForce(0,0,-1,ForceMode.Impulse);	
-		}
+
 	}
 
 	void Start ()
 	{
 		wiimote_start();
+//		Player = GameObject.Find ("/PlayerCube/");
 	}
 	
 	void OnApplicationQuit() {

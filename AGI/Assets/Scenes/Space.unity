@@ -1798,6 +1798,8 @@ GameObject:
   - 33: {fileID: 123143470}
   - 23: {fileID: 123143469}
   - 95: {fileID: 123143468}
+  - 54: {fileID: 123143473}
+  - 64: {fileID: 123143472}
   m_Layer: 0
   m_Name: Asteriod1HPtoLP
   m_TagString: Untagged
@@ -1861,6 +1863,34 @@ Transform:
   m_LocalScale: {x: 1.65856099, y: 1.65856099, z: 1.65856099}
   m_Children: []
   m_Father: {fileID: 426570929}
+--- !u!64 &123143472
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 123143467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 139a7214a7d4b4f2b8f2e688b7dffc63, type: 3}
+--- !u!54 &123143473
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 123143467}
+  serializedVersion: 2
+  m_Mass: 200
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &123753481
 GameObject:
   m_ObjectHideFlags: 0
@@ -6256,7 +6286,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 426570928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11938.1572, y: 7448.40381, z: -1847.04016}
+  m_LocalPosition: {x: 0, y: 0, z: 20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 123143471}
@@ -6569,6 +6599,8 @@ GameObject:
   - 33: {fileID: 454727952}
   - 23: {fileID: 454727951}
   - 95: {fileID: 454727950}
+  - 54: {fileID: 454727954}
+  - 64: {fileID: 454727953}
   m_Layer: 0
   m_Name: Asteroid3HPtoLP
   m_TagString: Untagged
@@ -6632,6 +6664,34 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1596757378}
   m_GameObject: {fileID: 454727948}
   m_Mesh: {fileID: 4300000, guid: c103fdd5fbfc74ba8b682224f75b1597, type: 3}
+--- !u!64 &454727953
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 454727948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: c103fdd5fbfc74ba8b682224f75b1597, type: 3}
+--- !u!54 &454727954
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 454727948}
+  serializedVersion: 2
+  m_Mass: 200
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &456225247
 GameObject:
   m_ObjectHideFlags: 0
@@ -15098,6 +15158,7 @@ GameObject:
   - 114: {fileID: 992559148}
   - 114: {fileID: 992559150}
   - 114: {fileID: 992559149}
+  - 114: {fileID: 992559155}
   - 138: {fileID: 992559152}
   - 138: {fileID: 992559151}
   - 138: {fileID: 992559153}
@@ -15236,7 +15297,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae64f2c63a68049809a893f90d07d204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Arm: {fileID: 0}
+  yaw: 0
+  roll: 0
+  pitch: 0
+  count: 0
 --- !u!114 &992559150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15285,6 +15349,18 @@ FixedJoint:
   m_ConnectedBody: {fileID: 555567099}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
+--- !u!114 &992559155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 992559140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdda1376a3ade42deb7d2212eba7b460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &997322842
 GameObject:
   m_ObjectHideFlags: 0
@@ -18655,6 +18731,8 @@ GameObject:
   - 33: {fileID: 1221907601}
   - 23: {fileID: 1221907600}
   - 95: {fileID: 1221907599}
+  - 54: {fileID: 1221907603}
+  - 64: {fileID: 1221907602}
   m_Layer: 0
   m_Name: Asteroid4HPtoLP
   m_TagString: Untagged
@@ -18718,6 +18796,34 @@ MeshFilter:
   m_PrefabInternal: {fileID: 692001498}
   m_GameObject: {fileID: 1221907597}
   m_Mesh: {fileID: 4300000, guid: 87506d5aefd70419fbae98a5a98fb1f8, type: 3}
+--- !u!64 &1221907602
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1221907597}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 87506d5aefd70419fbae98a5a98fb1f8, type: 3}
+--- !u!54 &1221907603
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1221907597}
+  serializedVersion: 2
+  m_Mass: 200
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1228277657
 GameObject:
   m_ObjectHideFlags: 0
@@ -29522,6 +29628,8 @@ GameObject:
   - 33: {fileID: 1945098388}
   - 23: {fileID: 1945098387}
   - 95: {fileID: 1945098386}
+  - 54: {fileID: 1945098390}
+  - 64: {fileID: 1945098389}
   m_Layer: 0
   m_Name: Asteroid2HPtoLP
   m_TagString: Untagged
@@ -29585,6 +29693,34 @@ MeshFilter:
   m_PrefabInternal: {fileID: 717773475}
   m_GameObject: {fileID: 1945098384}
   m_Mesh: {fileID: 4300000, guid: 39d99d4d1361b4b23a9a1e365c984f01, type: 3}
+--- !u!64 &1945098389
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945098384}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 39d99d4d1361b4b23a9a1e365c984f01, type: 3}
+--- !u!54 &1945098390
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945098384}
+  serializedVersion: 2
+  m_Mass: 200
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1945835088
 GameObject:
   m_ObjectHideFlags: 0
