@@ -53,11 +53,11 @@ public class UniWiiCheck : MonoBehaviour {
 			}
 		if(Input.GetKey (KeyCode.UpArrow))
 		{
-			GameObject.Find("/Cube2/Rightarm").rigidbody.AddRelativeForce(0,0,1,ForceMode.Impulse);	
+			//GameObject.Find("/Cube2/Rightarm").rigidbody.AddRelativeForce(0,0,1,ForceMode.Impulse);	
 		}
 		if(Input.GetKey (KeyCode.DownArrow))
 		{
-			GameObject.Find("/Cube2/Rightarm").rigidbody.AddRelativeForce(0,0,-1,ForceMode.Impulse);	
+			//GameObject.Find("/Cube2/Rightarm").rigidbody.AddRelativeForce(0,0,-1,ForceMode.Impulse);	
 		}
 	}
 
