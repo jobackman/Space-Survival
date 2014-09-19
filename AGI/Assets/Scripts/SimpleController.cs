@@ -32,9 +32,8 @@ public class SimpleController : MonoBehaviour {
 			{Controller.transform.Rotate(0,Time.deltaTime*rotSpeed,0);}
 		if (Input.GetKey (KeyCode.Backspace)) {
 				Application.LoadLevel (Application.loadedLevel);
-				wiimote_stop();
 			}
-		if (Input.GetKey (KeyCode.P)) {
+		if (Input.GetKey (KeyCode.Return)) {
 			wiimote_stop();		
 			wiimote_start();
 		}
