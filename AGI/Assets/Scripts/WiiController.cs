@@ -19,7 +19,7 @@ public class WiiController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		player = GameObject.Find("/PlayerCube/");
+		//player = GameObject.Find("/PlayerCube/");
 	}
 	
 	// Update is called once per frame
@@ -33,23 +33,23 @@ public class WiiController : MonoBehaviour {
 
 			if(wiimote_getButtonA(0) && roll <= -60)
 			{
-				player.rigidbody.AddRelativeTorque(0f,0f,0.5f, ForceMode.Impulse);	
+				player.rigidbody.AddRelativeTorque(0f,0f,0.1f, ForceMode.Impulse);	
 			}
 			if(wiimote_getButtonA(0) && roll >= 30)
 			{
-				player.rigidbody.AddRelativeTorque(0f,0f,-0.5f, ForceMode.Impulse);	
+				player.rigidbody.AddRelativeTorque(0f,0f,-0.1f, ForceMode.Impulse);	
 			}
 			if (wiimote_getButtonB(0)) 
 			{
-				player.rigidbody.AddRelativeForce(0f,0f,0.5f, ForceMode.Impulse);
+				player.rigidbody.AddRelativeForce(0f,0f,1f, ForceMode.Impulse);
 			}
 			if(wiimote_getButtonA(0) && pitch >= 45)
 			{
-				player.rigidbody.AddRelativeTorque(0.5f,0f,0f, ForceMode.Impulse);	
+				player.rigidbody.AddRelativeTorque(0.1f,0f,0f, ForceMode.Impulse);	
 			}
 			if(wiimote_getButtonA(0) && pitch <= -45)
 			{
-				player.rigidbody.AddRelativeTorque(-0.5f,0f,0f, ForceMode.Impulse);	
+				player.rigidbody.AddRelativeTorque(-0.1f,0f,0f, ForceMode.Impulse);	
 			}
 		}
 	}
