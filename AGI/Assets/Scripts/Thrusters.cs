@@ -36,22 +36,22 @@ public class Thrusters : MonoBehaviour {
 	[DllImport ("UniWii")]
 	private static extern bool wiimote_getButtonB(int which);
 
-	public GameObject Player;
-
-	public GameObject backLeftThruster;
-	public GameObject backRightThruster;
-	public GameObject centerLeftThruster;
-	public GameObject centerRightThruster;
-	public GameObject sideLeftThruster;
-	public GameObject sideRightThruster; 
+	GameObject backLeftThruster;
+	GameObject backRightThruster;
+	GameObject centreLeftThruster;
+	GameObject centreRightThruster;
+	GameObject sideLeftThruster;
+	GameObject sideRightThruster; 
 	
 
 	void Update(){
+		byte accX = wiimote_getAccX(0); // 0 => wiimote nr 0. 
+		byte accY = wiimote_getAccY(0);
+		byte accZ = wiimote_getAccZ(0);
 
-		float roll = GetComponent<UniWiiCheck>().roll;
-		float pitch = GetComponent<UniWiiCheck>().pitch;
-		float yaw = GetComponent<UniWiiCheck>().roll;
-
+		float roll = wiimote_getRoll(0);
+		float pitch = wiimote_getPitch (0);
+		float yaw = wiimote_getYaw (0);
 
 		//print ("accX: " + accX + " accY: " + accY + " accZ: " + accZ);
 		//print ("Roll: " + roll + " Pitch: " + pitch + " Yaw: " + yaw);
@@ -85,13 +85,49 @@ public class Thrusters : MonoBehaviour {
 
 
 		if (RIGHT || buttonRight) {
-			print("Höger: " + buttonRight);
-			//centerRightThruster.rigidbody.AddForceAtPosition(centerRightThruster.transform.up * 1f, centerRightThruster.transform.position);
-			rigidbody.AddRelativeForce(0,0,0.1f,ForceMode.Impulse);
+			print ("Höger: " + buttonRight);
+
+			centreRightThruster = GameObject.Find("Cylinder-Centre-Right");
+
+			centreRightThruster.rigidbody.AddForceAtPosition(centreRightThruster.transform.up * 0.1f, centreRightThruster.transform.position);
+			//rigidbody.AddRelativeForce(0,0,0.1f,ForceMode.Impulse);
  		}
 		if (LEFT || buttonLeft) {
-			rigidbody.AddRelativeForce(0,0,0.1f, ForceMode.Impulse);
-			//centerLeftThruster.rigidbody.AddForceAtPosition(centerLeftThruster.transform.up * 1f, centerLeftThruster.transform.position);
+			centreLeftThruster = GameObject.Find("Cylinder-Centre-Left");
+			
+			centreLeftThruster.rigidbody.AddForceAtPosition(centreLeftThruster.transform.up * 0.1f, centreLeftThruster.transform.position);
 		}
 	}
+
+	//CUBE2 KOPPLAD TILL WIIMOTE
+	private Vector3 oldVec;
+//	void FixedUpdate () {
+//		bool A = wiimote_getButtonA(0);
+//		int c = wiimote_count();
+//		if (c>0 && A) {
+//			for (int i=0; i<=c-1; i++) {
+//				float roll = Mathf.Round(wiimote_getRoll(i));
+//				float p = Mathf.Round(wiimote_getPitch(i));
+//				float yaw = Mathf.Round(wiimote_getYaw(i));
+//				if (!float.IsNaN(roll) && !float.IsNaN(p) && (i==c-1)) {
+//					Vector3 vec = new Vector3(p, 0 , -1 * roll);
+//					vec = Vector3.Lerp(oldVec, vec, Time.deltaTime * 5);
+//					oldVec = vec;
+//					GameObject.Find("PlayerCube").transform.eulerAngles = vec;
+//				}
+//				
+//			}
+//		}
+//	}
+
+
+//	void Start ()
+//	{
+//		wiimote_start();
+//	}
+//	
+//	void OnApplicationQuit() {
+//		wiimote_stop();
+//	}
+	
 }
