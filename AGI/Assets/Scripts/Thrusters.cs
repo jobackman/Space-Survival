@@ -87,10 +87,10 @@ public class Thrusters : MonoBehaviour {
 		if (RIGHT || buttonRight) {
 			print("Höger: " + buttonRight);
 			//centerRightThruster.rigidbody.AddForceAtPosition(centerRightThruster.transform.up * 1f, centerRightThruster.transform.position);
-			rigidbody.AddRelativeForce(0,0,0.1f,ForceMode.Impulse);
+			//rigidbody.AddRelativeForce(0,0,0.1f,ForceMode.Impulse);
  		}
 		if (LEFT || buttonLeft) {
-			rigidbody.AddRelativeForce(0,0,0.1f, ForceMode.Impulse);
+			//rigidbody.AddRelativeForce(0,0,0.1f, ForceMode.Impulse);
 			//centerLeftThruster.rigidbody.AddForceAtPosition(centerLeftThruster.transform.up * 1f, centerLeftThruster.transform.position);
 		}
 	}
