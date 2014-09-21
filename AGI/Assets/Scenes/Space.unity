@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 426570928}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b6fd34b7f5284787b49ef7eba50d56d, type: 3}
   m_Name: 
@@ -2513,13 +2513,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: .300000012, y: .300000012, z: .300000012}
   m_Children:
-  - {fileID: 1742608378}
   - {fileID: 42182634}
   - {fileID: 1438484236}
   - {fileID: 1085584042}
   - {fileID: 2037622954}
   - {fileID: 557095576}
   - {fileID: 32807984}
+  - {fileID: 1742608378}
   - {fileID: 1094394557}
   - {fileID: 1495624750}
   - {fileID: 1152734428}
@@ -3819,7 +3819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!131 &1026710231
 GUITexture:
   m_ObjectHideFlags: 0
@@ -6621,6 +6621,52 @@ Transform:
   m_Children:
   - {fileID: 917962102}
   m_Father: {fileID: 164779691}
+--- !u!1 &1940281527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1940281529}
+  - 131: {fileID: 1940281528}
+  m_Layer: 0
+  m_Name: GlasImma
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &1940281528
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1940281527}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 06b28c545c12b4ea584c444953f63785, type: 3}
+  m_Color: {r: 0, g: .705882311, b: .00486811437, a: .501960814}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -32
+    y: -32
+    width: 64
+    height: 64
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &1940281529
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1940281527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.1856689, y: -4.03081036, z: 40.8291245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1001 &1959518252
 Prefab:
   m_ObjectHideFlags: 0
