@@ -21,6 +21,15 @@ public class WiiController : MonoBehaviour {
 	[DllImport ("UniWii")]
 	private static extern int wiimote_count();
 	
+	[DllImport ("UniWii")]
+	private static extern bool wiimote_getButtonNunchuckZ(int which);
+	[DllImport ("UniWii")]
+	private static extern float wiimote_getNunchuckPitch(int which);
+	
+	[DllImport ("UniWii")]
+	private static extern float wiimote_getNunchuckRoll(int which);
+	
+	
 	public GameObject player;
 	public GameObject backLeftThruster;
 	public GameObject backRightThruster;
@@ -38,6 +47,7 @@ public class WiiController : MonoBehaviour {
 	private bool ALeft;
 	private bool BLeft;
 	private float force = 10;
+	private bool nunchuck;
 	
 	// Use this for initialization
 	void Start () {
@@ -59,7 +69,11 @@ public class WiiController : MonoBehaviour {
 			
 			ARight = wiimote_getButtonA(0);
 			BRight = wiimote_getButtonB(0);
-			BLeft = wiimote_getButtonB(1);
+			
+			//BLeft = wiimote_getButtonB(1); //Buggar ganska ofta. Testar med nunchuck ist. 
+			
+			//NUNCHUCK-TEST
+			nunchuck = wiimote_getButtonNunchuckZ(0);
 			
 			//ROLL vänster
 			if(ARight && roll <= -60)
@@ -81,7 +95,7 @@ public class WiiController : MonoBehaviour {
 			}
 			
 			//SPINN -> B-button
-			if (BRight &! BLeft)
+			if (BRight &! nunchuck)
 			{
 				//player.rigidbody.AddRelativeForce(0f,0f,1f, ForceMode.Impulse);
 				
@@ -90,7 +104,7 @@ public class WiiController : MonoBehaviour {
 				centerRightThruster.rigidbody.AddForceAtPosition(centerRightThruster.transform.up * force, centerRightThruster.transform.position);
 				fuel=fuel-1;
 			}
-			if (BLeft &! BRight) 
+			if (nunchuck &! BRight) 
 			{
 				//player.rigidbody.AddRelativeForce(0f,0f,1f, ForceMode.Impulse);
 				
@@ -98,7 +112,7 @@ public class WiiController : MonoBehaviour {
 				centerRightThruster.rigidbody.AddForceAtPosition(-centerRightThruster.transform.up * force, centerRightThruster.transform.position);
 				fuel=fuel-1;
 			}
-			if(BRight && BLeft){
+			if(BRight && nunchuck){
 				centerLeftThruster.rigidbody.AddForceAtPosition(centerLeftThruster.transform.up * force, centerLeftThruster.transform.position);
 				centerRightThruster.rigidbody.AddForceAtPosition(centerRightThruster.transform.up * force, centerRightThruster.transform.position);
 				fuel=fuel-1;
@@ -128,7 +142,6 @@ public class WiiController : MonoBehaviour {
 	
 	void OnGUI()
 	{
-		GUI.Label( new Rect(Screen.width/4 -50, Screen.height/2 - 100, 500, 100), "Fuel left: " + fuel);
-		GUI.Label( new Rect(Screen.width*3/4 -50, Screen.height/2 - 100, 500, 100), "Fuel left: " + fuel);
+		GUI.Label( new Rect(100,10, 500, 100), "Fuel left: " + fuel);
 	}
 }
