@@ -46,16 +46,20 @@ public class UniWiiCheck : MonoBehaviour {
 		if (count>0) {
 			display = "";
 			for (int i=0; i<=count-1; i++) {
-				display += "Wiimote " + i + " found!\n";
+				display += "Thruster " + i + " engaged!\n";
 							}
 		}
 		else display = "Press the '1' and '2' buttons on your Wii Remote.";
 
 		// Display which wii-motes are connected
-		GUI.Label( new Rect(10,Screen.height-100, 500, 100), display);
+		// Left
+		GUI.Label( new Rect(50,Screen.height/2 + 100, 500, 30), display);
+		// Right
+		GUI.Label( new Rect(Screen.width/2 +50,Screen.height/2 + 100, 500, 30), display);
 
 		// Display Wii-mote stats
-		GUI.Label (new Rect (10, Screen.height-150, 500, 100), stats);
+		GUI.Label (new Rect (Screen.width/4 + 100, Screen.height/2+100, 500, 100), stats);
+		GUI.Label (new Rect (Screen.width*3/4 + 100, Screen.height/2+100, 500, 100), stats);
 	}
 
 	void Update(){

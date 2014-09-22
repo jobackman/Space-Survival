@@ -128,6 +128,7 @@ public class WiiController : MonoBehaviour {
 	
 	void OnGUI()
 	{
-		GUI.Label( new Rect(100,10, 500, 100), "Fuel left: " + fuel);
+		GUI.Label( new Rect(Screen.width/4 -50, Screen.height/2 - 100, 500, 100), "Fuel left: " + fuel);
+		GUI.Label( new Rect(Screen.width*3/4 -50, Screen.height/2 - 100, 500, 100), "Fuel left: " + fuel);
 	}
 }
