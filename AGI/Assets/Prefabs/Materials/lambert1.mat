@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: lambert1
-  m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: cb538abbc631f4e74ab80141299ebff8, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,12 +17,100 @@ Material:
         first:
           name: _MainTex
         second:
+          m_Texture: {fileID: 2800000, guid: 43572810c8c9e4cf786e91977598a26b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+      data:
+        first:
+          name: _Normals
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Lights
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _LightScale
+        second: 1
+      data:
+        first:
+          name: _AtmosFalloff
+        second: 3
+      data:
+        first:
+          name: _EmissionStr
+        second: 0
+      data:
+        first:
+          name: _SpecPower
+        second: 48
+      data:
+        first:
+          name: _Size
+        second: .0799999982
+      data:
+        first:
+          name: _Falloff
+        second: 5
+      data:
+        first:
+          name: _FalloffPlanet
+        second: 5
+      data:
+        first:
+          name: _Transparency
+        second: 15
+      data:
+        first:
+          name: _TransparencyPlanet
+        second: 1
     m_Colors:
       data:
         first:
           name: _Color
         second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _AtmosNear
+        second: {r: .168627501, g: .737254918, b: 1, a: 1}
+      data:
+        first:
+          name: _AtmosFar
+        second: {r: .455780804, g: .518703878, b: .98507458, a: 1}
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _AtmoColor
+        second: {r: .470588207, g: .645841837, b: 1, a: 1}
