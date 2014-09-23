@@ -67,7 +67,7 @@ Material:
       data:
         first:
           name: _AtmosFalloff
-        second: 6
+        second: 1
       data:
         first:
           name: _EmissionStr
