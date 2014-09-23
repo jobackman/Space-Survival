@@ -53,13 +53,13 @@ public class UniWiiCheck : MonoBehaviour {
 
 		// Display which wii-motes are connected
 		// Left
-		GUI.Label( new Rect(Screen.width*1/4 -100,Screen.height/2 + 100, 500, 30), display);
+		GUI.Label( new Rect(Screen.width*0.20f,Screen.height*0.5f, 500, 30), display);
 		// Right
-		GUI.Label( new Rect(Screen.width*3/4 -100,Screen.height/2 + 100, 500, 30), display);
+		GUI.Label( new Rect(Screen.width*0.70f,Screen.height*0.5f, 500, 30), display);
 
 		// Display Wii-mote stats
-		GUI.Label (new Rect (Screen.width/4 + 100, Screen.height/2+100, 500, 100), stats);
-		GUI.Label (new Rect (Screen.width*3/4 + 100, Screen.height/2+100, 500, 100), stats);
+		GUI.Label(new Rect (Screen.width*0.30f, Screen.height*0.5f, 500, 100), stats);
+		GUI.Label(new Rect (Screen.width*0.80f, Screen.height*0.5f, 500, 100), stats);
 	}
 
 	void Update(){
