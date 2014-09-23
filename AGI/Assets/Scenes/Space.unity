@@ -1677,7 +1677,6 @@ GameObject:
   - 54: {fileID: 774724327}
   - 136: {fileID: 774724332}
   - 114: {fileID: 774724330}
-  - 114: {fileID: 774724333}
   - 114: {fileID: 774724331}
   - 114: {fileID: 774724329}
   - 114: {fileID: 774724328}
@@ -1763,7 +1762,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2057901120}
   m_GameObject: {fileID: 774724324}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdda1376a3ade42deb7d2212eba7b460, type: 3}
   m_Name: 
@@ -1820,25 +1819,6 @@ CapsuleCollider:
   m_Height: 18
   m_Direction: 1
   m_Center: {x: 0, y: 9, z: 0}
---- !u!114 &774724333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400020, guid: c71b48a7b251d46e68d664bcb58f4ac2,
-    type: 2}
-  m_PrefabInternal: {fileID: 2057901120}
-  m_GameObject: {fileID: 774724324}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf8982446173c4c9494dbd0a995fa0e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 774724324}
-  backLeftThruster: {fileID: 1742608377}
-  backRightThruster: {fileID: 1094394551}
-  centerLeftThruster: {fileID: 1495624749}
-  centerRightThruster: {fileID: 1152734427}
-  sideLeftThruster: {fileID: 928572817}
-  sideRightThruster: {fileID: 795755601}
 --- !u!1 &778243379
 GameObject:
   m_ObjectHideFlags: 0
@@ -6158,17 +6138,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400020, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400014, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11400020, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
   m_RootGameObject: {fileID: 774724324}
   m_IsPrefabParent: 0
