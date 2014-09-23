@@ -49,6 +49,9 @@ public class WiiController : MonoBehaviour {
 	private float force = 10;
 	private bool nunchuck;
 	
+	//Backup if no wii
+	private bool RIGHT, LEFT;
+	
 	// Use this for initialization
 	void Start () {
 		//player = GameObject.Find("/PlayerCube/");
@@ -135,6 +138,30 @@ public class WiiController : MonoBehaviour {
 				
 				backLeftThruster.rigidbody.AddForceAtPosition(-backLeftThruster.transform.up * force, backLeftThruster.transform.position);
 				backRightThruster.rigidbody.AddForceAtPosition(-backRightThruster.transform.up * force, backRightThruster.transform.position);	
+				fuel=fuel-1;
+			}
+		}
+		else{
+			
+			RIGHT = Input.GetKey(KeyCode.RightArrow);
+			LEFT = Input.GetKey(KeyCode.LeftArrow);
+			
+			//SPINN 
+			if (RIGHT &! LEFT)
+			{
+				centerLeftThruster.rigidbody.AddForceAtPosition(-centerLeftThruster.transform.up * force, centerLeftThruster.transform.position);
+				centerRightThruster.rigidbody.AddForceAtPosition(centerRightThruster.transform.up * force, centerRightThruster.transform.position);
+				fuel=fuel-1;
+			}
+			if (LEFT &! RIGHT) 
+			{
+				centerLeftThruster.rigidbody.AddForceAtPosition(centerLeftThruster.transform.up * force, centerLeftThruster.transform.position);
+				centerRightThruster.rigidbody.AddForceAtPosition(-centerRightThruster.transform.up * force, centerRightThruster.transform.position);
+				fuel=fuel-1;
+			}
+			if(LEFT && RIGHT){
+				centerLeftThruster.rigidbody.AddForceAtPosition(centerLeftThruster.transform.up * force, centerLeftThruster.transform.position);
+				centerRightThruster.rigidbody.AddForceAtPosition(centerRightThruster.transform.up * force, centerRightThruster.transform.position);
 				fuel=fuel-1;
 			}
 		}
