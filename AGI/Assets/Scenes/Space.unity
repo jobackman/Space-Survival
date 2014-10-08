@@ -716,6 +716,7 @@ GameObject:
   - 95: {fileID: 226238689}
   - 54: {fileID: 226238688}
   - 64: {fileID: 226238687}
+  - 64: {fileID: 226238692}
   m_Layer: 11
   m_Name: Asteroid1
   m_TagString: Untagged
@@ -806,6 +807,19 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 1615010303}
   m_GameObject: {fileID: 226238685}
+  m_Mesh: {fileID: 4300000, guid: 4f46fff700fc54a0ba32ac967bb1e7cb, type: 3}
+--- !u!64 &226238692
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 226238685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: 4f46fff700fc54a0ba32ac967bb1e7cb, type: 3}
 --- !u!1 &268220971
 GameObject:
@@ -1520,13 +1534,14 @@ GameObject:
   - 124: {fileID: 701666088}
   - 92: {fileID: 701666087}
   - 114: {fileID: 701666086}
+  - 114: {fileID: 701666091}
   m_Layer: 0
   m_Name: PlanetCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &701666086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1589,10 +1604,24 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 701666085}
   m_LocalRotation: {x: 0, y: .217059642, z: 0, w: .976158321}
-  m_LocalPosition: {x: -169.991241, y: 4.15729094, z: 27.7169476}
+  m_LocalPosition: {x: -209.882141, y: -592.853516, z: 83.7101135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &701666091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701666085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: e9ba2083ad114a07d000fbfb8d76c639, type: 3}
+  blurAmount: 0
+  extraBlur: 0
 --- !u!1 &771502191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,6 +1709,10 @@ GameObject:
   - 114: {fileID: 774724331}
   - 114: {fileID: 774724329}
   - 114: {fileID: 774724328}
+  - 82: {fileID: 774724334}
+  - 114: {fileID: 774724333}
+  - 114: {fileID: 774724335}
+  - 82: {fileID: 774724336}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1749,7 +1782,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2057901120}
   m_GameObject: {fileID: 774724324}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 971d8809bf5494b1e97d56b0a704b9a8, type: 3}
   m_Name: 
@@ -1821,6 +1854,148 @@ CapsuleCollider:
   m_Height: 18
   m_Direction: 1
   m_Center: {x: 0, y: 9, z: 0}
+--- !u!114 &774724333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 774724324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950830f971aa64afdbe3c370cd55516b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Impact: {fileID: 8300000, guid: f8bfd1dd85b8b43c19c88b811c7ff437, type: 3}
+  Ouch: {fileID: 8300000, guid: 6d99191447a694047ab807a1d14e6a15, type: 3}
+  brabrabra: {fileID: 774724336}
+--- !u!82 &774724334
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 774724324}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &774724335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 774724324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54a255ee35b2493eab23586141a9adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 30
+--- !u!82 &774724336
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 774724324}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: d9b547e56efad45d581edc62761f784e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .639999986
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &778243379
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,6 +2315,7 @@ GameObject:
   - 4: {fileID: 903719058}
   - 131: {fileID: 903719057}
   - 114: {fileID: 903719056}
+  - 82: {fileID: 903719059}
   m_Layer: 0
   m_Name: Breath
   m_TagString: Untagged
@@ -2190,6 +2366,64 @@ Transform:
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!82 &903719059
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 903719055}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 304aed3a8b47f4acd8760893c261cf69, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &917962101
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,7 +2606,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 14336
   m_Lightmapping: 1
   m_ShadowSamples: 1
   m_ShadowRadius: 0
@@ -3328,6 +3562,7 @@ GameObject:
   - 95: {fileID: 1229281371}
   - 54: {fileID: 1229281370}
   - 64: {fileID: 1229281369}
+  - 64: {fileID: 1229281374}
   m_Layer: 11
   m_Name: Asteroid3
   m_TagString: Untagged
@@ -3419,6 +3654,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2049113167}
   m_GameObject: {fileID: 1229281367}
   m_Mesh: {fileID: 4300000, guid: ad39fbaa89b094682bff8c72e07a1cb8, type: 3}
+--- !u!64 &1229281374
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1229281367}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: ad39fbaa89b094682bff8c72e07a1cb8, type: 3}
 --- !u!1 &1236360297
 GameObject:
   m_ObjectHideFlags: 0
@@ -3432,6 +3680,7 @@ GameObject:
   - 95: {fileID: 1236360300}
   - 54: {fileID: 1236360299}
   - 64: {fileID: 1236360298}
+  - 64: {fileID: 1236360304}
   m_Layer: 11
   m_Name: Asteroid4
   m_TagString: Untagged
@@ -3523,6 +3772,19 @@ Transform:
   m_LocalScale: {x: 1.65856099, y: 1.65856099, z: 1.65856099}
   m_Children: []
   m_Father: {fileID: 426570929}
+--- !u!64 &1236360304
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236360297}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 76ed6c116c6f34a22abe320e5cfc2c59, type: 3}
 --- !u!1 &1259674548
 GameObject:
   m_ObjectHideFlags: 0
@@ -3630,7 +3892,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1284426070
 Transform:
   m_ObjectHideFlags: 0
@@ -3726,13 +3988,15 @@ GameObject:
   - 124: {fileID: 1314113843}
   - 81: {fileID: 1314113842}
   - 114: {fileID: 1314113841}
+  - 114: {fileID: 1314113846}
+  - 114: {fileID: 1314113847}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1314113840
 Transform:
   m_ObjectHideFlags: 0
@@ -3817,6 +4081,31 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
   m_OcclusionCulling: 1
+--- !u!114 &1314113846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1314113839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: e9ba2083ad114a07d000fbfb8d76c639, type: 3}
+  blurAmount: 0
+  extraBlur: 0
+--- !u!114 &1314113847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1314113839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3602d71193e452fa0cbc3b2051ac4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1390244411
 GameObject:
   m_ObjectHideFlags: 0
@@ -5330,7 +5619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1875488760
 Transform:
   m_ObjectHideFlags: 0
@@ -5505,6 +5794,7 @@ GameObject:
   - 95: {fileID: 1963479910}
   - 54: {fileID: 1963479909}
   - 64: {fileID: 1963479908}
+  - 64: {fileID: 1963479913}
   m_Layer: 11
   m_Name: Asteroid2
   m_TagString: Untagged
@@ -5595,6 +5885,19 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 2073617326}
   m_GameObject: {fileID: 1963479906}
+  m_Mesh: {fileID: 4300000, guid: af9e878c2ce1940c38698e084dba5140, type: 3}
+--- !u!64 &1963479913
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963479906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: af9e878c2ce1940c38698e084dba5140, type: 3}
 --- !u!1 &1973854642
 GameObject:
@@ -6034,7 +6337,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2054730415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -139.633713, y: 107.620255, z: 18.6431484}
+  m_LocalPosition: {x: -179.524612, y: -489.390564, z: 74.6363144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1568237512}
@@ -6124,11 +6427,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100126, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2000004, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
       propertyPath: far clip plane
@@ -6148,7 +6451,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400014, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
       propertyPath: fuel
@@ -6157,6 +6460,10 @@ Prefab:
     - target: {fileID: 11400014, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
       propertyPath: force
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100126, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}
+      propertyPath: m_Name
+      value: MainCamera
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400020, guid: c71b48a7b251d46e68d664bcb58f4ac2, type: 2}

@@ -21,10 +21,10 @@ public class GlasImma : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		timer = Mathf.Sin(Time.time * AndningsHastighet);
-		timer = Mathf.Abs (timer);
-		Debug.Log (timer);
-		if (timer >= 0f && timer <= 0.02f) {
-			audio.PlayOneShot(Breath);
+		//timer = Mathf.Abs (timer);
+		Debug.Log (Mathf.Ceil(timer));
+		if (timer >= 0f && timer <= 0.01f) {
+			audio.Play();
 		}
 	}
 }
