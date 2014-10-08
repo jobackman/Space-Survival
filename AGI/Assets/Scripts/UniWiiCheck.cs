@@ -46,7 +46,7 @@ public class UniWiiCheck : MonoBehaviour {
 		if (count>0) {
 			display = "";
 			for (int i=0; i<=count-1; i++) {
-				display += "Thruster " + i + " engaged!\n";
+				display = "" /*"Thruster " + i + " engaged!\n"*/;
 							}
 		}
 		else display = "Press the '1' and '2' buttons on your Wii Remote.";
@@ -58,8 +58,8 @@ public class UniWiiCheck : MonoBehaviour {
 		GUI.Label( new Rect(Screen.width*0.70f,Screen.height*0.5f, 500, 30), display);
 
 		// Display Wii-mote stats
-		GUI.Label(new Rect (Screen.width*0.30f, Screen.height*0.5f, 500, 100), stats);
-		GUI.Label(new Rect (Screen.width*0.80f, Screen.height*0.5f, 500, 100), stats);
+		//GUI.Label(new Rect (Screen.width*0.30f, Screen.height*0.5f, 500, 100), stats);
+		//GUI.Label(new Rect (Screen.width*0.80f, Screen.height*0.5f, 500, 100), stats);
 	}
 
 	void Update(){

@@ -37,6 +37,10 @@ public class SimpleController : MonoBehaviour {
 			wiimote_stop();		
 			wiimote_start();
 		}
+		if (Input.GetKey (KeyCode.P)) {
+			GameObject.Find("Player").rigidbody.velocity = Vector3.zero;
+			GameObject.Find("Player").rigidbody.angularVelocity = Vector3.zero;
+				}
 
 	}
 }
