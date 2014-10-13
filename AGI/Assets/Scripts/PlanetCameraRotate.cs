@@ -10,6 +10,7 @@ public class PlanetCameraRotate : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//Rotate planetcamera along with player
 		gameObject.transform.rotation = PlayerCamera.transform.rotation;
 	}
 }
