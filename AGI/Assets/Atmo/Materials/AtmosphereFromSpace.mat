@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Earth
-  m_Shader: {fileID: 4800000, guid: 5cef36a7ac3764a70b21749a33fe1df5, type: 3}
+  m_Name: AtmosphereFromSpace
+  m_Shader: {fileID: 4800000, guid: c5a229aaa8e6344b0aed17e6dca2f873, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,14 +17,14 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: f84f6906bb3a94658be0e275570c9eb7, type: 3}
+          m_Texture: {fileID: 2800000, guid: 0a4f6cac58a7f4cc8842d6392a9667ab, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: a4a7ed813538843f6af1da92636be790, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -36,28 +36,7 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Detail
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Normals
-        second:
-          m_Texture: {fileID: 2800000, guid: 11cb332bb49054ecf900ea3b18f2992f, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Lights
-        second:
-          m_Texture: {fileID: 2800000, guid: e398f33ff432f4ee39302aac33f37d6c, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _EmissionMap
+          name: _Cube
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -65,44 +44,64 @@ Material:
     m_Floats:
       data:
         first:
+          name: _Cutoff
+        second: .51886791
+      data:
+        first:
           name: _Shininess
-        second: .078125
+        second: 0
       data:
         first:
-          name: _LightScale
+          name: _fCameraHeight
+        second: 0
+      data:
+        first:
+          name: _fCameraHeight2
+        second: 0
+      data:
+        first:
+          name: _fOuterRadius
+        second: 0
+      data:
+        first:
+          name: _fOuterRadius2
+        second: 0
+      data:
+        first:
+          name: _fInnerRadius
+        second: 0
+      data:
+        first:
+          name: _fInnerRadius2
+        second: 0
+      data:
+        first:
+          name: _fKrESun
+        second: 0
+      data:
+        first:
+          name: _fKmESun
+        second: 0
+      data:
+        first:
+          name: _fKr4PI
+        second: 0
+      data:
+        first:
+          name: _fKm4PI
+        second: 0
+      data:
+        first:
+          name: _fScale
         second: 1
       data:
         first:
-          name: _AtmosFalloff
-        second: 1
+          name: _fScaleDepth
+        second: 0
       data:
         first:
-          name: _EmissionStr
-        second: .5
-      data:
-        first:
-          name: _SpecPower
-        second: 48
-      data:
-        first:
-          name: _Size
-        second: .00999999978
-      data:
-        first:
-          name: _Falloff
-        second: 1
-      data:
-        first:
-          name: _FalloffPlanet
-        second: .600000024
-      data:
-        first:
-          name: _Transparency
-        second: 10
-      data:
-        first:
-          name: _TransparencyPlanet
-        second: 1
+          name: _fScaleOverScaleDepth
+        second: 0
       data:
         first:
           name: _Samples
@@ -167,40 +166,71 @@ Material:
         first:
           name: _ScaleOverScaleDepth
         second: 0
+      data:
+        first:
+          name: _ESun
+        second: 0
+      data:
+        first:
+          name: _Kr
+        second: 0
+      data:
+        first:
+          name: _Km
+        second: 0
     m_Colors:
       data:
         first:
           name: _LightDir
-        second: {r: 0, g: 0, b: 0, a: 0}
+        second: {r: 8.29605407e-22, g: 8.29605407e-22, b: 8.29605407e-22, a: 8.29605407e-22}
       data:
         first:
           name: _CameraPosition
-        second: {r: 0, g: 0, b: 0, a: 0}
+        second: {r: 8.29605407e-22, g: 8.29605407e-22, b: 8.29605407e-22, a: 8.29605407e-22}
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .21130693, g: .113344014, b: .988097966, a: 0}
+      data:
+        first:
+          name: _MainTex_ST
+        second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
           name: _SpecColor
-        second: {r: .5, g: .5, b: .5, a: 1}
+        second: {r: .952864885, g: .960723281, b: .969970226, a: 0}
       data:
         first:
-          name: _AtmosNear
-        second: {r: 0, g: .318965554, b: .544117689, a: 1}
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: .5}
       data:
         first:
-          name: _AtmosFar
-        second: {r: 0, g: .482573479, b: .691176474, a: 1}
+          name: _BumpMap_ST
+        second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
-          name: _EmissionColor
-        second: {r: 1, g: 1, b: 1, a: 1}
+          name: _Emission
+        second: {r: 1.80324162e-21, g: 1.80324162e-21, b: 1.80324162e-21, a: 1.80324162e-21}
       data:
         first:
-          name: _AtmoColor
-        second: {r: .179498255, g: .216727659, b: .610294104, a: 1}
+          name: _Cube_ST
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _v4CameraPos
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _v4LightDir
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _cInvWaveLength
+        second: {r: 0, g: 0, b: 0, a: 0}
       data:
         first:
           name: _InvWaveLength
-        second: {r: 0, g: 0, b: 0, a: 0}
+        second: {r: 7.23130137e-22, g: 7.23130137e-22, b: 7.23130137e-22, a: 7.23130137e-22}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

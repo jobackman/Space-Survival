@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: unnamed
+  m_Name: Sphere
   m_Shader: {fileID: 4800000, guid: 5cef36a7ac3764a70b21749a33fe1df5, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: f84f6906bb3a94658be0e275570c9eb7, type: 3}
+          m_Texture: {fileID: 2800000, guid: d2cb7ffc39efc4a8d90752aed0264cce, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -47,7 +47,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .800000012, g: .800000012, b: .800000012, a: 1}
+        second: {r: .238402367, g: .392307699, b: .392307699, a: 1}
       data:
         first:
           name: _AtmosNear
@@ -56,3 +56,6 @@ Material:
         first:
           name: _AtmosFar
         second: {r: .455780804, g: .518703878, b: .98507458, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

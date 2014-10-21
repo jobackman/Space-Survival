@@ -127,7 +127,7 @@ public class WiiController : MonoBehaviour {
 					//PITCH forward
 				if (ARight && pitch >= 30 || Input.GetKey(KeyCode.UpArrow)) {
 					backLeftThruster.rigidbody.AddForceAtPosition (backLeftThruster.transform.up * force, backLeftThruster.transform.position);
-					backRightThruster.rigidbody.AddForceAtPosition (backRightThruster.transform.up * force, backRightThruster.transform.position);
+					backRightThruster.rigidbody.AddForceAtPosition (-backRightThruster.transform.up * force, backRightThruster.transform.position);
 					fuel = fuel - 1;
 				}
 
@@ -135,7 +135,7 @@ public class WiiController : MonoBehaviour {
 				if (ARight && pitch <= -45 || Input.GetKey(KeyCode.DownArrow)) {
 	
 					backLeftThruster.rigidbody.AddForceAtPosition (-backLeftThruster.transform.up * force, backLeftThruster.transform.position);
-					backRightThruster.rigidbody.AddForceAtPosition (-backRightThruster.transform.up * force, backRightThruster.transform.position);	
+					backRightThruster.rigidbody.AddForceAtPosition (backRightThruster.transform.up * force, backRightThruster.transform.position);	
 					fuel = fuel - 1;
 				}
 			}
