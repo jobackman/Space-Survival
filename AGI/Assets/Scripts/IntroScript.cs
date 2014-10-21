@@ -4,6 +4,11 @@ using System.Collections;
 using System.Runtime.InteropServices;
 
 public class IntroScript : MonoBehaviour {
+	[DllImport ("UniWii")]
+	private static extern void wiimote_start();
+	[DllImport ("UniWii")]
+	private static extern void wiimote_stop();
+
 	[DllImport("UniWii")]
 	private static extern Boolean wiimote_getButtonA(int which);
 	
@@ -27,7 +32,8 @@ public class IntroScript : MonoBehaviour {
 	
 	[DllImport ("UniWii")]
 	private static extern float wiimote_getNunchuckRoll(int which);
-	
+	[DllImport ("UniWii")]
+	private static extern void wiimote_rumble( int which, float duration);
 	
 	public GameObject player;
 	public GameObject backLeftThruster;
@@ -49,6 +55,7 @@ public class IntroScript : MonoBehaviour {
 	private bool ALeft;
 	private bool BLeft;
 	private bool nunchuck;
+	private int count;
 	
 	//Backup if no wii
 	private bool RIGHT, LEFT, UP, DOWN;
@@ -69,14 +76,16 @@ public class IntroScript : MonoBehaviour {
 		rollLeft = false;
 		rollRight = false; 
 		instructions = cameratext.GetComponent<TextMesh> ();
+
+		wiimote_start ();
+		updateText ("Press the '1' and '2' buttons on your Wii Remote.");
 	}
 	
 	void FixedUpdate () {
-		int count = wiimote_count ();
+		count = wiimote_count ();
 		if (count > 0 || keyboardControls) {
-
-			roll = GetComponent<UniWiiCheck> ().roll;
-			pitch = GetComponent<UniWiiCheck> ().pitch;
+			roll = wiimote_getRoll(0);
+			pitch = wiimote_getPitch(0);
 			
 			ARight = wiimote_getButtonA (0);
 			BRight = wiimote_getButtonB (0);
@@ -134,7 +143,7 @@ public class IntroScript : MonoBehaviour {
 				}
 	
 				//Level 4, unlock pitchDown to proceed
-				if(!pitchDown && moveForward && (ARight && pitch >= 45 || DOWN)){
+				if(!pitchDown && moveForward && (ARight && pitch >= 30 || DOWN)){
 					activateThruster(backLeftThruster, backRightThruster, 1, 1);
 					fuel = fuel - 1;
 					pitchDown = true;
@@ -179,7 +188,7 @@ public class IntroScript : MonoBehaviour {
 					fuel = fuel - 1;
 					rollRight = true;
 					updateText ("GREAT! All levels unlocked!");
-					Application.LoadLevel("Space");
+//					Application.LoadLevel("Space");
 				}
 				//rollRight unlocked!
 				else if(rollRight && rollLeft && (ARight && roll >= 30)){
@@ -209,5 +218,9 @@ public class IntroScript : MonoBehaviour {
 	void OnGUI()
 	{
 
+	}
+
+	void OnApplicationQuit() {
+		wiimote_stop();
 	}
 }
