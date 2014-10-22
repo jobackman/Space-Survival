@@ -11,12 +11,12 @@ public class WiiController : MonoBehaviour {
 	[DllImport("UniWii")]
 	private static extern Boolean wiimote_getButtonB(int which);
 	
-	[DllImport ("UniWii")]
-	private static extern float wiimote_getRoll(int which);
-	[DllImport ("UniWii")]
-	private static extern float wiimote_getPitch(int which);
-	[DllImport ("UniWii")]
-	private static extern float wiimote_getYaw(int which);
+//	[DllImport ("UniWii")]
+//	private static extern float wiimote_getRoll(int which);
+//	[DllImport ("UniWii")]
+//	private static extern float wiimote_getPitch(int which);
+//	[DllImport ("UniWii")]
+//	private static extern float wiimote_getYaw(int which);
 	
 	[DllImport ("UniWii")]
 	private static extern int wiimote_count();
