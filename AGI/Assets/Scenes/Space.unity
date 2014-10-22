@@ -1583,12 +1583,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6fd34b7f5284787b49ef7eba50d56d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amount: 0
-  roids: []
-  fieldRadius: 0
-  maxSize: 0
-  maxSpeed: 0
-  maxRotationSpeed: 0
+  amount: 75
+  roids:
+  - {fileID: 226238685}
+  - {fileID: 1963479906}
+  - {fileID: 1229281367}
+  - {fileID: 1236360297}
+  fieldRadius: 400
+  maxSize: 20
+  maxSpeed: 10
+  maxRotationSpeed: 2
 --- !u!1 &427341872
 GameObject:
   m_ObjectHideFlags: 0
