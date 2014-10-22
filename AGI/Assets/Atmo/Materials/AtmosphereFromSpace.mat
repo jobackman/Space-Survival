@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: AtmosphereFromSpace
-  m_Shader: {fileID: 4800000, guid: c5a229aaa8e6344b0aed17e6dca2f873, type: 3}
+  m_Shader: {fileID: 4800000, guid: c487f2a086e4041b58d735e2bd3e6888, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:

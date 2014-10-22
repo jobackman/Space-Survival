@@ -105,7 +105,7 @@ public class WinCollision : MonoBehaviour {
 				//If your score isn't high enough, print it above the Highscore-list
 				if(i==HighScoreList.Count && i==numberOfHighScores && score<HighScoreList[i-1].score){
 					print ("Third if");
-					text += "Your score: "+ score + "\n \n";
+					text = "Your score: "+ score + "\n \n";
 					break;
 				}
 			}

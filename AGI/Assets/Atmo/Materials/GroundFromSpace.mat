@@ -7,13 +7,65 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: GroundFromSpace
-  m_Shader: {fileID: 4800000, guid: a6f179dc31da848fe83959df7ecb3435, type: 3}
+  m_Shader: {fileID: 4800000, guid: 79e7c5cb09f1047ce803ebeb8b2ed5f8, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs: {}
     m_Floats:
+      data:
+        first:
+          name: _fCameraHeight
+        second: 0
+      data:
+        first:
+          name: _fCameraHeight2
+        second: 0
+      data:
+        first:
+          name: _fOuterRadius
+        second: 0
+      data:
+        first:
+          name: _fOuterRadius2
+        second: 0
+      data:
+        first:
+          name: _fInnerRadius
+        second: 0
+      data:
+        first:
+          name: _fInnerRadius2
+        second: 0
+      data:
+        first:
+          name: _fKrESun
+        second: 0
+      data:
+        first:
+          name: _fKmESun
+        second: 0
+      data:
+        first:
+          name: _fKr4PI
+        second: 0
+      data:
+        first:
+          name: _fKm4PI
+        second: 0
+      data:
+        first:
+          name: _fScale
+        second: 0
+      data:
+        first:
+          name: _fScaleDepth
+        second: 0
+      data:
+        first:
+          name: _fScaleOverScaleDepth
+        second: 0
       data:
         first:
           name: _Samples
@@ -86,6 +138,18 @@ Material:
       data:
         first:
           name: _CameraPosition
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _v4CameraPos
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _v4LightDir
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _cInvWaveLength
         second: {r: 0, g: 0, b: 0, a: 0}
       data:
         first:
