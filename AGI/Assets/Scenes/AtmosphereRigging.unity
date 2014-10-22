@@ -111,33 +111,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 147879840}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa3d805755f7e4b93ab95fd309104631, type: 3}
+  m_Script: {fileID: 11500000, guid: b8bc7a1b5002644749fe44d740cd826b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 204724933}
   sunLight: {fileID: 929942489}
-  sunLightDirection: {x: .886434138, y: .392783701, z: -.244858503}
-  waveLength: {r: .649999976, g: .569999993, b: .474999994, a: .5}
-  invWaveLength: {r: 5.60204554, g: 9.47328472, b: 19.6438026, a: .5}
-  cameraHeight: 3.18861365
-  cameraHeight2: 10.1672573
-  outerRadius: 1.02499998
-  outerRadius2: 1.05062497
-  innerRadius: .999374986
-  innerRadius2: .998750389
-  ESun: 35
-  Kr: .00249999994
-  Km: .00150000001
-  KrESun: .0374999978
-  KmESun: .0225000009
-  Kr4PI: .0314159282
-  Km4PI: .0188495573
-  scale: 39.0244064
-  scaleDepth: .25
-  scaleOverScaleDepth: 156.097626
-  samples: 4
-  g: -.980000019
-  g2: .960400045
+  sunLightDirection: {x: 0, y: 0, z: 0}
+  waveLength: {r: 0, g: 0, b: 0, a: 0}
+  invWaveLength: {r: 0, g: 0, b: 0, a: 0}
+  cameraHeight: 0
+  cameraHeight2: 0
+  outerRadius: 0
+  outerRadius2: 0
+  innerRadius: 0
+  innerRadius2: 0
+  ESun: 0
+  Kr: 0
+  Km: 0
+  KrESun: 0
+  KmESun: 0
+  Kr4PI: 0
+  Km4PI: 0
+  scale: 0
+  scaleDepth: 0
+  scaleOverScaleDepth: 0
+  samples: 0
+  g: 0
+  g2: 0
 --- !u!23 &147879843
 Renderer:
   m_ObjectHideFlags: 0
@@ -151,7 +151,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 7967af4f4e70c44e0bbec2246c9bab3f, type: 2}
+  - {fileID: 2100000, guid: b7479e3406fb14e6ea149251bc77fc8c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -167,7 +167,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 147879840}
-  m_Mesh: {fileID: 4300000, guid: dee0c09beb9bd423cb0a6ff42a2d5e5c, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 7e5f01fcfe2b64aab8b26d88f05ad231, type: 2}
 --- !u!1 &189519269
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 189519269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3090c3e578c8949b49c3c795f480511e, type: 3}
+  m_Script: {fileID: 11500000, guid: 51a81bd150c44406dab926813f75e86d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 204724933}
@@ -212,7 +212,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 4008d93ab0a3c446ba9f7d1123ff639a, type: 2}
+  - {fileID: 2100000, guid: ffdf62ddb3c5f4761814f466ce0d24cd, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -228,7 +228,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 189519269}
-  m_Mesh: {fileID: 4300000, guid: dee0c09beb9bd423cb0a6ff42a2d5e5c, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 7e5f01fcfe2b64aab8b26d88f05ad231, type: 2}
 --- !u!4 &189519273
 Transform:
   m_ObjectHideFlags: 0
@@ -283,7 +283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3e128a75594487482e427ac2654923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Controller: {fileID: 204724932}
   speed: 50
   rotSpeed: 50
 --- !u!114 &204724935
@@ -417,7 +416,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 570535442}
-  m_Mesh: {fileID: 4300000, guid: dee0c09beb9bd423cb0a6ff42a2d5e5c, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 7e5f01fcfe2b64aab8b26d88f05ad231, type: 2}
 --- !u!1 &929942489
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,7 +488,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 929942489}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9827883598b67468698c3d308af215f0, type: 3}
+  m_Script: {fileID: 11500000, guid: 489a25cf788e34b57b4559b8145830dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rotSpeed: 50
