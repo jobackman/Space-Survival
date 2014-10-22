@@ -3,15 +3,18 @@ using System.Collections;
 
 public class ParticleSystem : MonoBehaviour {
 
+
+	public GameObject thruster;
+
 	// Use this for initialization
 	void Start () {
-		Particle p = new Particle ();
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		//The position of the thruster, i.e. where to add the particles
+		Vector3 position = thruster.transform.position;
 	}
 }
 
@@ -21,8 +24,7 @@ class Particle{
 	Vector3 acceleration;
 	float lifetime; 
 
-	Particle(Vector3 pos){
-		position = pos;
+	Particle(){
 		velocity = new Vector3 (0,0,1);
 		acceleration = new Vector3(0, 0, 1);
 		lifetime = 5;
