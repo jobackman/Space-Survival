@@ -1991,8 +1991,7 @@ Transform:
   m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
   m_LocalPosition: {x: -2.20849347, y: 11.3243179, z: .291499913}
   m_LocalScale: {x: 1, y: 2, z: 1}
-  m_Children:
-  - {fileID: 1633129081}
+  m_Children: []
   m_Father: {fileID: 774724325}
 --- !u!138 &928572820
 FixedJoint:
@@ -2588,7 +2587,8 @@ Transform:
   m_LocalRotation: {x: .5, y: .5, z: .5, w: .5}
   m_LocalPosition: {x: 2.12656212, y: 9.19999981, z: -1.11054075}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1633129081}
   m_Father: {fileID: 774724325}
 --- !u!138 &1152734430
 FixedJoint:
@@ -3882,23 +3882,24 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1633129080}
-  m_LocalRotation: {x: -.475666791, y: -.523202777, z: -.523202777, w: .475666791}
-  m_LocalPosition: {x: -1.26124418, y: -.808505058, z: 2.31598949}
-  m_LocalScale: {x: 3.33333254, y: 3.3333323, z: 1.66666627}
+  m_LocalRotation: {x: -.706307411, y: -.033612933, z: -.706307471, w: -.0336130299}
+  m_LocalPosition: {x: .199999809, y: -.540013433, z: -.0899374485}
+  m_LocalScale: {x: 3.33333278, y: 3.33333302, z: 3.33333373}
   m_Children: []
-  m_Father: {fileID: 928572818}
+  m_Father: {fileID: 1152734428}
 --- !u!114 &1633129082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1633129080}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff3274c9c5fa4ef79203d6993695f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thruster: {fileID: 0}
+  thruster: {fileID: 1152734427}
+  numberOfParticles: 10
 --- !u!199 &1633129083
 ParticleSystemRenderer:
   m_ObjectHideFlags: 0
@@ -3945,7 +3946,7 @@ ParticleSystem:
   looping: 1
   prewarm: 0
   playOnAwake: 1
-  moveWithTransform: 1
+  moveWithTransform: 0
   InitialModule:
     enabled: 1
     startLifetime:
@@ -4179,7 +4180,7 @@ ParticleSystem:
     maxNumParticles: 1000
   ShapeModule:
     serializedVersion: 2
-    enabled: 1
+    enabled: 0
     type: 4
     radius: 1
     angle: 25
@@ -4191,7 +4192,7 @@ ParticleSystem:
     m_Mesh: {fileID: 0}
     randomDirection: 0
   EmissionModule:
-    enabled: 1
+    enabled: 0
     m_Type: 0
     rate:
       scalar: 10
@@ -4761,11 +4762,6 @@ ParticleSystem:
           inSlope: 0
           outSlope: 0
           tangentMode: 0
-        - time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
       minCurve:
@@ -4776,14 +4772,9 @@ ParticleSystem:
           inSlope: 0
           outSlope: 0
           tangentMode: 0
-        - time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
-      minMaxState: 0
+      minMaxState: 3
     separateAxis: 0
     inWorldSpace: 0
     dampen: 1
