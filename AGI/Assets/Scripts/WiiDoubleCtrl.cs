@@ -155,6 +155,6 @@ public class WiiDoubleCtrl : MonoBehaviour {
 	void OnGUI()
 	{
 		//Update fuelMeter text value
-		fuelMeter.GetComponent<TextMesh>().text = fuel.ToString();
+		fuelMeter.GetComponent<TextMesh>().text = "FUEL: " + fuel.ToString();
 	}
 }

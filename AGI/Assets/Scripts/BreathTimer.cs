@@ -26,7 +26,7 @@ public class BreathTimer : MonoBehaviour {
 
 			// Update percentage of oxygen left, and print to 3DText
 			percent = (int)(timer/totTime * 100);
-			oxygenMeter.GetComponent<TextMesh>().text = percent.ToString() + "%";
+			oxygenMeter.GetComponent<TextMesh>().text = "OXYGEN: " + percent.ToString() + "%";
 		}
 	}
 	
