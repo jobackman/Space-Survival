@@ -107,6 +107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roll: 0
   pitch: 0
+  B: 0
+  A: 0
   count: 0
 --- !u!81 &569526873
 AudioListener:

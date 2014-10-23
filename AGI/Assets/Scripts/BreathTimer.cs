@@ -36,7 +36,9 @@ public class BreathTimer : MonoBehaviour {
 			// Disable controls when you die.
 			wiicontroller.enabled = false;
 			//simplecontroller.enabled = false;
-			mouselookmod.enabled = false;
+			//mouselookmod.enabled = false;
+			
+
 		}
 	}
 }

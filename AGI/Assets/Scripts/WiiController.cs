@@ -23,11 +23,11 @@ public class WiiController : MonoBehaviour {
 	
 	[DllImport ("UniWii")]
 	private static extern bool wiimote_getButtonNunchuckZ(int which);
-	[DllImport ("UniWii")]
-	private static extern float wiimote_getNunchuckPitch(int which);
-	
-	[DllImport ("UniWii")]
-	private static extern float wiimote_getNunchuckRoll(int which);
+//	[DllImport ("UniWii")]
+//	private static extern float wiimote_getNunchuckPitch(int which);
+//	
+//	[DllImport ("UniWii")]
+//	private static extern float wiimote_getNunchuckRoll(int which);
 	
 	
 	public GameObject player;

@@ -41,5 +41,12 @@ public class SimpleController : MonoBehaviour {
 			rigidbody.angularVelocity = Vector3.zero;
 		}
 
+		if (Input.GetKey (KeyCode.F1)) 
+			Application.LoadLevel ("ConnectWii");
+		if (Input.GetKey (KeyCode.F2)) 
+			Application.LoadLevel ("IntroScene");
+		if (Input.GetKey (KeyCode.F3))
+			Application.LoadLevel ("Space");
+
 	}
 }
