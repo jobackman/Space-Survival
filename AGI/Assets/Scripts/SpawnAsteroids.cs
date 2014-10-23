@@ -26,7 +26,7 @@ public class SpawnAsteroids : MonoBehaviour {
 	void spawn(GameObject roid){
 
 		//Instantiate a new asteroid in a random place within radius, random rotation
-		GameObject newroid = (GameObject)Instantiate(roid, Random.insideUnitSphere * fieldRadius + new Vector3(0,0,fieldRadius/2), Random.rotation);
+		GameObject newroid = (GameObject)Instantiate(roid, Random.insideUnitSphere * fieldRadius + new Vector3(-fieldRadius,0,0), Random.rotation);
 		
 		// Randomize velocity, rotationspeed and set mass according to scale.
 		float size = Random.Range(0.02f, maxSize);
