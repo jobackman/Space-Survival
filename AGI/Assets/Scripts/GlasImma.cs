@@ -15,15 +15,13 @@ public class GlasImma : MonoBehaviour {
 		Color textureColor = guiTexture.color;
 		textureColor.a = Mathf.Sin(Time.time * AndningsHastighet);
 		guiTexture.color = textureColor;
-
-
 	}
 	// Update is called once per frame
 	void Update () {
 		timer = Mathf.Sin(Time.time * AndningsHastighet);
 		//timer = Mathf.Abs (timer);
-		Debug.Log (Mathf.Ceil(timer));
-		if (timer >= 0f && timer <= 0.01f) {
+		Debug.Log(timer);
+		if (timer >= 0f && timer <= 0.0001f) {
 			audio.Play();
 		}
 	}
