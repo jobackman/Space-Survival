@@ -159,7 +159,7 @@ public class WiiDoubleCtrl : MonoBehaviour {
 
 	void activateThruster(GameObject t1, int d1){
 		t1.rigidbody.AddForceAtPosition (d1*t1.transform.up * force, t1.transform.position);
-		thrustersound.on = true;
+		//thrustersound.on = true;
 	}
 	
 	void OnGUI()

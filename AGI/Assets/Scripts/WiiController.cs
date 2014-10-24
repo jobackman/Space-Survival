@@ -55,6 +55,7 @@ public class WiiController : MonoBehaviour {
 	private bool nunchuck;
 
 	ThrusterSound thrustersound;
+	
 
 	//Backup if no wii
 	private bool RIGHT, LEFT;
@@ -83,6 +84,9 @@ public class WiiController : MonoBehaviour {
 			if(Input.GetKey(KeyCode.LeftArrow)){ nunchuck = true;}
 			
 			//BLeft = wiimote_getButtonB(1); //Buggar ganska ofta. Testar med nunchuck ist. 
+
+			RIGHT = Input.GetKey(KeyCode.RightArrow);
+			LEFT = Input.GetKey(KeyCode.LeftArrow);
 		
 			if (fuel > 0) {
 				//ROLL left
@@ -92,6 +96,7 @@ public class WiiController : MonoBehaviour {
 					sideLeftThruster.rigidbody.AddForceAtPosition (-sideLeftThruster.transform.up * force, sideLeftThruster.transform.position);
 
 					fuel = fuel - 1;
+					thrustersound.soundOn = true;
 				}
 				//ROLL right
 				if (ARight && roll >= 30) {
@@ -100,24 +105,27 @@ public class WiiController : MonoBehaviour {
 					sideRightThruster.rigidbody.AddForceAtPosition (-sideRightThruster.transform.up * force, sideRightThruster.transform.position);
 
 					fuel = fuel - 1;
+					thrustersound.soundOn = true;
 				}
 
 				//Right thruster only
-				if (BRight & ! nunchuck) {
+				if ((BRight & ! nunchuck) || RIGHT) {
 
 					centerLeftThruster.rigidbody.AddForceAtPosition (-centerLeftThruster.transform.up * force, centerLeftThruster.transform.position);
 					centerRightThruster.rigidbody.AddForceAtPosition (centerRightThruster.transform.up * force, centerRightThruster.transform.position);
 					
 					fuel = fuel - 1;
+					thrustersound.soundOn = true;
 
 				}
 				// Left thruster only
-				if (nunchuck & ! BRight) {
+				if ((nunchuck & ! BRight) || LEFT) {
 
 					centerLeftThruster.rigidbody.AddForceAtPosition (centerLeftThruster.transform.up * force, centerLeftThruster.transform.position);
 					centerRightThruster.rigidbody.AddForceAtPosition (-centerRightThruster.transform.up * force, centerRightThruster.transform.position);
 					
 					fuel = fuel - 1;
+					thrustersound.soundOn = true;
 				}
 				// Both thrusters FORWARD WE GO
 				if (BRight && nunchuck) {
@@ -125,6 +133,7 @@ public class WiiController : MonoBehaviour {
 					centerRightThruster.rigidbody.AddForceAtPosition (centerRightThruster.transform.up * force, centerRightThruster.transform.position);
 					
 					fuel = fuel - 1;
+					thrustersound.soundOn = true;
 				}
 
 
@@ -133,6 +142,7 @@ public class WiiController : MonoBehaviour {
 					backLeftThruster.rigidbody.AddForceAtPosition (backLeftThruster.transform.up * force, backLeftThruster.transform.position);
 					backRightThruster.rigidbody.AddForceAtPosition (-backRightThruster.transform.up * force, backRightThruster.transform.position);
 					fuel = fuel - 1;
+					thrustersound.soundOn = true;
 				}
 
 					//PITCH backwards
@@ -141,14 +151,23 @@ public class WiiController : MonoBehaviour {
 					backLeftThruster.rigidbody.AddForceAtPosition (-backLeftThruster.transform.up * force, backLeftThruster.transform.position);
 					backRightThruster.rigidbody.AddForceAtPosition (backRightThruster.transform.up * force, backRightThruster.transform.position);	
 					fuel = fuel - 1;
+					thrustersound.soundOn = true;
 				}
 			}
 
 			//Update fuelMeter size value;
 			percent = (fuel/maxfuel)*100;
+
+
+			if(!ARight && !BRight && !ALeft && !BLeft && !nunchuck){
+			//FÖR TILLFÄLLET BARA KOPPLAT TILL LEFT/RIGHT-ARROW M
+			//if(!RIGHT && !LEFT){
+				//stäng av ljudhelvete
+				thrustersound.soundOn = false;
+			}
 		}
 	}
-	
+
 	void OnGUI()
 	{
 		//Update fuelMeter text value

@@ -3789,7 +3789,7 @@ MonoBehaviour:
   WN: {fileID: 8300000, guid: 4c66c293875db42179ce0a262183247d, type: 3}
   WNfadeOut: {fileID: 8300000, guid: 2e07b2a92275949aaa7fcd45f94c5381, type: 3}
   WNAudioSource: {fileID: 749523549}
-  on: 0
+  soundOn: 0
 --- !u!1 &750878658
 GameObject:
   m_ObjectHideFlags: 0
@@ -9493,7 +9493,6 @@ GameObject:
   - 114: {fileID: 1656449386}
   - 114: {fileID: 1656449385}
   - 114: {fileID: 1656449384}
-  - 82: {fileID: 1656449383}
   - 114: {fileID: 1656449382}
   - 114: {fileID: 1656449380}
   m_Layer: 0
@@ -9579,64 +9578,6 @@ MonoBehaviour:
   Ouch: {fileID: 8300000, guid: 6d99191447a694047ab807a1d14e6a15, type: 3}
   die: {fileID: 8300000, guid: d9b547e56efad45d581edc62761f784e, type: 3}
   stopbreathing: {fileID: 903719059}
---- !u!82 &1656449383
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1656449376}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Priority: 115
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
 --- !u!114 &1656449384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9657,7 +9598,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1656449376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33538dc12a526405b849df50ffb72bcb, type: 3}
   m_Name: 
@@ -9680,7 +9621,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1656449376}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdda1376a3ade42deb7d2212eba7b460, type: 3}
   m_Name: 
@@ -9727,7 +9668,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1656449376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae64f2c63a68049809a893f90d07d204, type: 3}
   m_Name: 
