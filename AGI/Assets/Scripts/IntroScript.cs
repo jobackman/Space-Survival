@@ -77,7 +77,7 @@ public class IntroScript : MonoBehaviour {
 		rollRight = false; 
 		instructions = cameratext.GetComponent<TextMesh> ();
 
-		updateText ("Press the right trigger!.");
+		updateText ("Press the right trigger!");
 	}
 	
 	void FixedUpdate () {
