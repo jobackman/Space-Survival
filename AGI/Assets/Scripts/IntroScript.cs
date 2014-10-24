@@ -77,8 +77,7 @@ public class IntroScript : MonoBehaviour {
 		rollRight = false; 
 		instructions = cameratext.GetComponent<TextMesh> ();
 
-		wiimote_start ();
-		updateText ("Press the '1' and '2' buttons on your Wii Remote.");
+		updateText ("Press the right trigger!.");
 	}
 	
 	void FixedUpdate () {
@@ -134,7 +133,7 @@ public class IntroScript : MonoBehaviour {
 					activateThruster(centerLeftThruster, centerRightThruster, 1, 1);
 					fuel = fuel - 1;
 					moveForward = true;
-					updateText ("Tilt the wiimote forward and press the A button");
+					updateText ("Tilt the wiimote forward and hold the A button");
 				}
 				//moveForward unlocked
 				else if(moveForward && (BRight && nunchuck || (LEFT && RIGHT))){
