@@ -57,9 +57,12 @@ public class WiiDoubleCtrl : MonoBehaviour {
 
 	private bool nunchuck;
 
+	ThrusterSound thrustersound;
+
 	// Use this for initialization
 	void Start () {
 		maxfuel = fuel;
+		thrustersound = GameObject.Find("Thrusters").GetComponent<ThrusterSound> ();
 	}
 	
 	// Update is called once per frame
@@ -84,7 +87,7 @@ public class WiiDoubleCtrl : MonoBehaviour {
 			// ################# RIGHT HALF ####################
 
 				//Right thruster only
-				if (BRight) {
+				if (BRight || Input.GetKey(KeyCode.RightArrow)) {
 					activateThruster(centerRightThruster, 1);
 					fuel = fuel - 1;
 				}
@@ -114,7 +117,7 @@ public class WiiDoubleCtrl : MonoBehaviour {
 
 			// ####################### LEFT HALF ###########################
 				// Left thruster only
-				if (BLeft) {
+				if (BLeft || Input.GetKey(KeyCode.LeftArrow)) {
 					activateThruster(centerLeftThruster, 1);	
 					fuel = fuel - 1;
 				}
@@ -145,11 +148,18 @@ public class WiiDoubleCtrl : MonoBehaviour {
 			
 			//Update fuelMeter size value;
 			percent = (fuel/maxfuel)*100;
+
+//			if(!ALeft && !ARight && !BLeft && !BRight && !Input.GetKey(KeyCode.UpArrow))
+//			{
+//				thrustersound.on = false;
+//			}
+
 		}
 	}
 
 	void activateThruster(GameObject t1, int d1){
 		t1.rigidbody.AddForceAtPosition (d1*t1.transform.up * force, t1.transform.position);
+		thrustersound.on = true;
 	}
 	
 	void OnGUI()

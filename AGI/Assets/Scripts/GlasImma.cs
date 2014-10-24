@@ -12,9 +12,9 @@ public class GlasImma : MonoBehaviour {
 
 	void OnGUI()
 	{
-		Color textureColor = guiTexture.color;
-		textureColor.a = Mathf.Sin(Time.time * AndningsHastighet);
-		guiTexture.color = textureColor;
+//		Color textureColor = guiTexture.color;
+//		textureColor.a = Mathf.Sin(Time.time * AndningsHastighet);
+//		guiTexture.color = textureColor;
 	}
 	// Update is called once per frame
 	void Update () {

@@ -53,13 +53,16 @@ public class WiiController : MonoBehaviour {
 	private bool ALeft;
 	private bool BLeft;
 	private bool nunchuck;
-	
+
+	ThrusterSound thrustersound;
+
 	//Backup if no wii
 	private bool RIGHT, LEFT;
 	
 	// Use this for initialization
 	void Start () {
 		maxfuel = fuel;
+		thrustersound = GameObject.Find("Thrusters").GetComponent<ThrusterSound>();
 	}
 	
 	// Update is called once per frame
@@ -106,6 +109,7 @@ public class WiiController : MonoBehaviour {
 					centerRightThruster.rigidbody.AddForceAtPosition (centerRightThruster.transform.up * force, centerRightThruster.transform.position);
 					
 					fuel = fuel - 1;
+
 				}
 				// Left thruster only
 				if (nunchuck & ! BRight) {
