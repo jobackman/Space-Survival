@@ -81,7 +81,6 @@ v2f vert (float4 vertex : POSITION) {
   fFar -= fNear;
   
   float v3StartAngle = dot(v3Ray,v3Start) / _fOuterRadius;
-  //float v3StartDepth = exp (_fScaleOverScaleDepth * (_fInnerRadius - _fCameraHeight));
   float v3StartDepth = exp(-1.0 / _fScaleDepth);
   float v3StartOffset = v3StartDepth * expScale(v3StartAngle);
   float fSampleLength = fFar / _Samples;

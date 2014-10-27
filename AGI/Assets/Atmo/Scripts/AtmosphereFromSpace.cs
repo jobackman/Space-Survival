@@ -29,44 +29,36 @@ public class AtmosphereFromSpace : MonoBehaviour {
     public float g2;
 	
 	void Start() {
-	    //sunLight = GameObject.Find("Sun");
-        //mainCamera = GameObject.Find("PlanetCamera").transform;
 	    sunLightDirection = sunLight.transform.TransformDirection (-Vector3.forward);
 	    waveLength = new Color(0.650f, 0.570f, 0.475f, 0.5f);
 	    invWaveLength = new Color (pow(waveLength[0],4),pow(waveLength[1],4),pow(waveLength[2],4),0.5f);
 	    cameraHeight = mainCamera.position.magnitude;
-            outerRadius = transform.localScale.y;//100f;//6530.28f;
-            outerRadius2 = outerRadius * outerRadius;
-			innerRadius = outerRadius * 0.975f;//6371f;
-	    innerRadius2 = innerRadius * innerRadius;
-		ESun = 25f; //15f;
-	    Kr = 0.0025f;
-	    Km = 0.0015f;
+
+	    outerRadius = transform.localScale.y;		//Radius of atmosphere, 2.5% larger than the ground
+	    outerRadius2 = outerRadius * outerRadius;
+		innerRadius = outerRadius * 0.975f;			//Radius of ground
+    	innerRadius2 = innerRadius * innerRadius;
+
+		ESun = 25f;					//Brightness of sun
+	    Kr = 0.0025f;				//Rayleigh scattering constant
+	    Km = 0.0015f;				//Mie scattering constant
 	    KrESun = Kr * ESun;
 	    KmESun = Km * ESun;
 	    Kr4PI = Kr * 4.0f * Mathf.PI;
 	    Km4PI	= Km * 4.0f * Mathf.PI;
+
 	    scale = 1f / (outerRadius - innerRadius);
 		scaleDepth = 0.25f;
 	    scaleOverScaleDepth = scale / scaleDepth;
-		samples = 4f;
-		g = -0.98f;
+		samples = 4f;								
+		g = -0.95f;		//Gravity
 	    g2 = g*g;
 	}
-	
-	//void OnGUI() {
-	  //if (debug) { 
-	    //waveLength = DebugUtility.RGBSlider (new Rect (10,10,100,20), waveLength);
-	    //ESun = DebugUtility.LabelSlider(new Rect (10,70,100,20), ESun, 50,"ESun: " + ESun );
-        //Kr = DebugUtility.LabelSlider(new Rect (10,90,100,20), Kr, 0.01f,"Kr: " + Kr);
-        //Km = DebugUtility.LabelSlider(new Rect (10,110,100,20), Km, 0.01f,"Km: " + Km);
-        //scaleDepth = DebugUtility.LabelSlider(new Rect (10,130,100,20), scaleDepth, 1.0f,"Scale Depth: " + scaleDepth);
-	    //g = DebugUtility.LabelSlider(new Rect (10,150,100,20), g, -1.0f,"G: " + g);
-	  //}
-	//}
-	
-	// Update is called once per frame
+
+
+	// Update variables such as cameraposition or sun when it moves
 	void LateUpdate () {
+
 	    sunLightDirection = sunLight.transform.TransformDirection (-Vector3.forward);
 
         invWaveLength = new Color(pow(waveLength[0], 4), pow(waveLength[1], 4), pow(waveLength[2], 4), 0.5f);
@@ -84,7 +76,7 @@ public class AtmosphereFromSpace : MonoBehaviour {
         scaleOverScaleDepth = scale / scaleDepth;
         g2 = g * g;
 
-	    // Pass in variables to the Shader
+	    // Pass variables to Shader
 	    renderer.material.SetVector("_v4CameraPos",new Vector4(mainCamera.position[0],mainCamera.position[1],mainCamera.position[2], 0));
 	  
 	    renderer.material.SetVector("_v4LightDir", new Vector4(sunLightDirection[0],sunLightDirection[1],sunLightDirection[2],0));
