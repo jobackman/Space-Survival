@@ -19,7 +19,7 @@ RenderSettings:
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientLight: {r: 0, g: 0, b: 0, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: b9be0c15efe8ad9489fdeead114d8ec5, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 96a7f493e073848ff8bdb5dcac671a51, type: 2}
   m_HaloStrength: .5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -4214,9 +4214,9 @@ MonoBehaviour:
   sideLeftThruster: {fileID: 928572817}
   sideRightThruster: {fileID: 795755601}
   fuel: 5000
+  force: 15
   percent: 0
   fuelMeter: {fileID: 913695392}
-  force: 15
   keyboardControls: 1
 --- !u!114 &774724330
 MonoBehaviour:
@@ -9872,9 +9872,9 @@ MonoBehaviour:
   sideLeftThruster: {fileID: 932993663}
   sideRightThruster: {fileID: 310938116}
   fuel: 7000
+  force: 25
   percent: 0
   fuelMeter: {fileID: 896947731}
-  force: 25
   keyboardControls: 1
 --- !u!114 &1656449387
 MonoBehaviour:
