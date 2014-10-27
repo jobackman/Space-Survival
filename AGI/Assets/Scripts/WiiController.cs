@@ -10,26 +10,12 @@ public class WiiController : MonoBehaviour {
 	
 	[DllImport("UniWii")]
 	private static extern Boolean wiimote_getButtonB(int which);
-	
-//	[DllImport ("UniWii")]
-//	private static extern float wiimote_getRoll(int which);
-//	[DllImport ("UniWii")]
-//	private static extern float wiimote_getPitch(int which);
-//	[DllImport ("UniWii")]
-//	private static extern float wiimote_getYaw(int which);
-	
 	[DllImport ("UniWii")]
 	private static extern int wiimote_count();
 	
 	[DllImport ("UniWii")]
 	private static extern bool wiimote_getButtonNunchuckZ(int which);
-//	[DllImport ("UniWii")]
-//	private static extern float wiimote_getNunchuckPitch(int which);
-//	
-//	[DllImport ("UniWii")]
-//	private static extern float wiimote_getNunchuckRoll(int which);
-	
-	
+
 	public GameObject player;
 	public GameObject backLeftThruster;
 	public GameObject backRightThruster;
@@ -37,25 +23,17 @@ public class WiiController : MonoBehaviour {
 	public GameObject centerRightThruster;
 	public GameObject sideLeftThruster;
 	public GameObject sideRightThruster; 
-	public float fuel;
+
+	public float fuel, force, percent;
 	private float maxfuel;
-	public float percent;
 	public GameObject fuelMeter;
-	public float force;
 
 	public bool keyboardControls;
 	
-	private float yaw;
-	private float roll;
-	private float pitch;
-	private bool ARight;
-	private bool BRight;
-	private bool ALeft;
-	private bool BLeft;
-	private bool nunchuck;
+	private float yaw, roll, pitch;
+	private bool ARight, BRight, ALeft, BLeft, nunchuck;
 
 	ThrusterSound thrustersound;
-	
 
 	//Backup if no wii
 	private bool RIGHT, LEFT;
@@ -76,10 +54,9 @@ public class WiiController : MonoBehaviour {
 			pitch = GetComponent<UniWiiCheck> ().pitch;
 
 			ARight = wiimote_getButtonA (0);
-
 			BRight = wiimote_getButtonB (0);
-			if(Input.GetKey(KeyCode.RightArrow)){ BRight = true;}
 
+			if(Input.GetKey(KeyCode.RightArrow)){ BRight = true;}
 			nunchuck = wiimote_getButtonNunchuckZ (0);
 			if(Input.GetKey(KeyCode.LeftArrow)){ nunchuck = true;}
 			
@@ -91,67 +68,36 @@ public class WiiController : MonoBehaviour {
 			if (fuel > 0) {
 				//ROLL left
 				if (ARight && roll <= -60) {
+					activateThruster(sideRightThruster, sideLeftThruster, 1, -1);
 
-					sideRightThruster.rigidbody.AddForceAtPosition (sideRightThruster.transform.up * force, sideRightThruster.transform.position);
-					sideLeftThruster.rigidbody.AddForceAtPosition (-sideLeftThruster.transform.up * force, sideLeftThruster.transform.position);
-
-					fuel = fuel - 1;
-					thrustersound.soundOn = true;
 				}
 				//ROLL right
 				if (ARight && roll >= 30) {
-
-					sideLeftThruster.rigidbody.AddForceAtPosition (sideLeftThruster.transform.up * force, sideLeftThruster.transform.position);
-					sideRightThruster.rigidbody.AddForceAtPosition (-sideRightThruster.transform.up * force, sideRightThruster.transform.position);
-
-					fuel = fuel - 1;
-					thrustersound.soundOn = true;
+					activateThruster(sideLeftThruster, sideRightThruster, 1, -1);
 				}
 
 				//Right thruster only
 				if ((BRight & ! nunchuck) || RIGHT) {
-
-					centerLeftThruster.rigidbody.AddForceAtPosition (-centerLeftThruster.transform.up * force, centerLeftThruster.transform.position);
-					centerRightThruster.rigidbody.AddForceAtPosition (centerRightThruster.transform.up * force, centerRightThruster.transform.position);
-					
-					fuel = fuel - 1;
-					thrustersound.soundOn = true;
+					activateThruster(centerLeftThruster, centerRightThruster, -1, 1);
 
 				}
 				// Left thruster only
 				if ((nunchuck & ! BRight) || LEFT) {
-
-					centerLeftThruster.rigidbody.AddForceAtPosition (centerLeftThruster.transform.up * force, centerLeftThruster.transform.position);
-					centerRightThruster.rigidbody.AddForceAtPosition (-centerRightThruster.transform.up * force, centerRightThruster.transform.position);
-					
-					fuel = fuel - 1;
-					thrustersound.soundOn = true;
+					activateThruster(centerLeftThruster, centerRightThruster, 1, -1);
 				}
 				// Both thrusters FORWARD WE GO
 				if (BRight && nunchuck) {
-					centerLeftThruster.rigidbody.AddForceAtPosition (centerLeftThruster.transform.up * force, centerLeftThruster.transform.position);
-					centerRightThruster.rigidbody.AddForceAtPosition (centerRightThruster.transform.up * force, centerRightThruster.transform.position);
-					
-					fuel = fuel - 1;
-					thrustersound.soundOn = true;
+					activateThruster(centerLeftThruster, centerRightThruster, 1, 1);
 				}
 
-
-					//PITCH forward
+				//PITCH forward
 				if (ARight && pitch >= 30 || Input.GetKey(KeyCode.UpArrow)) {
-					backLeftThruster.rigidbody.AddForceAtPosition (backLeftThruster.transform.up * force, backLeftThruster.transform.position);
-					backRightThruster.rigidbody.AddForceAtPosition (-backRightThruster.transform.up * force, backRightThruster.transform.position);
-					fuel = fuel - 1;
-					thrustersound.soundOn = true;
+					activateThruster(backLeftThruster, backRightThruster, 1, -1);
 				}
 
-					//PITCH backwards
+				//PITCH backwards
 				if (ARight && pitch <= -45 || Input.GetKey(KeyCode.DownArrow)) {
-	
-					backLeftThruster.rigidbody.AddForceAtPosition (-backLeftThruster.transform.up * force, backLeftThruster.transform.position);
-					backRightThruster.rigidbody.AddForceAtPosition (backRightThruster.transform.up * force, backRightThruster.transform.position);	
-					fuel = fuel - 1;
-					thrustersound.soundOn = true;
+					activateThruster(backLeftThruster, backRightThruster, -1, 1);
 				}
 			}
 
@@ -160,13 +106,19 @@ public class WiiController : MonoBehaviour {
 
 
 			if(!ARight && !BRight && !ALeft && !BLeft && !nunchuck){
-			//FÖR TILLFÄLLET BARA KOPPLAT TILL LEFT/RIGHT-ARROW M
-			//if(!RIGHT && !LEFT){
-				//stäng av ljudhelvete
 				thrustersound.soundOn = false;
 			}
 		}
 	}
+
+	//t1 - thruster1, t2 - thruster2, d1/2 - direction for each thruster
+	void activateThruster(GameObject t1, GameObject t2, int d1, int d2){
+		t1.rigidbody.AddForceAtPosition (d1*t1.transform.up * force, t1.transform.position);
+		t2.rigidbody.AddForceAtPosition (d2*t1.transform.up * force, t2.transform.position);
+		fuel -= 1;
+		thrustersound.soundOn = true;
+	}
+
 
 	void OnGUI()
 	{

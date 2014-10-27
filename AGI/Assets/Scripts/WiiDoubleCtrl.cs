@@ -89,77 +89,68 @@ public class WiiDoubleCtrl : MonoBehaviour {
 				//Right thruster only
 				if (BRight || Input.GetKey(KeyCode.RightArrow)) {
 					activateThruster(centerRightThruster, 1);
-					fuel = fuel - 1;
 				}
 				
 				//ROLL left
 				if (ARight && Rroll <= -60) {
 					activateThruster(sideRightThruster, 1);
-					fuel = fuel - 1;
 				}
 				//ROLL right
 				if (ARight && Rroll >= 30) {
 					activateThruster(sideRightThruster, -1);
-					fuel = fuel - 1;
 				}
 
 				//PITCH forward
 				if (ARight && Rpitch >= 30 || Input.GetKey(KeyCode.UpArrow)) {
 					activateThruster(backRightThruster, -1);
-					fuel = fuel - 1;
 				}
 				
 				//PITCH backwards
 				if (ARight && Rpitch <= -45 || Input.GetKey(KeyCode.DownArrow)) {
 					activateThruster(backRightThruster, 1);
-					fuel = fuel - 1;
 				}
 
 			// ####################### LEFT HALF ###########################
 				// Left thruster only
 				if (BLeft || Input.GetKey(KeyCode.LeftArrow)) {
 					activateThruster(centerLeftThruster, 1);	
-					fuel = fuel - 1;
 				}
 				
 				//ROLL left
 				if (ALeft && Lroll <= -60) {
 					activateThruster(sideLeftThruster, -1);
-					fuel = fuel - 1;
 				}
 				//ROLL right
 				if (ALeft && Lroll >= 30) {
 					activateThruster(sideLeftThruster, 1);
-					fuel = fuel - 1;
 				}
 				
 				//PITCH forward
 				if (ALeft && Lpitch >= 30 || Input.GetKey(KeyCode.UpArrow)) {
 					activateThruster(backLeftThruster, 1);
-					fuel = fuel - 1;
 				}
 				
 				//PITCH backwards
 				if (ALeft && Lpitch <= -45 || Input.GetKey(KeyCode.DownArrow)) {
 					activateThruster(backLeftThruster, -1);
-					fuel = fuel - 1;
+
 				}
 			}
 			
 			//Update fuelMeter size value;
 			percent = (fuel/maxfuel)*100;
 
-//			if(!ALeft && !ARight && !BLeft && !BRight && !Input.GetKey(KeyCode.UpArrow))
-//			{
-//				thrustersound.on = false;
-//			}
+			if(!ARight && !BRight && !ALeft && !BLeft){
+				thrustersound.soundOn = false;
+			}
 
 		}
 	}
 
 	void activateThruster(GameObject t1, int d1){
 		t1.rigidbody.AddForceAtPosition (d1*t1.transform.up * force, t1.transform.position);
-		//thrustersound.on = true;
+		thrustersound.soundOn = true;
+		fuel -= 1;
 	}
 	
 	void OnGUI()

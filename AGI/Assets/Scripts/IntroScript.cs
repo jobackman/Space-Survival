@@ -42,19 +42,12 @@ public class IntroScript : MonoBehaviour {
 	public GameObject centerRightThruster;
 	public GameObject sideLeftThruster;
 	public GameObject sideRightThruster; 
-	public float fuel;
-	public float force;
-	
+	public float fuel, force;
+
 	public bool keyboardControls;
 	
-	private float yaw;
-	private float roll;
-	private float pitch;
-	private bool ARight;
-	private bool BRight;
-	private bool ALeft;
-	private bool BLeft;
-	private bool nunchuck;
+	private float yaw, roll, pitch;
+	private bool ARight, BRight, ALeft, BLeft, nunchuck;
 	private int count;
 	
 	//Backup if no wii
