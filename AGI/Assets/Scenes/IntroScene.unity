@@ -2795,13 +2795,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73ff4b7de4c548eea19d3d67b61cb3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 774724324}
-  backLeftThruster: {fileID: 1742608377}
-  backRightThruster: {fileID: 1094394551}
-  centerLeftThruster: {fileID: 1495624749}
-  centerRightThruster: {fileID: 1152734427}
-  sideLeftThruster: {fileID: 928572817}
-  sideRightThruster: {fileID: 795755601}
+  player: {fileID: 0}
+  backLeftThruster: {fileID: 0}
+  backRightThruster: {fileID: 0}
+  centerLeftThruster: {fileID: 0}
+  centerRightThruster: {fileID: 0}
+  sideLeftThruster: {fileID: 0}
+  sideRightThruster: {fileID: 0}
   fuel: 5000
   force: 15
   keyboardControls: 1
@@ -3294,8 +3294,8 @@ MonoBehaviour:
   centerRightThruster: {fileID: 1742627361}
   sideLeftThruster: {fileID: 1708912778}
   sideRightThruster: {fileID: 764088108}
-  fuel: 5000
-  force: 15
+  fuel: 7000
+  force: 25
   keyboardControls: 1
   cameratext: {fileID: 1280638271}
 --- !u!136 &894814930
@@ -3858,8 +3858,6 @@ GameObject:
   - 124: {fileID: 1010547687}
   - 81: {fileID: 1010547686}
   - 114: {fileID: 1010547685}
-  - 114: {fileID: 1010547684}
-  - 114: {fileID: 1010547683}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -3880,31 +3878,6 @@ Transform:
   - {fileID: 1280638272}
   - {fileID: 968121452}
   m_Father: {fileID: 346943820}
---- !u!114 &1010547683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1010547681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed3602d71193e452fa0cbc3b2051ac4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1010547684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1010547681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shader: {fileID: 4800000, guid: e9ba2083ad114a07d000fbfb8d76c639, type: 3}
-  blurAmount: 0
-  extraBlur: 0
 --- !u!114 &1010547685
 MonoBehaviour:
   m_ObjectHideFlags: 0

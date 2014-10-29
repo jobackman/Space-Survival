@@ -46,7 +46,7 @@ public class IntroScript : MonoBehaviour {
 
 	public bool keyboardControls;
 	
-	private float yaw, roll, pitch;
+	private float Rroll, Lroll, Rpitch, Lpitch;
 	private bool ARight, BRight, ALeft, BLeft, nunchuck;
 	private int count;
 	
@@ -57,6 +57,7 @@ public class IntroScript : MonoBehaviour {
 	private bool moveLeft, moveRight, moveForward, pitchUp, pitchDown, rollLeft, rollRight;
 	public GameObject cameratext; 
 	private TextMesh instructions;
+
 
 	// Use this for initialization
 	void Start () {
@@ -76,17 +77,26 @@ public class IntroScript : MonoBehaviour {
 	void FixedUpdate () {
 		count = wiimote_count ();
 		if (count > 0 || keyboardControls) {
-			roll = wiimote_getRoll(0);
-			pitch = wiimote_getPitch(0);
-			
+
+//			roll = wiimote_getRoll(0);
+//			pitch = wiimote_getPitch(0);
+//			ARight = wiimote_getButtonA (0);
+//			BRight = wiimote_getButtonB (0);
+
+
+			Rroll = wiimote_getRoll (0);
+			Rpitch = wiimote_getPitch (0);
 			ARight = wiimote_getButtonA (0);
 			BRight = wiimote_getButtonB (0);
 			
-			if(Input.GetKey(KeyCode.RightArrow)){ BRight = true;}
+			Lroll = wiimote_getRoll (1);
+			Lpitch = wiimote_getPitch (1);
+			ALeft = wiimote_getButtonA (1);
+			BLeft = wiimote_getButtonB (1);
 
-			//NUNCHUCK-TEST
+
+			//NUNCHUCK-BACKUP
 			nunchuck = wiimote_getButtonNunchuckZ (0);
-			if(Input.GetKey(KeyCode.LeftArrow)){ nunchuck = true;}
 
 			//if no wiimote 
 			RIGHT = Input.GetKey(KeyCode.RightArrow);
@@ -96,96 +106,82 @@ public class IntroScript : MonoBehaviour {
 
 			if (fuel > 0) {
 				//Level 1, unlock moveLeft to proceed
-				if(!moveLeft && ((BRight || RIGHT) &! nunchuck)){
+				if(!moveLeft && ((BRight || RIGHT) &! (nunchuck || BLeft) )){
 					activateThruster(centerLeftThruster, centerRightThruster, -1, 1);
-					fuel = fuel - 1;
 					moveLeft = true;
 					updateText("Great! Now press the left trigger!");
 				}
 				//moveLeft unlocked
-				else if(moveLeft && ((BRight || RIGHT) &! nunchuck )){
+				else if(moveLeft && ((BRight || RIGHT) &! (nunchuck || BLeft ))){
 					activateThruster(centerLeftThruster, centerRightThruster, -1, 1);
-					fuel = fuel - 1;
 				}
 
 				//Level 2, unlock moveRight to proceed
-				if(!moveRight && moveLeft && ((nunchuck || LEFT) &! BRight)){
+				if(!moveRight && moveLeft && ((nunchuck || BLeft) &! BRight)){
 					activateThruster(centerLeftThruster, centerRightThruster, 1, -1);
-					fuel = fuel - 1;
 					moveRight = true;
 					updateText("Nice! Now press both left and right trigger");
 				}
 				//moveRight unlocked
-				else if(moveRight && moveLeft && ((nunchuck || LEFT) & ! BRight)){
+				else if(moveRight && moveLeft && ((nunchuck || BLeft) & ! BRight)){
 					activateThruster(centerLeftThruster, centerRightThruster, 1, -1);
-					fuel = fuel - 1;
 				}
 
 				//Level 3, unlock moveForward to proceed
-				if(!moveForward && moveRight && (BRight && nunchuck || (LEFT && RIGHT))){
+				if(!moveForward && moveRight && (BRight && (nunchuck || BLeft) || (LEFT && RIGHT))){
 					activateThruster(centerLeftThruster, centerRightThruster, 1, 1);
-					fuel = fuel - 1;
 					moveForward = true;
-					updateText ("Tilt the wiimote forward and hold the A button");
+					updateText ("Tilt the wiimotes forward and hold both A buttons");
 				}
 				//moveForward unlocked
-				else if(moveForward && (BRight && nunchuck || (LEFT && RIGHT))){
+				else if(moveForward && (BRight && (nunchuck || BLeft) || (LEFT && RIGHT))){
 					activateThruster(centerLeftThruster, centerRightThruster, 1, 1);
-					fuel = fuel - 1;
 				}
 	
 				//Level 4, unlock pitchDown to proceed
-				if(!pitchDown && moveForward && (ARight && pitch >= 30 || DOWN)){
-					activateThruster(backLeftThruster, backRightThruster, 1, 1);
-					fuel = fuel - 1;
+				if(!pitchDown && moveForward && (ARight && ALeft && Lpitch >= 30 && Rpitch >=30 || DOWN)){
+					activateThruster(backLeftThruster, backRightThruster, 1, -1);
 					pitchDown = true;
-					updateText ("Great! Now do the same thing, but tilt the controller backwards");
+					updateText ("Great! Now do the same thing, but tilt the controllers backwards");
 				}
 				//pitchDown unlocked
-				else if(pitchDown && moveForward && (ARight && pitch >= 45 || DOWN)){
-					activateThruster(backLeftThruster, backRightThruster, 1, 1);
-					fuel = fuel - 1;
+				else if(pitchDown && moveForward && (ARight && ALeft && Lpitch >= 30 && Rpitch >=30|| DOWN)){
+					activateThruster(backLeftThruster, backRightThruster, 1, -1);
 				}
 
 				//Level 5, unlock pitchUp to proceed 
-				if(!pitchUp && pitchDown && (ARight && pitch <= -45 || UP)){
-					activateThruster(backLeftThruster, backRightThruster, -1, -1);
-					fuel = fuel - 1;
+				if(!pitchUp && pitchDown && (ARight && ALeft && Lpitch <= -45 && Rpitch <= -45 || UP)){
+					activateThruster(backLeftThruster, backRightThruster, -1, 1);
 					pitchUp = true;
-					updateText ("Now try rolling the controller to the left and press the A-button");
+					updateText ("Now try rolling the controllers to the left and press the A-buttons");
 				}
 				//pitchUp unlocked
-				else if(pitchUp && pitchDown && (ARight && pitch <= -45 || UP)){
-					activateThruster(backLeftThruster, backRightThruster, -1, -1);
-					fuel = fuel - 1;
+				else if(pitchUp && pitchDown && (ARight && ALeft && Lpitch <= -45 && Rpitch <= -45 || UP)){
+					activateThruster(backLeftThruster, backRightThruster, -1, 1);
 				}
 
 				//Level 6, unlock rollLeft to proceed (NOT AVAILABLE WITH KEYBOARD)
-				if(!rollLeft && pitchUp && (ARight && roll <= -60)){
+				if(!rollLeft && pitchUp && (ARight && ALeft && Lroll <= -60 && Rroll <= -60)){
 					//ROLL left
 					activateThruster(sideRightThruster, sideLeftThruster, 1, -1);
-					fuel = fuel - 1;
 					rollLeft = true;
 					updateText ("And to the other side as well");
 				}
 				//rollLeft unlocked
-				else if(!rollLeft && pitchUp && (ARight && roll <= -60)){
+				else if(rollLeft && pitchUp && (ARight && ALeft && Lroll <= -60 && Rroll <= -60)){
 					activateThruster(sideRightThruster, sideLeftThruster, 1, -1);
-					fuel = fuel - 1;
 				}
 
 				//Level 7, unlock rollRight to proceed (NOT AVAILABLE WITH KEYBOARD)
-				if(!rollRight && rollLeft && (ARight && roll >= 30)){
+				if(!rollRight && rollLeft && (ARight && ALeft && Lroll >= 30 && Rroll >= 30)){
 					activateThruster(sideLeftThruster, sideRightThruster, 1, -1);
-					fuel = fuel - 1;
 					rollRight = true;
 					updateText ("GREAT! All levels unlocked!");
 //					Application.LoadLevel("Space");
 				}
 				//rollRight unlocked!
-				else if(rollRight && rollLeft && (ARight && roll >= 30)){
+				else if(rollRight && rollLeft && (ARight && ALeft && Lroll >= 30 && Rroll >= 30)){
 					activateThruster(sideLeftThruster, sideRightThruster, 1, -1);
-					fuel = fuel - 1;
 				}
 
 				//Unlock all levels with space!
@@ -201,6 +197,7 @@ public class IntroScript : MonoBehaviour {
 	void activateThruster(GameObject t1, GameObject t2, int d1, int d2){
 		t1.rigidbody.AddForceAtPosition (d1*t1.transform.up * force, t1.transform.position);
 		t2.rigidbody.AddForceAtPosition (d2*t1.transform.up * force, t2.transform.position);
+		fuel -= 1;
 	}
 
 	void updateText(string t){
