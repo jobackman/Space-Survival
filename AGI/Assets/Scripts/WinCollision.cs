@@ -11,9 +11,9 @@ public class WinCollision : MonoBehaviour {
 	BreathTimer breathtimer; 
 
 	int fuel;
-	int oxygen;
+	float oxygen;
 	public int score = 0;
-	private int numberOfHighScores = 2;
+	private int numberOfHighScores = 5;
 	public List<Scores> HighScoreList = new List<Scores> ();
 	public string text = "";
 	
@@ -54,11 +54,13 @@ public class WinCollision : MonoBehaviour {
 
 			//Convert score to int and get the values
 			fuel = (int)Math.Round(wiicontroller.fuel);
-			oxygen = (int)Math.Round(breathtimer.timer);
+			oxygen = (breathtimer.percent / 100f);
 
 			//Save highscore... Maybe calculate in another way later
-			score = fuel+oxygen;
+			score = (int)Math.Round (fuel*oxygen);
 			saveHighScore(score);
+
+			breathtimer.enabled = false;
 		}
 	}
 	
