@@ -20,7 +20,7 @@ public class GlasImma : MonoBehaviour {
 	void Update () {
 		timer = Mathf.Sin(Time.time * AndningsHastighet);
 		//timer = Mathf.Abs (timer);
-		Debug.Log(timer);
+		//Debug.Log(timer);
 		if (timer >= 0f && timer <= 0.0001f) {
 			audio.Play();
 		}

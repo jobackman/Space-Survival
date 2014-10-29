@@ -18,7 +18,7 @@ public class ThrusterSound : MonoBehaviour {
 
 	IEnumerator turnOffWN(){
 		WNAudioSource.loop = false;
-		audio.PlayOneShot(WNfadeOut);
+		//audio.PlayOneShot(WNfadeOut);
 		yield return new WaitForSeconds(WNfadeOut.length-1/WNfadeOut.length);
 		WNAudioSource.enabled = false;
 	}
