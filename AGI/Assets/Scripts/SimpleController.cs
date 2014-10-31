@@ -47,6 +47,9 @@ public class SimpleController : MonoBehaviour {
 			Application.LoadLevel ("IntroScene");
 		if (Input.GetKey (KeyCode.F3))
 			Application.LoadLevel ("Space");
+		if(Input.GetKey(KeyCode.Space)){
+			Application.LoadLevel("Space");
+		}
 
 	}
 }

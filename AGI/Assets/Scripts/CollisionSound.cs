@@ -17,9 +17,9 @@ public class CollisionSound : MonoBehaviour {
 
  	IEnumerator OnCollisionEnter()
 	{
-		audio.PlayOneShot(Impact, 1.0f);
+		audio.PlayOneShot(Impact, 0.1f);
 		yield return new WaitForSeconds (0.3f);
-		audio.PlayOneShot(Ouch, 1.0f);
+		audio.PlayOneShot(Ouch, 0.1f);
 	}
 
 	void Update()
@@ -31,7 +31,7 @@ public class CollisionSound : MonoBehaviour {
 			stopbreathing.enabled = false;
 			if(!played){
 				played = true;
-				audio.PlayOneShot(die, 1);
+				audio.PlayOneShot(die, 0.01f);
 			}
 			//brabrabra.enabled = true;
 		}	

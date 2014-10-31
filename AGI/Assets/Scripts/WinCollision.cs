@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
+using System.IO;
 
 public class WinCollision : MonoBehaviour {
 	public GameObject scoreboard; 
@@ -16,7 +17,10 @@ public class WinCollision : MonoBehaviour {
 	private int numberOfHighScores = 5;
 	public List<Scores> HighScoreList = new List<Scores> ();
 	public string text = "";
-	
+	public bool logwin;
+
+	//
+
 	// Use this for initialization
 	void Start () {
 		boardtext = scoreboard.GetComponent<TextMesh> ();
@@ -34,7 +38,10 @@ public class WinCollision : MonoBehaviour {
 			HighScoreList.Add(temp);
 			j++;
 		}
-		print ("start... length of highScoreList: " + HighScoreList.Count);
+		logwin = false;
+		//print ("start... length of highScoreList: " + HighScoreList.Count);
+		//logsession = false;
+		//7InvokeRepeating ("logPlayer", 1f, 1f);
 	}
 	
 	void Update () {
@@ -61,6 +68,9 @@ public class WinCollision : MonoBehaviour {
 			saveHighScore(score);
 
 			breathtimer.enabled = false;
+
+			logwin=true;
+
 		}
 	}
 	
@@ -72,7 +82,7 @@ public class WinCollision : MonoBehaviour {
 	void saveHighScore(int score){
 		//No highscores exist. Add current highscore
 		if(HighScoreList.Count==0){
-			print ("highscorelist.count == 0");
+			//print ("highscorelist.count == 0");
 			Scores temp = new Scores();
 			temp.score = score;
 			temp.name = "Your score";
@@ -83,7 +93,7 @@ public class WinCollision : MonoBehaviour {
 			for(int i=1; i<=HighScoreList.Count && i<=numberOfHighScores; i++){
 				//if the score is high enough, add it at that position.
 				if(score>HighScoreList[i-1].score){
-					print ("First if");
+					//print ("First if");
 					Scores temp = new Scores();
 					temp.score = score;
 					temp.name = "Your score";
@@ -106,7 +116,7 @@ public class WinCollision : MonoBehaviour {
 				}
 				//If your score isn't high enough, print it above the Highscore-list
 				if(i==HighScoreList.Count && i==numberOfHighScores && score<HighScoreList[i-1].score){
-					print ("Third if");
+					//print ("Third if");
 					text = "Your score: "+ score + "\n \n";
 					break;
 				}
@@ -123,6 +133,18 @@ public class WinCollision : MonoBehaviour {
 		updateText (text);
 		HighScoreList.Clear();
 	}
+
+//	//THE USER WON, ENTER \N 
+//	void logplayer(){
+//		if(logsession){
+//			using (StreamWriter sw = new StreamWriter (textfile, true)) {
+//				print ("Logging player");
+//				sw.WriteLine ("\n");
+//				logsession=false;
+//			}
+//		}
+//	}
+
 }
 
 public class Scores{

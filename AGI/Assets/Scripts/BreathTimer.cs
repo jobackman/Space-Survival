@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.IO;
+
+
 
 public class BreathTimer : MonoBehaviour {
 		
@@ -13,6 +16,13 @@ public class BreathTimer : MonoBehaviour {
 	public int percent;
 	WiiDoubleCtrl wiidblcontroller; 
 	ThrusterSound thrustersound;
+	public bool dead;
+
+	//LOG
+	Log log;
+	public bool logdead;
+	string  textfile = @"userdata.txt";
+
 
 	void Start(){
 		wiicontroller = GetComponent<WiiController> ();
@@ -21,6 +31,13 @@ public class BreathTimer : MonoBehaviour {
 		mouselookmod = gameObject.GetComponentInChildren<MouseLookMod> ();
 		thrustersound = GameObject.Find("Thrusters").GetComponent<ThrusterSound>();
 		totTime = timer;
+
+
+		logdead = false;
+
+		//InvokeRepeating ("logPlayer", 1f, 1f);
+		//dead = false;
+		log = GetComponent<Log> ();
 	}
 
 	void Update()
@@ -43,6 +60,24 @@ public class BreathTimer : MonoBehaviour {
 			wiidblcontroller.enabled = false;
 			//simplecontroller.enabled = false;
 			//mouselookmod.enabled = false;
+
+
+			//PROBLEM HÄR!! BARA LOGGA EN GÅNG ANNARS KNAOUZ
+			logdead=true;
+			//dead=true;
 		}
 	}
+
+//	void logPlayer(){
+//		//THE USER DIED, ENTER \N 
+//		if(logsession){
+//			using (StreamWriter sw = new StreamWriter (textfile, true)) {
+//				print ("PLAYER DIED, LOGGING player");
+//				sw.WriteLine (log.logText + "\n");
+//			}
+//		}
+//		logsession=false;
+//	}
+
+
 }

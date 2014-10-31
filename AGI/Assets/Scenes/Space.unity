@@ -4195,6 +4195,7 @@ MonoBehaviour:
   scoreboard: {fileID: 1266376166}
   score: 0
   text: 
+  logwin: 0
 --- !u!114 &774724329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4350,6 +4351,8 @@ MonoBehaviour:
   timer: 180
   oxygenMeter: {fileID: 582480600}
   percent: 0
+  dead: 0
+  logdead: 0
 --- !u!82 &774724336
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9676,6 +9679,7 @@ GameObject:
   - 114: {fileID: 1656449382}
   - 114: {fileID: 1656449380}
   - 82: {fileID: 1656449381}
+  - 114: {fileID: 1656449383}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -9744,6 +9748,7 @@ MonoBehaviour:
   scoreboard: {fileID: 1231364404}
   score: 0
   text: 
+  logwin: 0
 --- !u!82 &1656449381
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9817,6 +9822,20 @@ MonoBehaviour:
   Ouch: {fileID: 8300000, guid: 6d99191447a694047ab807a1d14e6a15, type: 3}
   die: {fileID: 8300000, guid: d9b547e56efad45d581edc62761f784e, type: 3}
   stopbreathing: {fileID: 903719059}
+--- !u!114 &1656449383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1656449376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be63309bf6dde4ec0886f49d60e869b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1656449376}
+  alive: 0
+  logText: 
 --- !u!114 &1656449384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9828,16 +9847,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54a255ee35b2493eab23586141a9adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 180
+  timer: 120
   oxygenMeter: {fileID: 1256577561}
   percent: 0
+  dead: 0
+  logdead: 0
 --- !u!114 &1656449385
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1656449376}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33538dc12a526405b849df50ffb72bcb, type: 3}
   m_Name: 
